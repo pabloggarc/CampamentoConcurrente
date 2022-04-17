@@ -118,7 +118,7 @@ public class Monitor extends Thread{
             cocinar(); 
         }
         else{
-            //Hacer otro trabajo
+            //Si no elegir otro trabajo
         }
         System.out.println("El monitor "+identificador+" se va del campamento");
     }
