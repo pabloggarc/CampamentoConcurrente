@@ -167,4 +167,42 @@ public class Campamento {
         
         return ocupacionesMonitores.get(0); 
     }
+    
+    public void irTirolina(Campista campista){
+        //Dado un campista lo lleva a la tirolina. Si no hay monitor, o cola se tira, si no se pone a la cola
+        
+        tirolina.entrarTirolina(campista);
+    }
+    
+    public void irseTirolina(Campista campista){
+        //Dado un campista lo expulsa de la tirolina (el campista ya se ha tirado)
+        
+        tirolina.bajarseTirolina(campista);
+    }
+    
+    public synchronized void irTirolina(Monitor monitor){
+        //Dado un monitor se pone como responsable de la actividad de tirolina
+        
+        ocupacionesMonitores.getAndIncrement(1); 
+        tirolina.entrarTirolina(monitor);
+    }
+    
+    public void irseTirolina(Monitor monitor){
+        //Dado un monitor abandona el trabajo de la tirolina
+        
+        ocupacionesMonitores.getAndDecrement(1); 
+        tirolina.salirTirolina(monitor);
+    }
+    
+    public void avisarCampista(Monitor monitor){
+        //Dado un monitor dice que ha llegado a la tirolina o que ya ha preparado a un campista
+        
+        tirolina.avisarCampista(monitor);
+    }
+    
+    public int consultarTirolina(){
+        //Devuelve la cantidad de monitores que hay trabajando en la tirolina
+        
+        return ocupacionesMonitores.get(1); 
+    }
 }

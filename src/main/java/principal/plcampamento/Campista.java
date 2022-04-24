@@ -78,6 +78,21 @@ public class Campista extends Thread{
         incMeriendas();
     }
     
+    public void tirarse(){
+        //Simula la actividad de tirolina de los campistas
+        campamento.irTirolina(this);
+        try{
+            Thread.sleep(3500); 
+        }
+        catch(InterruptedException ie){
+            System.out.println("Error mientras el campista "+identificador+" se tiraba por la tirolina");
+        }
+        finally{
+            campamento.irseTirolina(this);
+            incTirolinas(); 
+        }
+    }
+    
     public void realizarActividad(){
         //Simula el esquema general de las actividades
         int actividad=(int)Math.floor(Math.random()*3);
@@ -92,14 +107,14 @@ public class Campista extends Thread{
                 }
             }
             case 1:{
-                //TODO campamento.soga.jugar(this)
                 System.out.println("El campista "+identificador+" elige jugar a la soga");
+                tirarse(); 
                 incSogas(); 
                 break; 
             }
             case 2:{
-                //TODO campamento.tirolina.jugar(this)
                 System.out.println("El campista "+identificador+" elige jugar a la tirolina");
+                tirarse(); 
                 incTirolinas(); 
                 break;
             }

@@ -104,6 +104,26 @@ public class Monitor extends Thread{
         campamento.finPrepararMeriendas(this);
     }
     
+    public void tirarCampistas(){
+        //Simula el trabajo de preparar campistas y lanzarlos por la tirolina
+        
+        campamento.irTirolina(this);
+        System.out.println("El monitor "+identificador+" llega a la tirolina");
+        for(int i=0; i<10; i++){
+            campamento.avisarCampista(this);
+            try{
+                System.out.println("El monitor "+identificador+" prepara a un campista");
+                Thread.sleep(1000); 
+            }
+            catch(InterruptedException ie){
+                System.out.println("Error mientras el monitor "+identificador+" prepara a un campista en la tirolina");
+            }
+            System.out.println("El monitor "+identificador+" va a lanzar a un campista");
+            campamento.avisarCampista(this);
+        }
+        campamento.irseTirolina(this);
+    }
+    
     @Override
     public void run(){
         try{
@@ -118,7 +138,12 @@ public class Monitor extends Thread{
             cocinar(); 
         }
         else{
-            //Si no elegir otro trabajo
+            if(campamento.consultarTirolina()<1){
+                tirarCampistas(); 
+            }
+            else{
+                //Elegir otro trabajo
+            }
         }
         System.out.println("El monitor "+identificador+" se va del campamento");
     }
