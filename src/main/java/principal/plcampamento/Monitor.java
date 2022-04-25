@@ -1,18 +1,12 @@
 package principal.plcampamento;
 
-import java.util.concurrent.CountDownLatch;
-
 public class Monitor extends Thread{
     private String identificador; 
     private Campamento campamento;
-    private CountDownLatch colaEntradaA; 
-    private CountDownLatch colaEntradaB; 
     
-    public Monitor(int identificador, Campamento campamento, CountDownLatch colaEntradaA, CountDownLatch colaEntradaB){
+    public Monitor(int identificador, Campamento campamento){
         this.identificador="M"+identificador; 
         this.campamento=campamento; 
-        this.colaEntradaA=colaEntradaA; 
-        this.colaEntradaB=colaEntradaB; 
     }
     
     public String getID(){
@@ -45,12 +39,7 @@ public class Monitor extends Thread{
                 campamento.abrirEntrada('A', this);
             }
             else{
-                try{
-                    colaEntradaA.await();
-                } 
-                catch(InterruptedException ex){
-                    System.out.println("Error al esperar que otro monitor abra la entrada A");;
-                }
+                campamento.contarColaA(); 
             }
             System.out.println("El monitor "+identificador+" ha entrado (A) dentro del campamento ");
         }
@@ -67,12 +56,7 @@ public class Monitor extends Thread{
                 campamento.abrirEntrada('B', this);
             }
             else{
-                try{
-                    colaEntradaB.await();
-                }
-                catch(InterruptedException ex){
-                    System.out.println("Error al esperar que otro monitor abra la entrada B");
-                }
+                campamento.contarColaB();
             }
             System.out.println("El monitor "+identificador+" ha entrado (B) dentro del campamento ");
         }
@@ -124,6 +108,47 @@ public class Monitor extends Thread{
         campamento.irseTirolina(this);
     }
     
+    public void arbitrarSoga(){
+        campamento.entrarSoga(this);
+        for(int i=0; i<10; i++){
+            //Aviso que el monitor esta listo para arbitrar
+            System.out.println("El monitor "+identificador+" espera campistas en la soga");
+            campamento.avisoSoga();
+            campamento.hacerEquipos();
+            System.out.println("\t------EQUIPOS SOGA------\t\n"
+                    +"EQUIPO A: "+campamento.getEquipo(0).getIntegrantes()+"\n"
+                    +"EQUIPO B: "+campamento.getEquipo(1).getIntegrantes()+
+                    "\n\t------------------------\t\n");
+            
+            //Aviso que los equipos estan listos y se puede empezar
+            campamento.avisoSoga();
+            
+            //Mientras juegan se decide el ganador y se espera a que acaben de jugar
+            int equipoGanador=(int)(Math.floor(Math.random()*2)); 
+            String victoria;
+            if(equipoGanador==0){
+                victoria="VICTORIA del equipo A: "; 
+            }
+            else{
+                victoria="VICTORIA del equipo B: "; 
+            }
+            victoria+=campamento.getEquipo(equipoGanador).getIntegrantes(); 
+            //Espero a que terminen de jugar
+            campamento.avisoSoga();
+            
+            //Cuando terminan de jugar se espera a que el monitor anuncie el ganador
+            System.out.println(victoria);
+            campamento.anunciarGanador(equipoGanador==0);
+            campamento.avisoSoga();
+            
+            //Se espera a que todos los campistas conozcan el ganador para marcharse
+            campamento.avisoSoga();
+            campamento.prepararSoga();
+        }
+        campamento.salirSoga(this);
+    }
+    
+    
     @Override
     public void run(){
         try{
@@ -142,7 +167,7 @@ public class Monitor extends Thread{
                 tirarCampistas(); 
             }
             else{
-                //Elegir otro trabajo
+                arbitrarSoga(); 
             }
         }
         System.out.println("El monitor "+identificador+" se va del campamento");

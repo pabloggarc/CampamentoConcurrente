@@ -93,6 +93,40 @@ public class Campista extends Thread{
         }
     }
     
+    public boolean competir(){
+        //Simula la actividad de competir en la soga
+        
+        if(campamento.entrarSoga(this)){ 
+            try{
+                Thread.sleep(7000); 
+            }
+            catch(InterruptedException ie){
+                System.out.println("Error mientras el campista "+identificador+" tira de la soga");
+            }
+            
+            //Aviso que he terminado de jugar
+            campamento.avisoSoga();
+            
+            //Aviso que estoy listo para conocer los resultados
+            campamento.avisoSoga();
+            
+            if(campamento.esGanadorSoga(this)){
+                incSogas(); 
+                incSogas();
+            }
+            else{
+                incSogas(); 
+            }
+            
+            //Aviso que he terminado y me voy
+            campamento.avisoSoga();
+            return true; 
+        }
+        else{
+            return false; 
+        }
+    }
+    
     public void realizarActividad(){
         //Simula el esquema general de las actividades
         int actividad=(int)Math.floor(Math.random()*3);
@@ -108,8 +142,12 @@ public class Campista extends Thread{
             }
             case 1:{
                 System.out.println("El campista "+identificador+" elige jugar a la soga");
-                tirarse(); 
-                incSogas(); 
+                if(!competir()){
+                    System.out.println("El campista "+identificador+" no ha podido jugar a la soga porque no hay hueco");
+                }
+                else{
+                    campamento.salirSoga(this);
+                }
                 break; 
             }
             case 2:{

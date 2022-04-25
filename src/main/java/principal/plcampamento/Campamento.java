@@ -18,20 +18,17 @@ public class Campamento {
     private CountDownLatch colaMonitoresB; 
     private AtomicIntegerArray ocupacionesMonitores; 
     
-    public Campamento(
-            Tirolina tirolina, Soga soga, Merendero merendero, ZonaComun zonaComun, 
-            CountDownLatch colaMonitoresA, CountDownLatch colaMonitoresB
-            ){
+    public Campamento(){
         this.entradaA=new Entrada(); 
         this.entradaB=new Entrada();
-        this.aforo=new Semaphore(5, true);
+        this.aforo=new Semaphore(10, true);
         this.ultimaEntrada=new AtomicInteger(0); 
-        this.tirolina=tirolina; 
-        this.soga=soga; 
-        this.merendero=merendero; 
-        this.zonaComun=zonaComun;
-        this.colaMonitoresA=colaMonitoresA; 
-        this.colaMonitoresB=colaMonitoresB; 
+        this.tirolina=new Tirolina(); 
+        this.soga=new Soga(); 
+        this.merendero=new Merendero(); 
+        this.zonaComun=new ZonaComun();
+        this.colaMonitoresA=new CountDownLatch(1);
+        this.colaMonitoresB=new CountDownLatch(1);
         this.ocupacionesMonitores=new AtomicIntegerArray(3); 
     }
     
@@ -102,6 +99,24 @@ public class Campamento {
         //Comprueba de forma atomica si ha pasado algun monitor por la puerta B
         
         return entradaB.consultarContador(); 
+    }
+    
+    public void contarColaA(){
+        try{
+            colaMonitoresA.await();
+        } 
+        catch(InterruptedException ex){
+            System.out.println("Error al esperar que otro monitor abra la entrada A");;
+        }
+    }
+    
+    public void contarColaB(){
+        try{
+            colaMonitoresB.await();
+        } 
+        catch(InterruptedException ex){
+            System.out.println("Error al esperar que otro monitor abra la entrada B");
+        }
     }
     
     public void abrirEntrada(char entrada, Monitor monitor){
@@ -204,5 +219,70 @@ public class Campamento {
         //Devuelve la cantidad de monitores que hay trabajando en la tirolina
         
         return ocupacionesMonitores.get(1); 
+    }
+    
+    public boolean entrarSoga(Campista campista){
+        //Dado un campista, mete a un campista en la actividad de soga en caso de poder. Devuelve que ha sucedido
+        
+        return soga.entrarSoga(campista); 
+    }
+    
+    public void entrarSoga(Monitor monitor){
+        //Dado un monitor, lo pone a trabajar en la actividad de soga
+        
+        soga.entrarSoga(monitor); 
+    }
+    
+    public void avisoSoga(){
+        //Aviso de sincronizacion en las diferentes etapas de la actividad de soga
+        
+        soga.avisarSoga();
+    }
+    
+    public boolean esGanadorSoga(Campista campista){
+        //Dado un campista comprueba si ha ganado en en la actividad de soga
+        
+        return soga.haGanado(campista); 
+    }
+    
+    public void hacerEquipos(){
+        //Simula el trabajo que hace el monitor en la actividad de soga de hacer los equipos
+        
+        soga.hacerEquipos();
+    }
+    
+    public ListaCampistas getEquipo(int n){
+        //Devuelve los participantes de un equipo en la actividad de soga
+        
+        if(n==0){
+            return soga.getEquipoA(); 
+        }
+        else{
+            return soga.getEquipoB(); 
+        }
+    }
+    
+    public void prepararSoga(){
+        //"Resetea" los datos de la partida de soga
+        
+        soga.limpiarSoga();
+    }
+    
+    public void anunciarGanador(boolean b){
+        //El monitor comunica si el ganador es el equipo A
+        
+        soga.setGanador(b); 
+    }
+    
+    public void salirSoga(Campista campista){
+        //Simula el abandono de un campista de la actividad de soga
+        
+        soga.salirSoga(campista);
+    }
+    
+    public void salirSoga(Monitor monitor){
+        //Simula el abandono de un monitor de la actividad de soga
+        
+        soga.salirSoga(monitor);
     }
 }

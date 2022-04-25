@@ -34,4 +34,16 @@ public class ListaCampistas {
         }
         return integ; 
     }
+    
+    public synchronized int cuantosIntegrantes(){
+        return campistas.size(); 
+    }
+    
+    public synchronized Campista getIntegrante(int i){
+        return campistas.get(i); 
+    }
+    
+    public synchronized boolean pertenece(Campista campista){
+        return campistas.contains(campista); 
+    }
 }
