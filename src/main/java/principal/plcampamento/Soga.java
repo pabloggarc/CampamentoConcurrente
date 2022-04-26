@@ -12,8 +12,9 @@ public class Soga {
     private int aforo; 
     private CyclicBarrier esperaSoga;
     private boolean ganadorA; 
+    private Interfaz interfaz; 
 
-    public Soga(){
+    public Soga(Interfaz interfaz){
         this.campistas=new ListaCampistas(); 
         this.equipoA=new ListaCampistas(); 
         this.equipoB=new ListaCampistas(); 
@@ -22,6 +23,7 @@ public class Soga {
         this.aforo=0; 
         this.esperaSoga=new CyclicBarrier(11); 
         this.ganadorA=false; 
+        this.interfaz=interfaz; 
     }
     
     public boolean entrarSoga(Campista campista){
@@ -42,6 +44,7 @@ public class Soga {
         
         if(id){
             campistas.meterCampista(campista);
+            interfaz.setTextoSoga(campistas.getIntegrantes());
             System.out.println("El campista "+campista.getID()+" espera para competir en la soga");
 
             try{
@@ -68,7 +71,8 @@ public class Soga {
         //Simula la llegada del monitor a la actividad de soga
         
         if(this.monitor==null){
-            this.monitor=monitor; 
+            this.monitor=monitor;
+            interfaz.setTextoSogaMonitor(monitor.getID());
             System.out.println("El monitor "+monitor.getID()+" llega a la actividad de soga");
             
             return true; 
@@ -92,7 +96,8 @@ public class Soga {
         //Simula la salida del monitor de la actividad de soga
         
         System.out.println("El monitor "+monitor.getID()+" abandona la soga");
-        this.monitor=null; 
+        this.monitor=null;
+        interfaz.setTextoSogaMonitor("");
     }
     
     public void avisarSoga(){
@@ -129,6 +134,10 @@ public class Soga {
         equipoA=new ListaCampistas(); 
         equipoB=new ListaCampistas(); 
         ganadorA=false; 
+        
+        interfaz.setTextoSoga("");
+        interfaz.setTextoSogaEquipoA("");
+        interfaz.setTextoSogaEquipoB(""); 
     }
     
     public boolean haGanado(Campista campista){
@@ -152,6 +161,20 @@ public class Soga {
     
     public void setGanador(boolean b){
         ganadorA=b; 
+    }
+    
+    public void actualizarInterfazEquipos(){
+        interfaz.setTextoSogaEquipoA(equipoA.getIntegrantes());
+        interfaz.setTextoSogaEquipoB(equipoB.getIntegrantes()); 
+    }
+    
+    public void actualizarInterfazGanadores(){
+        if(ganadorA){
+            interfaz.setTextoSogaGanadores(equipoA.getIntegrantes());
+        }
+        else{
+            interfaz.setTextoSogaGanadores(equipoB.getIntegrantes());
+        }
     }
     
 }

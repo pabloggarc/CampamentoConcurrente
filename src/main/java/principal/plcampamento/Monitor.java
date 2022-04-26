@@ -115,6 +115,7 @@ public class Monitor extends Thread{
             System.out.println("El monitor "+identificador+" espera campistas en la soga");
             campamento.avisoSoga();
             campamento.hacerEquipos();
+            campamento.actualziarInterfazEquiposSoga();
             System.out.println("\t------EQUIPOS SOGA------\t\n"
                     +"EQUIPO A: "+campamento.getEquipo(0).getIntegrantes()+"\n"
                     +"EQUIPO B: "+campamento.getEquipo(1).getIntegrantes()+
@@ -135,6 +136,7 @@ public class Monitor extends Thread{
             victoria+=campamento.getEquipo(equipoGanador).getIntegrantes(); 
             //Espero a que terminen de jugar
             campamento.avisoSoga();
+            campamento.actualizarInterfazGandoresSoga();
             
             //Cuando terminan de jugar se espera a que el monitor anuncie el ganador
             System.out.println(victoria);
@@ -188,6 +190,7 @@ public class Monitor extends Thread{
                     break; 
                 }
             }
+            campamento.descanso(this); 
         }
     }
 }

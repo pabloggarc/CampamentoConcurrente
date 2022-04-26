@@ -9,13 +9,15 @@ public class Tirolina {
     private Campista campista;
     private Semaphore aforo; 
     private CyclicBarrier esperaTirolina;
+    private Interfaz interfaz; 
     
-    public Tirolina(){
+    public Tirolina(Interfaz interfaz){
         this.campistas=new ListaCampistas();  
         this.monitor=null;  
         this.campista=null; 
         this.aforo=new Semaphore(1, true); 
         this.esperaTirolina=new CyclicBarrier(2); 
+        this.interfaz=interfaz; 
     }
     
     public void entrarTirolina(Campista campista){
@@ -32,13 +34,19 @@ public class Tirolina {
         catch(InterruptedException ie){
             System.out.println("Error cuando el campista "+campista.getID()+" intenta coger turno de tirolina");
         }
+        
+        interfaz.setTextoTirolina(campistas.getIntegrantes());
+        
         try{
             esperaTirolina.await(); 
         }
         catch(Exception e){
             System.out.println("Error al esperar a la llegada del monitor");
         }
+        
         this.campista=campista; 
+        interfaz.setTextoTirolinaCampistaPreparacion(campista.getID());
+        
         try{
             esperaTirolina.await(); 
         }
@@ -46,6 +54,9 @@ public class Tirolina {
             System.out.println("Error al esperar a que el monitor prepare al campista "+campista.getID());
         }
         System.out.println("El campista "+campista.getID()+" se tira por la tirolina!");
+        
+        interfaz.setTextoTirolinaCampistaPreparacion("");
+        interfaz.setTextoTirolinaTirandose(campista.getID());
     }
     
     public void entrarTirolina(Monitor monitor){
@@ -56,6 +67,7 @@ public class Tirolina {
         }
         else{
             this.monitor=monitor; 
+            interfaz.setTextoTirolinaMonitor(monitor.getID());
         } 
     }
     
@@ -64,7 +76,11 @@ public class Tirolina {
         
         this.campista=null;
         campistas.sacarCampista(campista); 
+        
+        interfaz.setTextoTirolinaTirandose("");
+        interfaz.setTextoTirolina(campistas.getIntegrantes()); 
         System.out.println("El campista "+campista.getID()+" se baja de la tirolina");
+        
         aforo.release(); 
     }
     
@@ -72,6 +88,8 @@ public class Tirolina {
         //Simula la salida del monitor de la tirolina
         
         this.monitor=null; 
+        
+        interfaz.setTextoTirolinaMonitor("");
         System.out.println("El monitor "+monitor.getID()+" ha lanzado a 10 campistas y se marcha de la tirolina");
     }
     

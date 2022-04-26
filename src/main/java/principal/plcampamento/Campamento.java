@@ -17,19 +17,21 @@ public class Campamento {
     private CountDownLatch colaMonitoresA; 
     private CountDownLatch colaMonitoresB; 
     private AtomicIntegerArray ocupacionesMonitores; 
+    private Interfaz interfaz; 
     
-    public Campamento(){
-        this.entradaA=new Entrada(); 
-        this.entradaB=new Entrada();
-        this.aforo=new Semaphore(10, true);
+    public Campamento(Interfaz interfaz){
+        this.entradaA=new Entrada(interfaz, true); 
+        this.entradaB=new Entrada(interfaz, false);
+        this.aforo=new Semaphore(50, true);
         this.ultimaEntrada=new AtomicInteger(0); 
-        this.tirolina=new Tirolina(); 
-        this.soga=new Soga(); 
-        this.merendero=new Merendero(); 
-        this.zonaComun=new ZonaComun();
+        this.tirolina=new Tirolina(interfaz); 
+        this.soga=new Soga(interfaz); 
+        this.merendero=new Merendero(interfaz); 
+        this.zonaComun=new ZonaComun(interfaz);
         this.colaMonitoresA=new CountDownLatch(1);
         this.colaMonitoresB=new CountDownLatch(1);
         this.ocupacionesMonitores=new AtomicIntegerArray(3); 
+        this.interfaz=interfaz; 
     }
     
     public void entrar(Campista campista){
@@ -292,5 +294,22 @@ public class Campamento {
     
     public void descanso(Monitor monitor){
         zonaComun.descanso(monitor);
+    }
+    
+    public void actualziarInterfazEquiposSoga(){
+        soga.actualizarInterfazEquipos();
+    }
+    
+    public void actualizarInterfazZonaComun(String campistas, String monitores){
+        if(campistas!=null){
+            interfaz.setTextoZonaDescansoCampistas(campistas);
+        }
+        if(monitores!=null){
+            interfaz.setTextoZonaDescansoMonitores(monitores);
+        }
+    }
+    
+    public void actualizarInterfazGandoresSoga(){
+        soga.actualizarInterfazGanadores();
     }
 }

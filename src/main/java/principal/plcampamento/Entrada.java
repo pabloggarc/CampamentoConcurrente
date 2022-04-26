@@ -9,13 +9,17 @@ public class Entrada {
     private Lock cerrojo;
     private Condition esperar;
     private AtomicInteger contadorMonitores; 
+    private Interfaz interfaz; 
+    private boolean entradaA; 
     
-    public Entrada(){
+    public Entrada(Interfaz interfaz, boolean entradaA){
         this.campistas=new ListaCampistas(); 
         this.estado=false; 
         this.cerrojo=new ReentrantLock(); 
         this.esperar=cerrojo.newCondition();
         this.contadorMonitores=new AtomicInteger(1); 
+        this.interfaz=interfaz; 
+        this.entradaA=entradaA; 
     }
     
     public void abrir(){
@@ -43,6 +47,7 @@ public class Entrada {
         try{
             cerrojo.lock(); 
             campistas.meterCampista(campista);
+            actualizarInterfaz(); 
             while(!estado){
                 try{
                     esperar.await(); 
@@ -59,6 +64,7 @@ public class Entrada {
     
     public void borrarApuntado(Campista campista){
         campistas.sacarCampista(campista);
+        actualizarInterfaz(); 
     }
     
     public boolean estaAbierta(){
@@ -71,5 +77,14 @@ public class Entrada {
     
     public int consultarContador(){
         return contadorMonitores.get(); 
+    }
+     
+    public void actualizarInterfaz(){
+        if(entradaA){
+            interfaz.setTextoEntradaA(campistas.getIntegrantes()); 
+        }
+        else{
+            interfaz.setTextoEntradaB(campistas.getIntegrantes()); 
+        }
     }
 }
