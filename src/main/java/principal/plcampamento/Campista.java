@@ -134,6 +134,7 @@ public class Campista extends Thread{
             case 0:{
                 if(getSogas()>=3 || getTirolinas()>=3){
                     merendar(); 
+                    campamento.descanso(this); 
                     break; 
                 }
                 else{
@@ -141,52 +142,33 @@ public class Campista extends Thread{
                 }
             }
             case 1:{
-                System.out.println("El campista "+identificador+" elige jugar a la soga");
+                System.out.println("El campista "+identificador+" elige competir en la soga");
                 if(!competir()){
-                    System.out.println("El campista "+identificador+" no ha podido jugar a la soga porque no hay hueco");
+                    System.out.println("El campista "+identificador+" no ha podido competir en la soga porque no hay hueco");
                 }
                 else{
                     campamento.salirSoga(this);
+                    campamento.descanso(this); 
                 }
                 break; 
             }
             case 2:{
-                System.out.println("El campista "+identificador+" elige jugar a la tirolina");
+                System.out.println("El campista "+identificador+" elige tirarse por la tirolina");
                 tirarse(); 
                 incTirolinas(); 
+                campamento.descanso(this); 
                 break;
             }
         }
-    }
-    
-    public void descanso(){
-        System.out.println("El campista "+identificador+" ha terminado una actividad y va a descansar en la zona común");
-        //TODO campamento.zonaComun.descansar(this)
-        try{
-            Thread.sleep((int)Math.floor(Math.random()*(4000-2000+1)+4000));
-        }
-        catch(InterruptedException e){
-            System.out.println("El campista "+identificador+" ha tenido problemas descansando");
-        }
-        finally{
-            //TODO campamento.zonaComun.finDescanso(this)
-            System.out.println("El campista "+identificador+" ha terminado de descansar");
-        }
-    }
-    
-    public void abandonarCampamento(){
-        campamento.marchar(this); 
     }
     
     @Override
     public void run(){
         llegarCampamento(); 
         campamento.entrar(this);
-        while(getActividades()<3){
+        while(getActividades()<15){
             realizarActividad(); 
-            descanso(); 
         }
-        realizarActividad(); 
-        abandonarCampamento(); 
+        campamento.marchar(this); 
     }
 }

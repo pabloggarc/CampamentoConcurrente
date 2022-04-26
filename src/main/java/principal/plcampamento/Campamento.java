@@ -151,14 +151,14 @@ public class Campamento {
         merendero.sacar(campista);
     }
     
-    public synchronized void prepararMeriendas(Monitor monitor){
+    public void prepararMeriendas(Monitor monitor){
         //Un monitor entra al merendero
         
         ocupacionesMonitores.getAndIncrement(0); 
         merendero.entrar(monitor);
     }
     
-    public synchronized void finPrepararMeriendas(Monitor monitor){
+    public void finPrepararMeriendas(Monitor monitor){
         //Un monitor se marcha del merendero
         
         ocupacionesMonitores.getAndDecrement(0); 
@@ -195,7 +195,7 @@ public class Campamento {
         tirolina.bajarseTirolina(campista);
     }
     
-    public synchronized void irTirolina(Monitor monitor){
+    public void irTirolina(Monitor monitor){
         //Dado un monitor se pone como responsable de la actividad de tirolina
         
         ocupacionesMonitores.getAndIncrement(1); 
@@ -284,5 +284,13 @@ public class Campamento {
         //Simula el abandono de un monitor de la actividad de soga
         
         soga.salirSoga(monitor);
+    }
+    
+    public void descanso(Campista campista){
+        zonaComun.descanso(campista);
+    }
+    
+    public void descanso(Monitor monitor){
+        zonaComun.descanso(monitor);
     }
 }

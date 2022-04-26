@@ -159,17 +159,35 @@ public class Monitor extends Thread{
             entrarCampamento(); 
         }
         
+        int trabajo; 
+        
         if(campamento.consultarCocineros()<2){
-            cocinar(); 
+            trabajo=0; 
         }
         else{
             if(campamento.consultarTirolina()<1){
-                tirarCampistas(); 
+                trabajo=1; 
             }
             else{
-                arbitrarSoga(); 
+                trabajo=2; 
             }
         }
-        System.out.println("El monitor "+identificador+" se va del campamento");
+        
+        while(true){
+            switch(trabajo){
+                case 0:{
+                    cocinar(); 
+                    break; 
+                }
+                case 1:{
+                    tirarCampistas(); 
+                    break; 
+                }
+                case 2:{
+                    arbitrarSoga(); 
+                    break; 
+                }
+            }
+        }
     }
 }
