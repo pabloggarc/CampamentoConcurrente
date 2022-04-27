@@ -5,6 +5,7 @@ import java.util.concurrent.locks.*;
 
 public class Entrada {
     private ListaCampistas campistas; 
+    private ListaMonitores monitores; 
     private boolean estado; 
     private Lock cerrojo;
     private Condition esperar;
@@ -13,7 +14,8 @@ public class Entrada {
     private boolean entradaA; 
     
     public Entrada(Interfaz interfaz, boolean entradaA){
-        this.campistas=new ListaCampistas(); 
+        this.campistas=new ListaCampistas();
+        this.monitores=new ListaMonitores(); 
         this.estado=false; 
         this.cerrojo=new ReentrantLock(); 
         this.esperar=cerrojo.newCondition();
@@ -45,7 +47,8 @@ public class Entrada {
     
     public void pasarPuerta(Campista campista){
         try{
-            cerrojo.lock(); 
+            cerrojo.lock();
+            interfaz.comprobarPausa();
             campistas.meterCampista(campista);
             actualizarInterfaz(); 
             while(!estado){
@@ -63,6 +66,7 @@ public class Entrada {
     }
     
     public void borrarApuntado(Campista campista){
+        interfaz.comprobarPausa();
         campistas.sacarCampista(campista);
         actualizarInterfaz(); 
     }
@@ -78,6 +82,14 @@ public class Entrada {
     public int consultarContador(){
         return contadorMonitores.get(); 
     }
+    
+    public void meterMonitor(Monitor monitor){
+        monitores.meterMonitor(monitor);
+    }
+    
+    public void sacarMonitor(Monitor monitor){
+        monitores.sacarMonitor(monitor);
+    }
      
     public void actualizarInterfaz(){
         if(entradaA){
@@ -85,6 +97,15 @@ public class Entrada {
         }
         else{
             interfaz.setTextoEntradaB(campistas.getIntegrantes()); 
+        }
+    }
+    
+    public void actualizarInterfazMonitores(){
+        if(entradaA){
+            interfaz.setTextoEntradaAMonitores(monitores.getIntegrantes()); 
+        }
+        else{
+            interfaz.setTextoEntradaBMonitores(monitores.getIntegrantes()); 
         }
     }
 }

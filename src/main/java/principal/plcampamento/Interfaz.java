@@ -3,8 +3,11 @@ package principal.plcampamento;
 import javax.swing.UIManager;
 
 public class Interfaz extends javax.swing.JFrame {
+    
+    private Pausa pausa; 
 
-    public Interfaz() {
+    public Interfaz(Pausa pausa) {
+        this.pausa=pausa; 
         initComponents();
         
         //Look de Windows 10
@@ -76,23 +79,26 @@ public class Interfaz extends javax.swing.JFrame {
         zonaTextoMerenderoLimpias = new javax.swing.JScrollPane();
         textoMerenderoLimpias = new javax.swing.JTextPane();
         botonFinalizar = new javax.swing.JToggleButton();
-        botonPararContinuar1 = new javax.swing.JToggleButton();
+        botonPararContinuar = new javax.swing.JToggleButton();
+        zonaTextoEntradaAMonitor = new javax.swing.JScrollPane();
+        textoEntradaAMonitor = new javax.swing.JTextPane();
+        zonaTextoEntradaBMonitor = new javax.swing.JScrollPane();
+        textoEntradaBMonitor = new javax.swing.JTextPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("Campamento Programación Avanzada");
         setMinimumSize(new java.awt.Dimension(1280, 810));
-        setPreferredSize(new java.awt.Dimension(1280, 773));
         getContentPane().setLayout(null);
 
         labelPuertaB.setFont(new java.awt.Font("Dialog", 1, 21)); // NOI18N
-        labelPuertaB.setText("PUERTA B");
+        labelPuertaB.setText("ENTRADA B");
         getContentPane().add(labelPuertaB);
-        labelPuertaB.setBounds(910, 30, 110, 30);
+        labelPuertaB.setBounds(900, 30, 140, 30);
 
         labelPuertaA.setFont(new java.awt.Font("Dialog", 1, 21)); // NOI18N
-        labelPuertaA.setText("PUERTA A");
+        labelPuertaA.setText("ENTRADA A");
         getContentPane().add(labelPuertaA);
-        labelPuertaA.setBounds(280, 30, 110, 30);
+        labelPuertaA.setBounds(270, 30, 150, 30);
 
         textoPuertaA.setEditable(false);
         zonaTextoPuertaA.setViewportView(textoPuertaA);
@@ -286,10 +292,27 @@ public class Interfaz extends javax.swing.JFrame {
         getContentPane().add(botonFinalizar);
         botonFinalizar.setBounds(720, 630, 210, 80);
 
-        botonPararContinuar1.setFont(new java.awt.Font("Dialog", 0, 20)); // NOI18N
-        botonPararContinuar1.setText("Parar/Continuar");
-        getContentPane().add(botonPararContinuar1);
-        botonPararContinuar1.setBounds(1000, 630, 210, 80);
+        botonPararContinuar.setFont(new java.awt.Font("Dialog", 0, 20)); // NOI18N
+        botonPararContinuar.setText("Parar/Continuar");
+        botonPararContinuar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonPararContinuarActionPerformed(evt);
+            }
+        });
+        getContentPane().add(botonPararContinuar);
+        botonPararContinuar.setBounds(1000, 630, 210, 80);
+
+        textoEntradaAMonitor.setEditable(false);
+        zonaTextoEntradaAMonitor.setViewportView(textoEntradaAMonitor);
+
+        getContentPane().add(zonaTextoEntradaAMonitor);
+        zonaTextoEntradaAMonitor.setBounds(30, 40, 90, 30);
+
+        textoEntradaBMonitor.setEditable(false);
+        zonaTextoEntradaBMonitor.setViewportView(textoEntradaBMonitor);
+
+        getContentPane().add(zonaTextoEntradaBMonitor);
+        zonaTextoEntradaBMonitor.setBounds(660, 40, 90, 30);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -298,10 +321,19 @@ public class Interfaz extends javax.swing.JFrame {
         System.exit(0); 
     }//GEN-LAST:event_botonFinalizarActionPerformed
 
+    private void botonPararContinuarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonPararContinuarActionPerformed
+        if(botonPararContinuar.isSelected()){
+            pausa.pausar();
+        }
+        else{
+            pausa.continuar();
+        }
+    }//GEN-LAST:event_botonPararContinuarActionPerformed
+
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JToggleButton botonFinalizar;
-    private javax.swing.JToggleButton botonPararContinuar1;
+    private javax.swing.JToggleButton botonPararContinuar;
     private javax.swing.JLabel labelMerendero;
     private javax.swing.JLabel labelMerenderoBandejasListas;
     private javax.swing.JLabel labelMerenderoBandejasSucias;
@@ -320,6 +352,8 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JLabel labelZonaComun;
     private javax.swing.JLabel labelZonaDescansoCampistas;
     private javax.swing.JLabel labelZonaDescansoMonitores;
+    private javax.swing.JTextPane textoEntradaAMonitor;
+    private javax.swing.JTextPane textoEntradaBMonitor;
     private javax.swing.JTextPane textoMerendero;
     private javax.swing.JTextPane textoMerenderoLimpias;
     private javax.swing.JTextPane textoMerenderoMonitores;
@@ -337,6 +371,8 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JTextPane textoTirolinaMonitor;
     private javax.swing.JTextPane textoZonaDescansoCampistas;
     private javax.swing.JTextPane textoZonaDescansoMonitores;
+    private javax.swing.JScrollPane zonaTextoEntradaAMonitor;
+    private javax.swing.JScrollPane zonaTextoEntradaBMonitor;
     private javax.swing.JScrollPane zonaTextoMerendero;
     private javax.swing.JScrollPane zonaTextoMerenderoLimpias;
     private javax.swing.JScrollPane zonaTextoMerenderoMonitores;
@@ -422,6 +458,18 @@ public class Interfaz extends javax.swing.JFrame {
     
     public synchronized void setTextoMerenderoBandejasListas(String t){
         textoMerenderoLimpias.setText(t); 
+    }
+    
+    public synchronized void setTextoEntradaAMonitores(String t){
+        textoEntradaAMonitor.setText(t);
+    }
+    
+    public synchronized void setTextoEntradaBMonitores(String t){
+        textoEntradaBMonitor.setText(t);
+    }
+    
+    public void comprobarPausa(){
+        pausa.pasar();
     }
 
 }

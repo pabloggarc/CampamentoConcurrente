@@ -24,11 +24,11 @@ public class Monitor extends Thread{
         porque si compartieran cola y llega un campista antes que un monitor se produciria deadlock
         al estar un campista esperando que un monitor abra, y el monitor que un campista se quite. 
         */
-        
+        campamento.comprobarPausa();
         int entrada=Character.getNumericValue(identificador.charAt(1))%2; 
         if(entrada==0){
             System.out.println("El monitor "+identificador+" se sitúa en la entrada A");
-            if(campamento.getCuentaMonitoresEA()==1){
+            if(campamento.getCuentaMonitoresEA(this)==1){
                 campamento.contarMonitorEA();
                 try{
                     Thread.sleep((int)Math.floor(Math.random()*(1000-500+1)+1000)); 
@@ -36,27 +36,32 @@ public class Monitor extends Thread{
                 catch(InterruptedException e){
                     System.out.println("Error al abrir la puerta A");
                 }
+                campamento.comprobarPausa();
                 campamento.abrirEntrada('A', this);
             }
             else{
-                campamento.contarColaA(); 
+                campamento.comprobarPausa();
+                campamento.contarColaA(this); 
             }
             System.out.println("El monitor "+identificador+" ha entrado (A) dentro del campamento ");
         }
         else if(entrada==1){
             System.out.println("El monitor "+identificador+" se sitúa en la entrada B");
-            if(campamento.getCuentaMonitoresEB()==1){
+            if(campamento.getCuentaMonitoresEB(this)==1){
                 campamento.contarMonitorEB();
+                campamento.comprobarPausa();
                 try{
                     Thread.sleep((int)Math.floor(Math.random()*(1000-500+1)+1000)); 
                 }
                 catch(InterruptedException e){
                     System.out.println("Error al abrir la puerta B");
                 }
+                campamento.comprobarPausa();
                 campamento.abrirEntrada('B', this);
             }
             else{
-                campamento.contarColaB();
+                campamento.comprobarPausa();
+                campamento.contarColaB(this);
             }
             System.out.println("El monitor "+identificador+" ha entrado (B) dentro del campamento ");
         }
@@ -91,9 +96,11 @@ public class Monitor extends Thread{
     public void tirarCampistas(){
         //Simula el trabajo de preparar campistas y lanzarlos por la tirolina
         
+        campamento.comprobarPausa();
         campamento.irTirolina(this);
         System.out.println("El monitor "+identificador+" llega a la tirolina");
         for(int i=0; i<10; i++){
+            campamento.comprobarPausa();
             campamento.avisarCampista(this);
             try{
                 System.out.println("El monitor "+identificador+" prepara a un campista");
@@ -102,18 +109,23 @@ public class Monitor extends Thread{
             catch(InterruptedException ie){
                 System.out.println("Error mientras el monitor "+identificador+" prepara a un campista en la tirolina");
             }
+            campamento.comprobarPausa();
             System.out.println("El monitor "+identificador+" va a lanzar a un campista");
             campamento.avisarCampista(this);
         }
+        campamento.comprobarPausa();
         campamento.irseTirolina(this);
     }
     
     public void arbitrarSoga(){
+        campamento.comprobarPausa();
         campamento.entrarSoga(this);
         for(int i=0; i<10; i++){
+            campamento.comprobarPausa();
             //Aviso que el monitor esta listo para arbitrar
             System.out.println("El monitor "+identificador+" espera campistas en la soga");
             campamento.avisoSoga();
+            campamento.comprobarPausa();
             campamento.hacerEquipos();
             campamento.actualziarInterfazEquiposSoga();
             System.out.println("\t------EQUIPOS SOGA------\t\n"
@@ -123,6 +135,7 @@ public class Monitor extends Thread{
             
             //Aviso que los equipos estan listos y se puede empezar
             campamento.avisoSoga();
+            campamento.comprobarPausa();
             
             //Mientras juegan se decide el ganador y se espera a que acaben de jugar
             int equipoGanador=(int)(Math.floor(Math.random()*2)); 
@@ -136,17 +149,21 @@ public class Monitor extends Thread{
             victoria+=campamento.getEquipo(equipoGanador).getIntegrantes(); 
             //Espero a que terminen de jugar
             campamento.avisoSoga();
+            campamento.comprobarPausa();
             campamento.actualizarInterfazGandoresSoga();
             
             //Cuando terminan de jugar se espera a que el monitor anuncie el ganador
+            campamento.comprobarPausa();
             System.out.println(victoria);
             campamento.anunciarGanador(equipoGanador==0);
             campamento.avisoSoga();
             
             //Se espera a que todos los campistas conozcan el ganador para marcharse
             campamento.avisoSoga();
+            campamento.comprobarPausa();
             campamento.prepararSoga();
         }
+        campamento.comprobarPausa();
         campamento.salirSoga(this);
     }
     

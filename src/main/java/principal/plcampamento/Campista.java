@@ -80,6 +80,7 @@ public class Campista extends Thread{
     
     public void tirarse(){
         //Simula la actividad de tirolina de los campistas
+        
         campamento.irTirolina(this);
         try{
             Thread.sleep(3500); 

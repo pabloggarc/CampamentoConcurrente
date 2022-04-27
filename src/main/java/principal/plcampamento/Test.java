@@ -20,7 +20,7 @@ public class Test {
             Logger.getLogger(Test.class.getName()).log(Level.SEVERE, null, ex);
         }
         
-        Interfaz interfaz=new Interfaz(); 
+        Interfaz interfaz=new Interfaz(new Pausa()); 
         interfaz.setVisible(true); 
         
         Campamento campamento=new Campamento(interfaz); 

@@ -31,6 +31,7 @@ public class Soga {
         llegue un monitor, y entonces espera a que este haga los equipos. Si no hay hueco se marcha. El quedarse
         o marcharse se indica con el boolean que devuelve la funcion*/
         
+        interfaz.comprobarPausa();
         control.lock(); 
         boolean id; 
         if(aforo<10){
@@ -43,6 +44,7 @@ public class Soga {
         control.unlock(); 
         
         if(id){
+            interfaz.comprobarPausa();
             campistas.meterCampista(campista);
             interfaz.setTextoSoga(campistas.getIntegrantes());
             System.out.println("El campista "+campista.getID()+" espera para competir en la soga");
@@ -53,6 +55,8 @@ public class Soga {
             catch(Exception e){
                 System.out.println("Error mientras el campista "+campista.getID()+" espera a que llegue un monitor a la soga");
             }
+            
+            interfaz.comprobarPausa();
 
             try{
                 //El campista espera a que el monitor haga los equipos
@@ -62,6 +66,8 @@ public class Soga {
                 System.out.println("Error mientras el campista espera a que el monitor haga los equipos");
             }
             
+            interfaz.comprobarPausa();
+            
             System.out.println("El campista "+campista.getID()+" tira de la soga!");
         }
         return id; 
@@ -70,6 +76,7 @@ public class Soga {
     public boolean entrarSoga(Monitor monitor){
         //Simula la llegada del monitor a la actividad de soga
         
+        interfaz.comprobarPausa();
         if(this.monitor==null){
             this.monitor=monitor;
             interfaz.setTextoSogaMonitor(monitor.getID());
@@ -86,6 +93,7 @@ public class Soga {
     public void salirSoga(Campista campista){
         //Simula la salida de un campista de la actividad de soga
         
+        interfaz.comprobarPausa();
         control.lock(); 
         System.out.println("El campista "+campista.getID()+" abandona la actividad de soga");
         aforo--; 
@@ -95,6 +103,7 @@ public class Soga {
     public void salirSoga(Monitor monitor){
         //Simula la salida del monitor de la actividad de soga
         
+        interfaz.comprobarPausa();
         System.out.println("El monitor "+monitor.getID()+" abandona la soga");
         this.monitor=null;
         interfaz.setTextoSogaMonitor("");
@@ -114,6 +123,7 @@ public class Soga {
     public void hacerEquipos(){
         //Simula la accion del monitor de realizar los equipos de la actividad soga una vez han llegado 10 campistas
         
+        interfaz.comprobarPausa();
         for(int i=0; i<10; i++){
             int c=(int)(Math.random()*campistas.cuantosIntegrantes()); 
             Campista campista=campistas.getIntegrante(c); 
@@ -130,6 +140,7 @@ public class Soga {
     public void limpiarSoga(){
         //Simula el fin de la actividad y la prepara para los siguientes campistas
         
+        interfaz.comprobarPausa();
         campistas=new ListaCampistas(); 
         equipoA=new ListaCampistas(); 
         equipoB=new ListaCampistas(); 

@@ -26,6 +26,7 @@ public class Tirolina {
         Una vez es su turno espera a que llegue un monitor. Cuando este llega espera a que lo prepare y entonces 
         es lanzado. */
         
+        interfaz.comprobarPausa();
         campistas.meterCampista(campista);
         System.out.println("El campista "+campista.getID()+" se ha puesto a la cola de la tirolina");
         try{
@@ -35,6 +36,7 @@ public class Tirolina {
             System.out.println("Error cuando el campista "+campista.getID()+" intenta coger turno de tirolina");
         }
         
+        interfaz.comprobarPausa();
         interfaz.setTextoTirolina(campistas.getIntegrantes());
         
         try{
@@ -53,15 +55,18 @@ public class Tirolina {
         catch(Exception e){
             System.out.println("Error al esperar a que el monitor prepare al campista "+campista.getID());
         }
+        interfaz.comprobarPausa();
         System.out.println("El campista "+campista.getID()+" se tira por la tirolina!");
         
         interfaz.setTextoTirolinaCampistaPreparacion("");
         interfaz.setTextoTirolinaTirandose(campista.getID());
+        interfaz.comprobarPausa();
     }
     
     public void entrarTirolina(Monitor monitor){
         //Simula la entrada del monitor a la tirolina
         
+        interfaz.comprobarPausa();
         if(this.monitor!=null){
             System.out.println("Error cuando el monitor "+monitor.getID()+" entraba en la tirolina, ya había uno");
         }
@@ -74,6 +79,7 @@ public class Tirolina {
     public void bajarseTirolina(Campista campista){
         //Quita al campista de la tirolina y da paso al siguiente de la cola en caso de haberlo
         
+        interfaz.comprobarPausa();
         this.campista=null;
         campistas.sacarCampista(campista); 
         
@@ -87,6 +93,7 @@ public class Tirolina {
     public void salirTirolina(Monitor monitor){
         //Simula la salida del monitor de la tirolina
         
+        interfaz.comprobarPausa();
         this.monitor=null; 
         
         interfaz.setTextoTirolinaMonitor("");

@@ -20,6 +20,7 @@ public class Merendero {
         this.interfaz=interfaz; 
         
         for(int i=1; i<=25; i++){
+            interfaz.comprobarPausa();
             try{
                 pilaSucias.put(new Bandeja(i));
                 interfaz.setTextoMerenderoBandejasSucias(Integer.toString(pilaSucias.size())); 
@@ -33,6 +34,7 @@ public class Merendero {
     public Bandeja cogerBandeja(Campista campista){
         Bandeja b=new Bandeja(0); 
         try{
+            interfaz.comprobarPausa();
             b=(Bandeja)pilaLimpias.take();
             actualizarInterfazBandejas();  
             System.out.println("El campista "+campista.getID()+" coge la merienda "+b.getID());
@@ -48,6 +50,7 @@ public class Merendero {
     public Bandeja cogerBandeja(Monitor monitor){
         Bandeja b=new Bandeja(0); 
         try{
+            interfaz.comprobarPausa();
             b=(Bandeja)pilaSucias.take();
             actualizarInterfazBandejas();  
             System.out.println("El monitor "+monitor.getID()+" empieza a preparar la merienda "+b.getID());
@@ -62,6 +65,7 @@ public class Merendero {
     
     public void dejarBandeja(Campista campista, Bandeja bandeja){
         try{
+            interfaz.comprobarPausa();
             System.out.println("El campista "+campista.getID()+" deja la bandeja "+bandeja.getID());
             pilaSucias.put(bandeja); 
             actualizarInterfazBandejas(); 
@@ -73,6 +77,7 @@ public class Merendero {
     
     public void dejarBandeja(Monitor monitor, Bandeja bandeja){
         try{
+            interfaz.comprobarPausa();
             System.out.println("El monitor "+monitor.getID()+" ha preparado la merienda "+bandeja.getID());
             pilaLimpias.put(bandeja); 
             actualizarInterfazBandejas(); 
@@ -83,12 +88,14 @@ public class Merendero {
     }
     
     public void entrar(Monitor monitor){
+        interfaz.comprobarPausa();
         monitores.meterMonitor(monitor);
         interfaz.setTextoMerenderoMonitores(monitores.getIntegrantes()); 
         System.out.println("El monitor "+monitor.getID()+" va a preparar meriendas");
     }
     
     public void sacar(Monitor monitor){
+        interfaz.comprobarPausa();
         monitores.sacarMonitor(monitor);
         interfaz.setTextoMerenderoMonitores(monitores.getIntegrantes()); 
         System.out.println("El monitor "+monitor.getID()+" se va del merendero");
@@ -101,11 +108,13 @@ public class Merendero {
         catch(InterruptedException ie){
             System.out.println("Error cuando el campista "+campista.getID()+" intentaba entrar al merendero");
         }
+        interfaz.comprobarPausa();
         campistas.meterCampista(campista);
         interfaz.setTextoMerendero(campistas.getIntegrantes());
     }
     
     public void sacar(Campista campista){
+        interfaz.comprobarPausa();
         aforo.release();
         campistas.sacarCampista(campista);
         interfaz.setTextoMerendero(campistas.getIntegrantes()); 

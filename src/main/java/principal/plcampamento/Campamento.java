@@ -91,34 +91,46 @@ public class Campamento {
         entradaB.contar();
     }
     
-    public int getCuentaMonitoresEA(){
+    public int getCuentaMonitoresEA(Monitor monitor){
         //Comprueba de forma atomica si ha pasado algun monitor por la puerta A
         
+        comprobarPausa();
+        entradaA.meterMonitor(monitor);
+        actualizarInterfazEntradasMonitores(); 
+        comprobarPausa();
         return entradaA.consultarContador(); 
     }
     
-    public int getCuentaMonitoresEB(){
+    public int getCuentaMonitoresEB(Monitor monitor){
         //Comprueba de forma atomica si ha pasado algun monitor por la puerta B
         
+        comprobarPausa();
+        entradaB.meterMonitor(monitor);
+        actualizarInterfazEntradasMonitores(); 
+        comprobarPausa();
         return entradaB.consultarContador(); 
     }
     
-    public void contarColaA(){
+    public void contarColaA(Monitor monitor){
         try{
             colaMonitoresA.await();
         } 
         catch(InterruptedException ex){
             System.out.println("Error al esperar que otro monitor abra la entrada A");;
         }
+        entradaA.sacarMonitor(monitor);
+        actualizarInterfazEntradasMonitores(); 
     }
     
-    public void contarColaB(){
+    public void contarColaB(Monitor monitor){
         try{
             colaMonitoresB.await();
         } 
         catch(InterruptedException ex){
             System.out.println("Error al esperar que otro monitor abra la entrada B");
         }
+        entradaB.sacarMonitor(monitor);
+        actualizarInterfazEntradasMonitores(); 
     }
     
     public void abrirEntrada(char entrada, Monitor monitor){
@@ -128,11 +140,15 @@ public class Campamento {
             System.out.println("El monitor "+monitor.getID()+" ha abierto la entrada A");
             entradaA.abrir();
             colaMonitoresA.countDown();
+            entradaA.sacarMonitor(monitor);
+            actualizarInterfazEntradasMonitores(); 
         }
         else if(entrada=='B'){
             System.out.println("El monitor "+monitor.getID()+" ha abierto la entrada B");
             entradaB.abrir();
             colaMonitoresB.countDown();
+            entradaB.sacarMonitor(monitor);
+            actualizarInterfazEntradasMonitores(); 
         }
         else{
             System.out.println("Un monitor ha elegido abrir una entrada inválida");
@@ -311,5 +327,14 @@ public class Campamento {
     
     public void actualizarInterfazGandoresSoga(){
         soga.actualizarInterfazGanadores();
+    }
+    
+    public void actualizarInterfazEntradasMonitores(){
+        entradaA.actualizarInterfazMonitores();
+        entradaB.actualizarInterfazMonitores();
+    }
+    
+    public void comprobarPausa(){
+        interfaz.comprobarPausa(); 
     }
 }
