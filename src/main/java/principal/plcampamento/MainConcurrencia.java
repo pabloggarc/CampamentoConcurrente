@@ -3,7 +3,7 @@ package principal.plcampamento;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
-public class Test {
+public class MainConcurrencia {
 
 
     public static void main(String[] args){
