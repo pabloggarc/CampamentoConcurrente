@@ -10,17 +10,19 @@ public class Entrada {
     private Lock cerrojo;
     private Condition esperar;
     private AtomicInteger contadorMonitores; 
-    private Interfaz interfaz; 
+    private Interfaz interfaz;
+    private Registro registro; 
     private boolean entradaA; 
     
-    public Entrada(Interfaz interfaz, boolean entradaA){
-        this.campistas=new ListaCampistas();
-        this.monitores=new ListaMonitores(); 
+    public Entrada(Interfaz interfaz, Registro registro, boolean entradaA){
+        this.campistas=new ListaCampistas(registro);
+        this.monitores=new ListaMonitores(registro); 
         this.estado=false; 
         this.cerrojo=new ReentrantLock(); 
         this.esperar=cerrojo.newCondition();
         this.contadorMonitores=new AtomicInteger(1); 
         this.interfaz=interfaz; 
+        this.registro=registro;
         this.entradaA=entradaA; 
     }
     
@@ -56,7 +58,7 @@ public class Entrada {
                     esperar.await(); 
                 }
                 catch(InterruptedException e){
-                    System.out.println("Error al esperar para entrar");
+                    registro.escribir("Error al esperar para entrar");
                 }
             }
         }

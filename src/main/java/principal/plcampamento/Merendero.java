@@ -6,18 +6,22 @@ import java.util.concurrent.Semaphore;
 public class Merendero {
     private ListaCampistas campistas; 
     private ListaMonitores monitores; 
+    private ListaCampistas campistasEspera; 
     private Semaphore aforo; 
     private LinkedBlockingQueue pilaSucias; 
     private LinkedBlockingQueue pilaLimpias; 
     private Interfaz interfaz; 
+    private Registro registro; 
     
-    public Merendero(Interfaz interfaz){
-        this.campistas=new ListaCampistas(); 
-        this.monitores=new ListaMonitores(); 
+    public Merendero(Interfaz interfaz, Registro registro){
+        this.campistas=new ListaCampistas(registro); 
+        this.monitores=new ListaMonitores(registro); 
+        this.campistasEspera=new ListaCampistas(registro); 
         this.aforo=new Semaphore(20, true); 
         this.pilaSucias=new LinkedBlockingQueue(25); 
         this.pilaLimpias=new LinkedBlockingQueue(25); 
         this.interfaz=interfaz; 
+        this.registro=registro; 
         
         for(int i=1; i<=25; i++){
             interfaz.comprobarPausa();
@@ -26,7 +30,7 @@ public class Merendero {
                 interfaz.setTextoMerenderoBandejasSucias(Integer.toString(pilaSucias.size())); 
             }
             catch(InterruptedException ie){
-                System.out.println("Error al apilar la bandeja "+i);
+                registro.escribir("Error al apilar la bandeja "+i);
             }
         }
     }
@@ -37,10 +41,10 @@ public class Merendero {
             interfaz.comprobarPausa();
             b=(Bandeja)pilaLimpias.take();
             actualizarInterfazBandejas();  
-            System.out.println("El campista "+campista.getID()+" coge la merienda "+b.getID());
+            registro.escribir("El campista "+campista.getID()+" coge la merienda "+b.getID());
         }
         catch(InterruptedException ie){
-            System.out.println("Error cuando el campista "+campista.getID()+" intenta coger una bandeja limpia");
+            registro.escribir("Error cuando el campista "+campista.getID()+" intenta coger una bandeja limpia");
         }
         finally{
             return b; 
@@ -53,10 +57,10 @@ public class Merendero {
             interfaz.comprobarPausa();
             b=(Bandeja)pilaSucias.take();
             actualizarInterfazBandejas();  
-            System.out.println("El monitor "+monitor.getID()+" empieza a preparar la merienda "+b.getID());
+            registro.escribir("El monitor "+monitor.getID()+" empieza a preparar la merienda "+b.getID());
         }
         catch(InterruptedException ie){
-            System.out.println("Error cuando el monitor "+monitor.getID()+" intenta coger una bandeja sucia");
+            registro.escribir("Error cuando el monitor "+monitor.getID()+" intenta coger una bandeja sucia");
         }
         finally{
             return b; 
@@ -66,24 +70,24 @@ public class Merendero {
     public void dejarBandeja(Campista campista, Bandeja bandeja){
         try{
             interfaz.comprobarPausa();
-            System.out.println("El campista "+campista.getID()+" deja la bandeja "+bandeja.getID());
+            registro.escribir("El campista "+campista.getID()+" deja la bandeja "+bandeja.getID());
             pilaSucias.put(bandeja); 
             actualizarInterfazBandejas(); 
         }
         catch(InterruptedException ie){
-            System.out.println("Error cuando el campista "+campista.getID()+" intenta dejar su bandeja sucia");
+            registro.escribir("Error cuando el campista "+campista.getID()+" intenta dejar su bandeja sucia");
         }
     }
     
     public void dejarBandeja(Monitor monitor, Bandeja bandeja){
         try{
             interfaz.comprobarPausa();
-            System.out.println("El monitor "+monitor.getID()+" ha preparado la merienda "+bandeja.getID());
+            registro.escribir("El monitor "+monitor.getID()+" ha preparado la merienda "+bandeja.getID());
             pilaLimpias.put(bandeja); 
             actualizarInterfazBandejas(); 
         }
         catch(InterruptedException ie){
-            System.out.println("Error cuando el monitor "+monitor.getID()+" intenta dejar una bandeja limpia");
+            registro.escribir("Error cuando el monitor "+monitor.getID()+" intenta dejar una bandeja limpia");
         }
     }
     
@@ -91,22 +95,28 @@ public class Merendero {
         interfaz.comprobarPausa();
         monitores.meterMonitor(monitor);
         interfaz.setTextoMerenderoMonitores(monitores.getIntegrantes()); 
-        System.out.println("El monitor "+monitor.getID()+" va a preparar meriendas");
+        registro.escribir("El monitor "+monitor.getID()+" va a preparar meriendas");
     }
     
     public void sacar(Monitor monitor){
         interfaz.comprobarPausa();
         monitores.sacarMonitor(monitor);
         interfaz.setTextoMerenderoMonitores(monitores.getIntegrantes()); 
-        System.out.println("El monitor "+monitor.getID()+" se va del merendero");
+        registro.escribir("El monitor "+monitor.getID()+" se va del merendero");
     }
     
     public void entrar(Campista campista){
+        interfaz.comprobarPausa();
+        campistasEspera.meterCampista(campista);
+        interfaz.setTextoMerenderoEspera(campistasEspera.getIntegrantes());
         try{
             aforo.acquire();
+            interfaz.comprobarPausa();
+            campistasEspera.sacarCampista(campista);
+            interfaz.setTextoMerenderoEspera(campistasEspera.getIntegrantes());
         }
         catch(InterruptedException ie){
-            System.out.println("Error cuando el campista "+campista.getID()+" intentaba entrar al merendero");
+            registro.escribir("Error cuando el campista "+campista.getID()+" intentaba entrar al merendero");
         }
         interfaz.comprobarPausa();
         campistas.meterCampista(campista);

@@ -27,14 +27,14 @@ public class Monitor extends Thread{
         campamento.comprobarPausa();
         int entrada=Character.getNumericValue(identificador.charAt(1))%2; 
         if(entrada==0){
-            System.out.println("El monitor "+identificador+" se sitúa en la entrada A");
+            campamento.escribirRegistro("El monitor "+identificador+" se sitúa en la entrada A");
             if(campamento.getCuentaMonitoresEA(this)==1){
                 campamento.contarMonitorEA();
                 try{
                     Thread.sleep((int)Math.floor(Math.random()*(1000-500+1)+1000)); 
                 }
                 catch(InterruptedException e){
-                    System.out.println("Error al abrir la puerta A");
+                    campamento.escribirRegistro("Error al abrir la puerta A");
                 }
                 campamento.comprobarPausa();
                 campamento.abrirEntrada('A', this);
@@ -43,10 +43,10 @@ public class Monitor extends Thread{
                 campamento.comprobarPausa();
                 campamento.contarColaA(this); 
             }
-            System.out.println("El monitor "+identificador+" ha entrado (A) dentro del campamento ");
+            campamento.escribirRegistro("El monitor "+identificador+" ha entrado (A) dentro del campamento ");
         }
         else if(entrada==1){
-            System.out.println("El monitor "+identificador+" se sitúa en la entrada B");
+            campamento.escribirRegistro("El monitor "+identificador+" se sitúa en la entrada B");
             if(campamento.getCuentaMonitoresEB(this)==1){
                 campamento.contarMonitorEB();
                 campamento.comprobarPausa();
@@ -54,7 +54,7 @@ public class Monitor extends Thread{
                     Thread.sleep((int)Math.floor(Math.random()*(1000-500+1)+1000)); 
                 }
                 catch(InterruptedException e){
-                    System.out.println("Error al abrir la puerta B");
+                    campamento.escribirRegistro("Error al abrir la puerta B");
                 }
                 campamento.comprobarPausa();
                 campamento.abrirEntrada('B', this);
@@ -63,10 +63,10 @@ public class Monitor extends Thread{
                 campamento.comprobarPausa();
                 campamento.contarColaB(this);
             }
-            System.out.println("El monitor "+identificador+" ha entrado (B) dentro del campamento ");
+            campamento.escribirRegistro("El monitor "+identificador+" ha entrado (B) dentro del campamento ");
         }
         else{
-            System.out.println("Error: el monitor "+identificador+" intenta entrar por una entrada inexistente");
+            campamento.escribirRegistro("Error: el monitor "+identificador+" intenta entrar por una entrada inexistente");
         }
     }
     
@@ -82,7 +82,7 @@ public class Monitor extends Thread{
                 Thread.sleep((int)Math.floor(Math.random()*(5000-3000+1)+5000)); 
             }
             catch(InterruptedException ie){
-                System.out.println("Error mientras se preparaba la bandeja "+b.getID());
+                campamento.escribirRegistro("Error mientras se preparaba la bandeja "+b.getID());
             }
             finally{
                 campamento.prepararMeriendaB(this, b);
@@ -98,19 +98,19 @@ public class Monitor extends Thread{
         
         campamento.comprobarPausa();
         campamento.irTirolina(this);
-        System.out.println("El monitor "+identificador+" llega a la tirolina");
+        campamento.escribirRegistro("El monitor "+identificador+" llega a la tirolina");
         for(int i=0; i<10; i++){
             campamento.comprobarPausa();
             campamento.avisarCampista(this);
             try{
-                System.out.println("El monitor "+identificador+" prepara a un campista");
+                campamento.escribirRegistro("El monitor "+identificador+" prepara a un campista");
                 Thread.sleep(1000); 
             }
             catch(InterruptedException ie){
-                System.out.println("Error mientras el monitor "+identificador+" prepara a un campista en la tirolina");
+                campamento.escribirRegistro("Error mientras el monitor "+identificador+" prepara a un campista en la tirolina");
             }
             campamento.comprobarPausa();
-            System.out.println("El monitor "+identificador+" va a lanzar a un campista");
+            campamento.escribirRegistro("El monitor "+identificador+" va a lanzar a un campista");
             campamento.avisarCampista(this);
         }
         campamento.comprobarPausa();
@@ -123,12 +123,12 @@ public class Monitor extends Thread{
         for(int i=0; i<10; i++){
             campamento.comprobarPausa();
             //Aviso que el monitor esta listo para arbitrar
-            System.out.println("El monitor "+identificador+" espera campistas en la soga");
+            campamento.escribirRegistro("El monitor "+identificador+" espera campistas en la soga");
             campamento.avisoSoga();
             campamento.comprobarPausa();
             campamento.hacerEquipos();
             campamento.actualziarInterfazEquiposSoga();
-            System.out.println("\t------EQUIPOS SOGA------\t\n"
+            campamento.escribirRegistro("\t------EQUIPOS SOGA------\t\n"
                     +"EQUIPO A: "+campamento.getEquipo(0).getIntegrantes()+"\n"
                     +"EQUIPO B: "+campamento.getEquipo(1).getIntegrantes()+
                     "\n\t------------------------\t\n");
@@ -154,7 +154,7 @@ public class Monitor extends Thread{
             
             //Cuando terminan de jugar se espera a que el monitor anuncie el ganador
             campamento.comprobarPausa();
-            System.out.println(victoria);
+            campamento.escribirRegistro(victoria);
             campamento.anunciarGanador(equipoGanador==0);
             campamento.avisoSoga();
             

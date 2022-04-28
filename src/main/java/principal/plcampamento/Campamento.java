@@ -18,20 +18,22 @@ public class Campamento {
     private CountDownLatch colaMonitoresB; 
     private AtomicIntegerArray ocupacionesMonitores; 
     private Interfaz interfaz; 
+    private Registro registro; 
     
-    public Campamento(Interfaz interfaz){
-        this.entradaA=new Entrada(interfaz, true); 
-        this.entradaB=new Entrada(interfaz, false);
+    public Campamento(Interfaz interfaz, Registro registro){
+        this.entradaA=new Entrada(interfaz, registro, true); 
+        this.entradaB=new Entrada(interfaz, registro, false);
         this.aforo=new Semaphore(50, true);
         this.ultimaEntrada=new AtomicInteger(0); 
-        this.tirolina=new Tirolina(interfaz); 
-        this.soga=new Soga(interfaz); 
-        this.merendero=new Merendero(interfaz); 
-        this.zonaComun=new ZonaComun(interfaz);
+        this.tirolina=new Tirolina(interfaz, registro); 
+        this.soga=new Soga(interfaz, registro); 
+        this.merendero=new Merendero(interfaz, registro); 
+        this.zonaComun=new ZonaComun(interfaz, registro);
         this.colaMonitoresA=new CountDownLatch(1);
         this.colaMonitoresB=new CountDownLatch(1);
         this.ocupacionesMonitores=new AtomicIntegerArray(3); 
         this.interfaz=interfaz; 
+        this.registro=registro; 
     }
     
     public void entrar(Campista campista){
@@ -47,27 +49,27 @@ public class Campamento {
         ultimaEntrada.set(entrada+1%2);
         
         if(entrada==0){
-            System.out.println("El campista "+campista.getID()+" se sitúa en la entrada A");
+            registro.escribir("El campista "+campista.getID()+" se sitúa en la entrada A");
             entradaA.pasarPuerta(campista);
             try{
                 aforo.acquire();
                 entradaA.borrarApuntado(campista);
-                System.out.println("El campista "+campista.getID()+" ha entrado (A) dentro del campamento ");
+                registro.escribir("El campista "+campista.getID()+" ha entrado (A) dentro del campamento ");
             }
             catch(InterruptedException e){
-                System.out.println("Error: el campista "+campista.getID()+" no pudo entrar al campamento");
+                registro.escribir("Error: el campista "+campista.getID()+" no pudo entrar al campamento");
             }
         }
         else{
-            System.out.println("El campista "+campista.getID()+" se sitúa en la entrada B");
+            registro.escribir("El campista "+campista.getID()+" se sitúa en la entrada B");
             entradaB.pasarPuerta(campista);
             try{
                 aforo.acquire();
                 entradaB.borrarApuntado(campista);
-                System.out.println("El campista "+campista.getID()+" ha entrado (B) dentro del campamento");
+                registro.escribir("El campista "+campista.getID()+" ha entrado (B) dentro del campamento");
             }
             catch(InterruptedException e){
-                System.out.println("Error: el campista "+campista.getID()+" no pudo entrar al campamento");
+                registro.escribir("Error: el campista "+campista.getID()+" no pudo entrar al campamento");
             }
         }
     }
@@ -75,7 +77,7 @@ public class Campamento {
     public void marchar(Campista campista){
         //Expulsa a un campista del campamento
         
-        System.out.println("El campista "+campista.getID()+" abandona el campamento");
+        registro.escribir("El campista "+campista.getID()+" abandona el campamento");
         aforo.release();
     }
     
@@ -116,7 +118,7 @@ public class Campamento {
             colaMonitoresA.await();
         } 
         catch(InterruptedException ex){
-            System.out.println("Error al esperar que otro monitor abra la entrada A");;
+            registro.escribir("Error al esperar que otro monitor abra la entrada A");;
         }
         entradaA.sacarMonitor(monitor);
         actualizarInterfazEntradasMonitores(); 
@@ -127,7 +129,7 @@ public class Campamento {
             colaMonitoresB.await();
         } 
         catch(InterruptedException ex){
-            System.out.println("Error al esperar que otro monitor abra la entrada B");
+            registro.escribir("Error al esperar que otro monitor abra la entrada B");
         }
         entradaB.sacarMonitor(monitor);
         actualizarInterfazEntradasMonitores(); 
@@ -137,21 +139,21 @@ public class Campamento {
         //Dada una entrada y un monitor la abre
         
         if(entrada=='A'){
-            System.out.println("El monitor "+monitor.getID()+" ha abierto la entrada A");
+            registro.escribir("El monitor "+monitor.getID()+" ha abierto la entrada A");
             entradaA.abrir();
             colaMonitoresA.countDown();
             entradaA.sacarMonitor(monitor);
             actualizarInterfazEntradasMonitores(); 
         }
         else if(entrada=='B'){
-            System.out.println("El monitor "+monitor.getID()+" ha abierto la entrada B");
+            registro.escribir("El monitor "+monitor.getID()+" ha abierto la entrada B");
             entradaB.abrir();
             colaMonitoresB.countDown();
             entradaB.sacarMonitor(monitor);
             actualizarInterfazEntradasMonitores(); 
         }
         else{
-            System.out.println("Un monitor ha elegido abrir una entrada inválida");
+            registro.escribir("Un monitor ha elegido abrir una entrada inválida");
         }
     }
     
@@ -336,5 +338,9 @@ public class Campamento {
     
     public void comprobarPausa(){
         interfaz.comprobarPausa(); 
+    }
+    
+    public void escribirRegistro(String t){
+        registro.escribir(t);
     }
 }

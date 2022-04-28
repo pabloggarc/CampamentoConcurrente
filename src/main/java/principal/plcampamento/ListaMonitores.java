@@ -4,9 +4,11 @@ import java.util.ArrayList;
 
 public class ListaMonitores {
     private ArrayList<Monitor> monitores; 
+    private Registro registro; 
     
-    public ListaMonitores(){
+    public ListaMonitores(Registro registro){
         this.monitores=new ArrayList<Monitor>(); 
+        this.registro=registro; 
     }
     
     public synchronized void meterMonitor(Monitor monitor){
@@ -18,7 +20,7 @@ public class ListaMonitores {
             monitores.remove(monitor); 
         }
         else{
-            System.out.println("Error al sacar al "+monitor.getID());
+            registro.escribir("Error al sacar al "+monitor.getID());
         }
     }
     

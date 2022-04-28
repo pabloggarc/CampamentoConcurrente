@@ -4,9 +4,11 @@ import java.util.ArrayList;
 
 public class ListaCampistas {
     private ArrayList<Campista> campistas; 
+    private Registro registro; 
     
-    public ListaCampistas(){
+    public ListaCampistas(Registro registro){
         this.campistas=new ArrayList<Campista>(); 
+        this.registro=registro; 
     }
     
     public synchronized void meterCampista(Campista campista){
@@ -18,7 +20,7 @@ public class ListaCampistas {
             campistas.remove(campista); 
         }
         else{
-            System.out.println("Error al colocar al campista "+campista.getID()+" en una entrada");
+            registro.escribir("Error al colocar al campista "+campista.getID()+" en una entrada");
         }
     }
     

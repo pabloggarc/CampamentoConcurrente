@@ -5,9 +5,11 @@ import javax.swing.UIManager;
 public class Interfaz extends javax.swing.JFrame {
     
     private Pausa pausa; 
+    private Registro registro; 
 
-    public Interfaz(Pausa pausa) {
+    public Interfaz(Pausa pausa, Registro registro) {
         this.pausa=pausa; 
+        this.registro=registro; 
         initComponents();
         
         //Look de Windows 10
@@ -84,6 +86,9 @@ public class Interfaz extends javax.swing.JFrame {
         textoEntradaAMonitor = new javax.swing.JTextPane();
         zonaTextoEntradaBMonitor = new javax.swing.JScrollPane();
         textoEntradaBMonitor = new javax.swing.JTextPane();
+        zonaTextoMerenderoEspera = new javax.swing.JScrollPane();
+        textoMerenderoEspera = new javax.swing.JTextPane();
+        botonConsultarEstadísticas = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("Campamento Programación Avanzada");
@@ -241,46 +246,46 @@ public class Interfaz extends javax.swing.JFrame {
         labelMerendero.setFont(new java.awt.Font("Dialog", 1, 21)); // NOI18N
         labelMerendero.setText("MERENDERO");
         getContentPane().add(labelMerendero);
-        labelMerendero.setBounds(900, 420, 150, 30);
+        labelMerendero.setBounds(890, 390, 150, 30);
 
         textoMerendero.setEditable(false);
         zonaTextoMerendero.setViewportView(textoMerendero);
 
         getContentPane().add(zonaTextoMerendero);
-        zonaTextoMerendero.setBounds(670, 480, 580, 40);
+        zonaTextoMerendero.setBounds(670, 540, 580, 40);
 
         labelMerenderoMonitores.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         labelMerenderoMonitores.setText("Monitores");
         getContentPane().add(labelMerenderoMonitores);
-        labelMerenderoMonitores.setBounds(670, 540, 160, 30);
+        labelMerenderoMonitores.setBounds(670, 610, 160, 30);
 
         textoMerenderoMonitores.setEditable(false);
         zonaTextoMerenderoMonitores.setViewportView(textoMerenderoMonitores);
 
         getContentPane().add(zonaTextoMerenderoMonitores);
-        zonaTextoMerenderoMonitores.setBounds(750, 540, 150, 30);
+        zonaTextoMerenderoMonitores.setBounds(750, 610, 150, 30);
 
         labelMerenderoBandejasSucias.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         labelMerenderoBandejasSucias.setText("Bandejas sucias");
         getContentPane().add(labelMerenderoBandejasSucias);
-        labelMerenderoBandejasSucias.setBounds(920, 540, 110, 30);
+        labelMerenderoBandejasSucias.setBounds(920, 610, 110, 30);
 
         labelMerenderoBandejasListas.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         labelMerenderoBandejasListas.setText("Bandejas listas");
         getContentPane().add(labelMerenderoBandejasListas);
-        labelMerenderoBandejasListas.setBounds(1100, 540, 100, 30);
+        labelMerenderoBandejasListas.setBounds(1100, 610, 100, 30);
 
         textoMerenderoSucias.setEditable(false);
         zonaTextoMerenderoSucias.setViewportView(textoMerenderoSucias);
 
         getContentPane().add(zonaTextoMerenderoSucias);
-        zonaTextoMerenderoSucias.setBounds(1040, 540, 40, 30);
+        zonaTextoMerenderoSucias.setBounds(1040, 610, 40, 30);
 
         textoMerenderoLimpias.setEditable(false);
         zonaTextoMerenderoLimpias.setViewportView(textoMerenderoLimpias);
 
         getContentPane().add(zonaTextoMerenderoLimpias);
-        zonaTextoMerenderoLimpias.setBounds(1210, 540, 40, 30);
+        zonaTextoMerenderoLimpias.setBounds(1210, 610, 40, 30);
 
         botonFinalizar.setFont(new java.awt.Font("Dialog", 0, 20)); // NOI18N
         botonFinalizar.setText("Finalizar");
@@ -290,7 +295,7 @@ public class Interfaz extends javax.swing.JFrame {
             }
         });
         getContentPane().add(botonFinalizar);
-        botonFinalizar.setBounds(720, 630, 210, 80);
+        botonFinalizar.setBounds(670, 680, 150, 60);
 
         botonPararContinuar.setFont(new java.awt.Font("Dialog", 0, 20)); // NOI18N
         botonPararContinuar.setText("Parar/Continuar");
@@ -300,7 +305,7 @@ public class Interfaz extends javax.swing.JFrame {
             }
         });
         getContentPane().add(botonPararContinuar);
-        botonPararContinuar.setBounds(1000, 630, 210, 80);
+        botonPararContinuar.setBounds(870, 680, 190, 60);
 
         textoEntradaAMonitor.setEditable(false);
         zonaTextoEntradaAMonitor.setViewportView(textoEntradaAMonitor);
@@ -314,10 +319,27 @@ public class Interfaz extends javax.swing.JFrame {
         getContentPane().add(zonaTextoEntradaBMonitor);
         zonaTextoEntradaBMonitor.setBounds(660, 40, 90, 30);
 
+        textoMerenderoEspera.setEditable(false);
+        zonaTextoMerenderoEspera.setViewportView(textoMerenderoEspera);
+
+        getContentPane().add(zonaTextoMerenderoEspera);
+        zonaTextoMerenderoEspera.setBounds(670, 480, 580, 40);
+
+        botonConsultarEstadísticas.setFont(new java.awt.Font("Dialog", 0, 20)); // NOI18N
+        botonConsultarEstadísticas.setText("Estadísticas");
+        botonConsultarEstadísticas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonConsultarEstadísticasActionPerformed(evt);
+            }
+        });
+        getContentPane().add(botonConsultarEstadísticas);
+        botonConsultarEstadísticas.setBounds(1100, 680, 150, 60);
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void botonFinalizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonFinalizarActionPerformed
+        registro.cerrarRegistro();
         System.exit(0); 
     }//GEN-LAST:event_botonFinalizarActionPerformed
 
@@ -330,8 +352,13 @@ public class Interfaz extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_botonPararContinuarActionPerformed
 
+    private void botonConsultarEstadísticasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonConsultarEstadísticasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_botonConsultarEstadísticasActionPerformed
+
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton botonConsultarEstadísticas;
     private javax.swing.JToggleButton botonFinalizar;
     private javax.swing.JToggleButton botonPararContinuar;
     private javax.swing.JLabel labelMerendero;
@@ -355,6 +382,7 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JTextPane textoEntradaAMonitor;
     private javax.swing.JTextPane textoEntradaBMonitor;
     private javax.swing.JTextPane textoMerendero;
+    private javax.swing.JTextPane textoMerenderoEspera;
     private javax.swing.JTextPane textoMerenderoLimpias;
     private javax.swing.JTextPane textoMerenderoMonitores;
     private javax.swing.JTextPane textoMerenderoSucias;
@@ -374,6 +402,7 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JScrollPane zonaTextoEntradaAMonitor;
     private javax.swing.JScrollPane zonaTextoEntradaBMonitor;
     private javax.swing.JScrollPane zonaTextoMerendero;
+    private javax.swing.JScrollPane zonaTextoMerenderoEspera;
     private javax.swing.JScrollPane zonaTextoMerenderoLimpias;
     private javax.swing.JScrollPane zonaTextoMerenderoMonitores;
     private javax.swing.JScrollPane zonaTextoMerenderoSucias;
@@ -466,6 +495,10 @@ public class Interfaz extends javax.swing.JFrame {
     
     public synchronized void setTextoEntradaBMonitores(String t){
         textoEntradaBMonitor.setText(t);
+    }
+    
+    public synchronized void setTextoMerenderoEspera(String t){
+        textoMerenderoEspera.setText(t);
     }
     
     public void comprobarPausa(){

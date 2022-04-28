@@ -13,17 +13,19 @@ public class Soga {
     private CyclicBarrier esperaSoga;
     private boolean ganadorA; 
     private Interfaz interfaz; 
+    private Registro registro; 
 
-    public Soga(Interfaz interfaz){
-        this.campistas=new ListaCampistas(); 
-        this.equipoA=new ListaCampistas(); 
-        this.equipoB=new ListaCampistas(); 
+    public Soga(Interfaz interfaz, Registro registro){
+        this.campistas=new ListaCampistas(registro); 
+        this.equipoA=new ListaCampistas(registro); 
+        this.equipoB=new ListaCampistas(registro); 
         this.monitor=null; 
         this.control=new ReentrantLock(); 
         this.aforo=0; 
         this.esperaSoga=new CyclicBarrier(11); 
         this.ganadorA=false; 
         this.interfaz=interfaz; 
+        this.registro=registro; 
     }
     
     public boolean entrarSoga(Campista campista){
@@ -47,13 +49,13 @@ public class Soga {
             interfaz.comprobarPausa();
             campistas.meterCampista(campista);
             interfaz.setTextoSoga(campistas.getIntegrantes());
-            System.out.println("El campista "+campista.getID()+" espera para competir en la soga");
+            registro.escribir("El campista "+campista.getID()+" espera para competir en la soga");
 
             try{
                 esperaSoga.await(); 
             }
             catch(Exception e){
-                System.out.println("Error mientras el campista "+campista.getID()+" espera a que llegue un monitor a la soga");
+                registro.escribir("Error mientras el campista "+campista.getID()+" espera a que llegue un monitor a la soga");
             }
             
             interfaz.comprobarPausa();
@@ -63,12 +65,12 @@ public class Soga {
                 esperaSoga.await(); 
             }
             catch(Exception e){
-                System.out.println("Error mientras el campista espera a que el monitor haga los equipos");
+                registro.escribir("Error mientras el campista espera a que el monitor haga los equipos");
             }
             
             interfaz.comprobarPausa();
             
-            System.out.println("El campista "+campista.getID()+" tira de la soga!");
+            registro.escribir("El campista "+campista.getID()+" tira de la soga!");
         }
         return id; 
     }
@@ -80,12 +82,12 @@ public class Soga {
         if(this.monitor==null){
             this.monitor=monitor;
             interfaz.setTextoSogaMonitor(monitor.getID());
-            System.out.println("El monitor "+monitor.getID()+" llega a la actividad de soga");
+            registro.escribir("El monitor "+monitor.getID()+" llega a la actividad de soga");
             
             return true; 
         }
         else{
-            System.out.println("El monitor "+monitor.getID()+" no gestiona la soga porque ya hay otro monitor");
+            registro.escribir("El monitor "+monitor.getID()+" no gestiona la soga porque ya hay otro monitor");
             return false; 
         }
     }
@@ -95,7 +97,7 @@ public class Soga {
         
         interfaz.comprobarPausa();
         control.lock(); 
-        System.out.println("El campista "+campista.getID()+" abandona la actividad de soga");
+        registro.escribir("El campista "+campista.getID()+" abandona la actividad de soga");
         aforo--; 
         control.unlock(); 
     }
@@ -104,7 +106,7 @@ public class Soga {
         //Simula la salida del monitor de la actividad de soga
         
         interfaz.comprobarPausa();
-        System.out.println("El monitor "+monitor.getID()+" abandona la soga");
+        registro.escribir("El monitor "+monitor.getID()+" abandona la soga");
         this.monitor=null;
         interfaz.setTextoSogaMonitor("");
     }
@@ -116,7 +118,7 @@ public class Soga {
             esperaSoga.await(); 
         }
         catch(Exception e){
-            System.out.println("Error cuando un monitor o campista avisa al resto");
+            registro.escribir("Error cuando un monitor o campista avisa al resto");
         }
     }
     
@@ -141,9 +143,9 @@ public class Soga {
         //Simula el fin de la actividad y la prepara para los siguientes campistas
         
         interfaz.comprobarPausa();
-        campistas=new ListaCampistas(); 
-        equipoA=new ListaCampistas(); 
-        equipoB=new ListaCampistas(); 
+        campistas=new ListaCampistas(registro); 
+        equipoA=new ListaCampistas(registro); 
+        equipoB=new ListaCampistas(registro); 
         ganadorA=false; 
         
         interfaz.setTextoSoga("");

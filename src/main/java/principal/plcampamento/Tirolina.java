@@ -10,14 +10,16 @@ public class Tirolina {
     private Semaphore aforo; 
     private CyclicBarrier esperaTirolina;
     private Interfaz interfaz; 
+    private Registro registro; 
     
-    public Tirolina(Interfaz interfaz){
-        this.campistas=new ListaCampistas();  
+    public Tirolina(Interfaz interfaz, Registro registro){
+        this.campistas=new ListaCampistas(registro);  
         this.monitor=null;  
         this.campista=null; 
         this.aforo=new Semaphore(1, true); 
         this.esperaTirolina=new CyclicBarrier(2); 
-        this.interfaz=interfaz; 
+        this.interfaz=interfaz;
+        this.registro=registro; 
     }
     
     public void entrarTirolina(Campista campista){
@@ -28,12 +30,12 @@ public class Tirolina {
         
         interfaz.comprobarPausa();
         campistas.meterCampista(campista);
-        System.out.println("El campista "+campista.getID()+" se ha puesto a la cola de la tirolina");
+        registro.escribir("El campista "+campista.getID()+" se ha puesto a la cola de la tirolina");
         try{
             aforo.acquire();
         }
         catch(InterruptedException ie){
-            System.out.println("Error cuando el campista "+campista.getID()+" intenta coger turno de tirolina");
+            registro.escribir("Error cuando el campista "+campista.getID()+" intenta coger turno de tirolina");
         }
         
         interfaz.comprobarPausa();
@@ -43,7 +45,7 @@ public class Tirolina {
             esperaTirolina.await(); 
         }
         catch(Exception e){
-            System.out.println("Error al esperar a la llegada del monitor");
+            registro.escribir("Error al esperar a la llegada del monitor");
         }
         
         this.campista=campista; 
@@ -53,10 +55,10 @@ public class Tirolina {
             esperaTirolina.await(); 
         }
         catch(Exception e){
-            System.out.println("Error al esperar a que el monitor prepare al campista "+campista.getID());
+            registro.escribir("Error al esperar a que el monitor prepare al campista "+campista.getID());
         }
         interfaz.comprobarPausa();
-        System.out.println("El campista "+campista.getID()+" se tira por la tirolina!");
+        registro.escribir("El campista "+campista.getID()+" se tira por la tirolina!");
         
         interfaz.setTextoTirolinaCampistaPreparacion("");
         interfaz.setTextoTirolinaTirandose(campista.getID());
@@ -68,7 +70,7 @@ public class Tirolina {
         
         interfaz.comprobarPausa();
         if(this.monitor!=null){
-            System.out.println("Error cuando el monitor "+monitor.getID()+" entraba en la tirolina, ya había uno");
+            registro.escribir("Error cuando el monitor "+monitor.getID()+" entraba en la tirolina, ya había uno");
         }
         else{
             this.monitor=monitor; 
@@ -85,7 +87,7 @@ public class Tirolina {
         
         interfaz.setTextoTirolinaTirandose("");
         interfaz.setTextoTirolina(campistas.getIntegrantes()); 
-        System.out.println("El campista "+campista.getID()+" se baja de la tirolina");
+        registro.escribir("El campista "+campista.getID()+" se baja de la tirolina");
         
         aforo.release(); 
     }
@@ -97,7 +99,7 @@ public class Tirolina {
         this.monitor=null; 
         
         interfaz.setTextoTirolinaMonitor("");
-        System.out.println("El monitor "+monitor.getID()+" ha lanzado a 10 campistas y se marcha de la tirolina");
+        registro.escribir("El monitor "+monitor.getID()+" ha lanzado a 10 campistas y se marcha de la tirolina");
     }
     
     public void avisarCampista(Monitor monitor){
@@ -107,7 +109,7 @@ public class Tirolina {
             esperaTirolina.await(); 
         }
         catch(Exception e){
-            System.out.println("Error mientras el monitor notifica a un campista en la tirolina");
+            registro.escribir("Error mientras el monitor notifica a un campista en la tirolina");
         }
     }
 }
