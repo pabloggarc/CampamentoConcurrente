@@ -5,7 +5,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import principal.plcampamento.Campamento;
+import parte1.Campamento;
 
 public class Servidor extends Thread{
     private ExecutorService pool; 

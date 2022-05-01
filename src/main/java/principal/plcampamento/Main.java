@@ -1,5 +1,6 @@
 package principal.plcampamento;
 
+import parte1.*;
 import parte2.*; 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;

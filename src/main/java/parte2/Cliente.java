@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.net.Socket;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
-import principal.plcampamento.Registro;
+import parte1.Registro;
 
 public class Cliente extends javax.swing.JFrame {
     

@@ -4,7 +4,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
-import principal.plcampamento.Campamento;
+import parte1.Campamento;
 
 public class RespuestaServidor implements Runnable{
     private Campamento campamento; 
