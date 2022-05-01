@@ -2,6 +2,7 @@ package principal.plcampamento;
 
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.atomic.AtomicIntegerArray;
 
 public class Merendero {
     private ListaCampistas campistas; 
@@ -12,6 +13,7 @@ public class Merendero {
     private LinkedBlockingQueue pilaLimpias; 
     private Interfaz interfaz; 
     private Registro registro; 
+    private AtomicIntegerArray estadisticas; 
     
     public Merendero(Interfaz interfaz, Registro registro){
         this.campistas=new ListaCampistas(registro); 
@@ -22,11 +24,13 @@ public class Merendero {
         this.pilaLimpias=new LinkedBlockingQueue(25); 
         this.interfaz=interfaz; 
         this.registro=registro; 
+        this.estadisticas=new AtomicIntegerArray(3); 
         
         for(int i=1; i<=25; i++){
             interfaz.comprobarPausa();
             try{
                 pilaSucias.put(new Bandeja(i));
+                estadisticas.incrementAndGet(1); 
                 interfaz.setTextoMerenderoBandejasSucias(Integer.toString(pilaSucias.size())); 
             }
             catch(InterruptedException ie){
@@ -40,6 +44,8 @@ public class Merendero {
         try{
             interfaz.comprobarPausa();
             b=(Bandeja)pilaLimpias.take();
+            estadisticas.decrementAndGet(2); 
+            estadisticas.incrementAndGet(0); 
             actualizarInterfazBandejas();  
             registro.escribir("El campista "+campista.getID()+" coge la merienda "+b.getID());
         }
@@ -56,6 +62,7 @@ public class Merendero {
         try{
             interfaz.comprobarPausa();
             b=(Bandeja)pilaSucias.take();
+            estadisticas.decrementAndGet(1); 
             actualizarInterfazBandejas();  
             registro.escribir("El monitor "+monitor.getID()+" empieza a preparar la merienda "+b.getID());
         }
@@ -72,6 +79,8 @@ public class Merendero {
             interfaz.comprobarPausa();
             registro.escribir("El campista "+campista.getID()+" deja la bandeja "+bandeja.getID());
             pilaSucias.put(bandeja); 
+            estadisticas.incrementAndGet(1); 
+            estadisticas.decrementAndGet(0); 
             actualizarInterfazBandejas(); 
         }
         catch(InterruptedException ie){
@@ -83,7 +92,8 @@ public class Merendero {
         try{
             interfaz.comprobarPausa();
             registro.escribir("El monitor "+monitor.getID()+" ha preparado la merienda "+bandeja.getID());
-            pilaLimpias.put(bandeja); 
+            pilaLimpias.put(bandeja);
+            estadisticas.incrementAndGet(2); 
             actualizarInterfazBandejas(); 
         }
         catch(InterruptedException ie){
@@ -133,5 +143,9 @@ public class Merendero {
     public void actualizarInterfazBandejas(){
         interfaz.setTextoMerenderoBandejasSucias(Integer.toString(pilaSucias.size())); 
         interfaz.setTextoMerenderoBandejasListas(Integer.toString(pilaLimpias.size()));
+    }
+    
+    public AtomicIntegerArray getEstadisticas(){
+        return estadisticas; 
     }
 }

@@ -17,6 +17,7 @@ public class Campista extends Thread{
     
     public void incSogas(){
         actividades[0]++; 
+        campamento.incrementarEstadisticas(Integer.parseInt(identificador.substring(1))); 
     }
     
     public int getTirolinas(){
@@ -25,6 +26,7 @@ public class Campista extends Thread{
     
     public void incTirolinas(){
         actividades[1]++; 
+        campamento.incrementarEstadisticas(Integer.parseInt(identificador.substring(1))); 
     }
     
     public int getMeriendas(){
@@ -33,6 +35,7 @@ public class Campista extends Thread{
     
     public void incMeriendas(){
         actividades[2]++; 
+        campamento.incrementarEstadisticas(Integer.parseInt(identificador.substring(1))); 
     }
     
     public int getActividades(){

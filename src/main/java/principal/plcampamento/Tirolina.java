@@ -2,6 +2,7 @@ package principal.plcampamento;
 
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.atomic.AtomicIntegerArray;
 
 public class Tirolina {
     private ListaCampistas campistas; 
@@ -11,6 +12,7 @@ public class Tirolina {
     private CyclicBarrier esperaTirolina;
     private Interfaz interfaz; 
     private Registro registro; 
+    private AtomicIntegerArray estadisticas; 
     
     public Tirolina(Interfaz interfaz, Registro registro){
         this.campistas=new ListaCampistas(registro);  
@@ -20,6 +22,7 @@ public class Tirolina {
         this.esperaTirolina=new CyclicBarrier(2); 
         this.interfaz=interfaz;
         this.registro=registro; 
+        this.estadisticas=new AtomicIntegerArray(2); 
     }
     
     public void entrarTirolina(Campista campista){
@@ -30,6 +33,7 @@ public class Tirolina {
         
         interfaz.comprobarPausa();
         campistas.meterCampista(campista);
+        estadisticas.incrementAndGet(0); 
         registro.escribir("El campista "+campista.getID()+" se ha puesto a la cola de la tirolina");
         try{
             aforo.acquire();
@@ -38,6 +42,7 @@ public class Tirolina {
             registro.escribir("Error cuando el campista "+campista.getID()+" intenta coger turno de tirolina");
         }
         
+        estadisticas.decrementAndGet(0); 
         interfaz.comprobarPausa();
         interfaz.setTextoTirolina(campistas.getIntegrantes());
         
@@ -89,6 +94,7 @@ public class Tirolina {
         interfaz.setTextoTirolina(campistas.getIntegrantes()); 
         registro.escribir("El campista "+campista.getID()+" se baja de la tirolina");
         
+        estadisticas.incrementAndGet(1); 
         aforo.release(); 
     }
     
@@ -111,5 +117,11 @@ public class Tirolina {
         catch(Exception e){
             registro.escribir("Error mientras el monitor notifica a un campista en la tirolina");
         }
+    }
+    
+    public AtomicIntegerArray getEstadisticas(){
+        //Devuelve estadisticas {esperando, usos} para la parte 2
+        
+        return estadisticas; 
     }
 }

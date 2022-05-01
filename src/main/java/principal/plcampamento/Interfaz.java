@@ -1,6 +1,7 @@
 package principal.plcampamento;
 
 import javax.swing.UIManager;
+import parte2.Cliente;
 
 public class Interfaz extends javax.swing.JFrame {
     
@@ -88,7 +89,7 @@ public class Interfaz extends javax.swing.JFrame {
         textoEntradaBMonitor = new javax.swing.JTextPane();
         zonaTextoMerenderoEspera = new javax.swing.JScrollPane();
         textoMerenderoEspera = new javax.swing.JTextPane();
-        botonConsultarEstadísticas = new javax.swing.JButton();
+        botonConsultarEstadisticas = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("Campamento Programación Avanzada");
@@ -325,15 +326,15 @@ public class Interfaz extends javax.swing.JFrame {
         getContentPane().add(zonaTextoMerenderoEspera);
         zonaTextoMerenderoEspera.setBounds(670, 480, 580, 40);
 
-        botonConsultarEstadísticas.setFont(new java.awt.Font("Dialog", 0, 20)); // NOI18N
-        botonConsultarEstadísticas.setText("Estadísticas");
-        botonConsultarEstadísticas.addActionListener(new java.awt.event.ActionListener() {
+        botonConsultarEstadisticas.setFont(new java.awt.Font("Dialog", 0, 20)); // NOI18N
+        botonConsultarEstadisticas.setText("Estadísticas");
+        botonConsultarEstadisticas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonConsultarEstadísticasActionPerformed(evt);
+                botonConsultarEstadisticasActionPerformed(evt);
             }
         });
-        getContentPane().add(botonConsultarEstadísticas);
-        botonConsultarEstadísticas.setBounds(1100, 680, 150, 60);
+        getContentPane().add(botonConsultarEstadisticas);
+        botonConsultarEstadisticas.setBounds(1100, 680, 150, 60);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -352,13 +353,14 @@ public class Interfaz extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_botonPararContinuarActionPerformed
 
-    private void botonConsultarEstadísticasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonConsultarEstadísticasActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_botonConsultarEstadísticasActionPerformed
+    private void botonConsultarEstadisticasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonConsultarEstadisticasActionPerformed
+        Cliente interfazEstadisticas=new Cliente(registro); 
+        interfazEstadisticas.setVisible(true);
+    }//GEN-LAST:event_botonConsultarEstadisticasActionPerformed
 
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton botonConsultarEstadísticas;
+    private javax.swing.JButton botonConsultarEstadisticas;
     private javax.swing.JToggleButton botonFinalizar;
     private javax.swing.JToggleButton botonPararContinuar;
     private javax.swing.JLabel labelMerendero;

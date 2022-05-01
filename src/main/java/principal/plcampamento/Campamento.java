@@ -17,6 +17,7 @@ public class Campamento {
     private CountDownLatch colaMonitoresA; 
     private CountDownLatch colaMonitoresB; 
     private AtomicIntegerArray ocupacionesMonitores; 
+    private int[] estadisticasCampistas; 
     private Interfaz interfaz; 
     private Registro registro; 
     
@@ -32,6 +33,7 @@ public class Campamento {
         this.colaMonitoresA=new CountDownLatch(1);
         this.colaMonitoresB=new CountDownLatch(1);
         this.ocupacionesMonitores=new AtomicIntegerArray(3); 
+        this.estadisticasCampistas=new int[20000]; 
         this.interfaz=interfaz; 
         this.registro=registro; 
     }
@@ -342,5 +344,41 @@ public class Campamento {
     
     public void escribirRegistro(String t){
         registro.escribir(t);
+    }
+    
+    public int getEsperaTirolina(){
+        return tirolina.getEstadisticas().get(0); 
+    }
+    
+    public int getUsosTirolina(){
+        return tirolina.getEstadisticas().get(1); 
+    }
+    
+    public int getCampistasSoga(){
+        return soga.getNParticipantes(); 
+    }
+    
+    public int getCampistasMerendando(){
+        return merendero.getEstadisticas().get(0); 
+    }
+    
+    public int getBandejasSucias(){
+        return merendero.getEstadisticas().get(1); 
+    }
+    
+    public int getBandejasLimpias(){
+        return merendero.getEstadisticas().get(2); 
+    }
+    
+    public void incrementarEstadisticas(int campista){
+        estadisticasCampistas[campista-1]++; 
+    }
+    
+    public void decrementarEstadisticas(int campista){
+        estadisticasCampistas[campista-1]--; 
+    }
+    
+    public int getActividadesCampista(int campista){
+        return estadisticasCampistas[campista-1]; 
     }
 }

@@ -190,4 +190,8 @@ public class Soga {
         }
     }
     
+    public int getNParticipantes(){
+        return campistas.cuantosIntegrantes(); 
+    }
+    
 }
