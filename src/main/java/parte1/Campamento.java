@@ -370,15 +370,15 @@ public class Campamento {
         return merendero.getEstadisticas().get(2); 
     }
     
-    public void incrementarEstadisticas(int campista){
+    public synchronized void incrementarEstadisticas(int campista){
         estadisticasCampistas[campista-1]++; 
     }
     
-    public void decrementarEstadisticas(int campista){
+    public synchronized void decrementarEstadisticas(int campista){
         estadisticasCampistas[campista-1]--; 
     }
     
-    public int getActividadesCampista(int campista){
+    public synchronized int getActividadesCampista(int campista){
         return estadisticasCampistas[campista-1]; 
     }
 }

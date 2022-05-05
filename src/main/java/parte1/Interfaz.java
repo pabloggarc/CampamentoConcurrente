@@ -90,10 +90,12 @@ public class Interfaz extends javax.swing.JFrame {
         zonaTextoMerenderoEspera = new javax.swing.JScrollPane();
         textoMerenderoEspera = new javax.swing.JTextPane();
         botonConsultarEstadisticas = new javax.swing.JButton();
+        labelTituloMerendero = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("Campamento Programación Avanzada");
         setMinimumSize(new java.awt.Dimension(1280, 810));
+        setResizable(false);
         getContentPane().setLayout(null);
 
         labelPuertaB.setFont(new java.awt.Font("Dialog", 1, 21)); // NOI18N
@@ -290,6 +292,7 @@ public class Interfaz extends javax.swing.JFrame {
 
         botonFinalizar.setFont(new java.awt.Font("Dialog", 0, 20)); // NOI18N
         botonFinalizar.setText("Finalizar");
+        botonFinalizar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         botonFinalizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonFinalizarActionPerformed(evt);
@@ -300,6 +303,7 @@ public class Interfaz extends javax.swing.JFrame {
 
         botonPararContinuar.setFont(new java.awt.Font("Dialog", 0, 20)); // NOI18N
         botonPararContinuar.setText("Parar/Continuar");
+        botonPararContinuar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         botonPararContinuar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonPararContinuarActionPerformed(evt);
@@ -328,6 +332,7 @@ public class Interfaz extends javax.swing.JFrame {
 
         botonConsultarEstadisticas.setFont(new java.awt.Font("Dialog", 0, 20)); // NOI18N
         botonConsultarEstadisticas.setText("Estadísticas");
+        botonConsultarEstadisticas.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         botonConsultarEstadisticas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonConsultarEstadisticasActionPerformed(evt);
@@ -335,6 +340,11 @@ public class Interfaz extends javax.swing.JFrame {
         });
         getContentPane().add(botonConsultarEstadisticas);
         botonConsultarEstadisticas.setBounds(1100, 680, 150, 60);
+
+        labelTituloMerendero.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        labelTituloMerendero.setText("Esperando comidas/comiendo");
+        getContentPane().add(labelTituloMerendero);
+        labelTituloMerendero.setBounds(670, 446, 200, 20);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -378,6 +388,7 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JLabel labelTirolinaCampista;
     private javax.swing.JLabel labelTirolinaCampistaPrep;
     private javax.swing.JLabel labelTirolinaMonitor;
+    private javax.swing.JLabel labelTituloMerendero;
     private javax.swing.JLabel labelZonaComun;
     private javax.swing.JLabel labelZonaDescansoCampistas;
     private javax.swing.JLabel labelZonaDescansoMonitores;

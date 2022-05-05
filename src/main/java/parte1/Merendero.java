@@ -41,11 +41,20 @@ public class Merendero {
     
     public Bandeja cogerBandeja(Campista campista){
         Bandeja b=new Bandeja(0); 
+        campistasEspera.meterCampista(campista);
+        interfaz.setTextoMerenderoEspera(campistasEspera.getIntegrantes());
+        
         try{
             interfaz.comprobarPausa();
+            
             b=(Bandeja)pilaLimpias.take();
+            
+            campistasEspera.sacarCampista(campista);
+            interfaz.setTextoMerenderoEspera(campistasEspera.getIntegrantes());
+            
             estadisticas.decrementAndGet(2); 
             estadisticas.incrementAndGet(0); 
+            
             actualizarInterfazBandejas();  
             registro.escribir("El campista "+campista.getID()+" coge la merienda "+b.getID());
         }
@@ -117,13 +126,9 @@ public class Merendero {
     
     public void entrar(Campista campista){
         interfaz.comprobarPausa();
-        campistasEspera.meterCampista(campista);
-        interfaz.setTextoMerenderoEspera(campistasEspera.getIntegrantes());
         try{
             aforo.acquire();
             interfaz.comprobarPausa();
-            campistasEspera.sacarCampista(campista);
-            interfaz.setTextoMerenderoEspera(campistasEspera.getIntegrantes());
         }
         catch(InterruptedException ie){
             registro.escribir("Error cuando el campista "+campista.getID()+" intentaba entrar al merendero");
