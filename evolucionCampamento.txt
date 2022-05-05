@@ -20151,3 +20151,2292 @@ EQUIPO B: N70, N60, N67, N63, N71
 [2022-05-05T13:04:59]  El campista N1 sale de la zona común
 [2022-05-05T13:04:59]  El campista N1 se dispone a merendar
 [2022-05-05T13:04:59]  El campista N1 coge la merienda Bandeja2
+[2022-05-05T19:24:19]  --------------------EJECUCIÓN 2022-05-05T19:24:19--------------------
+[2022-05-05T19:24:19]  Servidor conectado!
+[2022-05-05T19:24:23]  El campista N1 ha llegado al campamento
+[2022-05-05T19:24:23]  El campista N1 se sitúa en la entrada B
+[2022-05-05T19:24:24]  El monitor M1 se sitúa en la entrada B
+[2022-05-05T19:24:25]  El monitor M1 ha abierto la entrada B
+[2022-05-05T19:24:25]  El monitor M1 ha entrado (B) dentro del campamento 
+[2022-05-05T19:24:25]  El campista N1 ha entrado (B) dentro del campamento
+[2022-05-05T19:24:25]  El campista N1 elige tirarse por la tirolina
+[2022-05-05T19:24:25]  El monitor M1 va a preparar meriendas
+[2022-05-05T19:24:25]  El campista N1 se ha puesto a la cola de la tirolina
+[2022-05-05T19:24:25]  El monitor M1 empieza a preparar la merienda Bandeja1
+[2022-05-05T19:24:26]  El monitor M4 se sitúa en la entrada A
+[2022-05-05T19:24:26]  El campista N2 ha llegado al campamento
+[2022-05-05T19:24:26]  El campista N2 se sitúa en la entrada B
+[2022-05-05T19:24:26]  El campista N2 ha entrado (B) dentro del campamento
+[2022-05-05T19:24:26]  El campista N2 elige tirarse por la tirolina
+[2022-05-05T19:24:26]  El campista N2 se ha puesto a la cola de la tirolina
+[2022-05-05T19:24:27]  El monitor M4 ha abierto la entrada A
+[2022-05-05T19:24:27]  El monitor M4 ha entrado (A) dentro del campamento 
+[2022-05-05T19:24:27]  El monitor M4 va a preparar meriendas
+[2022-05-05T19:24:27]  El monitor M4 empieza a preparar la merienda Bandeja2
+[2022-05-05T19:24:27]  El monitor M2 se sitúa en la entrada A
+[2022-05-05T19:24:27]  El monitor M2 ha entrado (A) dentro del campamento 
+[2022-05-05T19:24:27]  El monitor M2 llega a la tirolina
+[2022-05-05T19:24:27]  El monitor M2 prepara a un campista
+[2022-05-05T19:24:28]  El monitor M3 se sitúa en la entrada B
+[2022-05-05T19:24:28]  El monitor M3 ha entrado (B) dentro del campamento 
+[2022-05-05T19:24:28]  El monitor M3 llega a la actividad de soga
+[2022-05-05T19:24:28]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:24:28]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:24:28]  El campista N1 se tira por la tirolina!
+[2022-05-05T19:24:30]  El campista N3 ha llegado al campamento
+[2022-05-05T19:24:30]  El campista N3 se sitúa en la entrada A
+[2022-05-05T19:24:30]  El campista N3 ha entrado (A) dentro del campamento 
+[2022-05-05T19:24:30]  El campista N3 elige tirarse por la tirolina
+[2022-05-05T19:24:30]  El campista N3 se ha puesto a la cola de la tirolina
+[2022-05-05T19:24:32]  El campista N1 se baja de la tirolina
+[2022-05-05T19:24:32]  El monitor M2 prepara a un campista
+[2022-05-05T19:24:32]  El campista N1 descansa en la zona común
+[2022-05-05T19:24:32]  El monitor M1 ha preparado la merienda Bandeja1
+[2022-05-05T19:24:32]  El monitor M1 empieza a preparar la merienda Bandeja3
+[2022-05-05T19:24:33]  El campista N4 ha llegado al campamento
+[2022-05-05T19:24:33]  El campista N4 se sitúa en la entrada B
+[2022-05-05T19:24:33]  El campista N4 ha entrado (B) dentro del campamento
+[2022-05-05T19:24:33]  El campista N4 elige competir en la soga
+[2022-05-05T19:24:33]  El campista N4 espera para competir en la soga
+[2022-05-05T19:24:33]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:24:33]  El campista N2 se tira por la tirolina!
+[2022-05-05T19:24:34]  El monitor M4 ha preparado la merienda Bandeja2
+[2022-05-05T19:24:34]  El monitor M4 empieza a preparar la merienda Bandeja4
+[2022-05-05T19:24:36]  El campista N1 sale de la zona común
+[2022-05-05T19:24:36]  El campista N1 elige competir en la soga
+[2022-05-05T19:24:36]  El campista N1 espera para competir en la soga
+[2022-05-05T19:24:36]  El campista N5 ha llegado al campamento
+[2022-05-05T19:24:36]  El campista N5 se sitúa en la entrada B
+[2022-05-05T19:24:36]  El campista N5 ha entrado (B) dentro del campamento
+[2022-05-05T19:24:36]  El campista N5 elige tirarse por la tirolina
+[2022-05-05T19:24:36]  El campista N5 se ha puesto a la cola de la tirolina
+[2022-05-05T19:24:36]  El campista N2 se baja de la tirolina
+[2022-05-05T19:24:36]  El campista N2 descansa en la zona común
+[2022-05-05T19:24:36]  El monitor M2 prepara a un campista
+[2022-05-05T19:24:37]  El monitor M1 ha preparado la merienda Bandeja3
+[2022-05-05T19:24:37]  El monitor M1 empieza a preparar la merienda Bandeja5
+[2022-05-05T19:24:37]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:24:37]  El campista N3 se tira por la tirolina!
+[2022-05-05T19:24:39]  El monitor M4 ha preparado la merienda Bandeja4
+[2022-05-05T19:24:39]  El monitor M4 empieza a preparar la merienda Bandeja6
+[2022-05-05T19:24:41]  El campista N3 se baja de la tirolina
+[2022-05-05T19:24:41]  El campista N3 descansa en la zona común
+[2022-05-05T19:24:41]  El monitor M2 prepara a un campista
+[2022-05-05T19:24:41]  El campista N2 sale de la zona común
+[2022-05-05T19:24:41]  El campista N2 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:24:41]  El campista N2 elige competir en la soga
+[2022-05-05T19:24:41]  El campista N2 espera para competir en la soga
+[2022-05-05T19:24:42]  El campista N6 ha llegado al campamento
+[2022-05-05T19:24:42]  El campista N6 se sitúa en la entrada A
+[2022-05-05T19:24:42]  El campista N6 ha entrado (A) dentro del campamento 
+[2022-05-05T19:24:42]  El campista N6 elige competir en la soga
+[2022-05-05T19:24:42]  El campista N6 espera para competir en la soga
+[2022-05-05T19:24:42]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:24:42]  El campista N5 se tira por la tirolina!
+[2022-05-05T19:24:43]  El monitor M1 ha preparado la merienda Bandeja5
+[2022-05-05T19:24:43]  El monitor M1 empieza a preparar la merienda Bandeja7
+[2022-05-05T19:24:44]  El monitor M4 ha preparado la merienda Bandeja6
+[2022-05-05T19:24:44]  El monitor M4 empieza a preparar la merienda Bandeja8
+[2022-05-05T19:24:45]  El campista N5 se baja de la tirolina
+[2022-05-05T19:24:45]  El campista N5 descansa en la zona común
+[2022-05-05T19:24:45]  El campista N7 ha llegado al campamento
+[2022-05-05T19:24:45]  El campista N7 se sitúa en la entrada B
+[2022-05-05T19:24:45]  El campista N7 ha entrado (B) dentro del campamento
+[2022-05-05T19:24:45]  El campista N7 elige tirarse por la tirolina
+[2022-05-05T19:24:45]  El campista N7 se ha puesto a la cola de la tirolina
+[2022-05-05T19:24:45]  El monitor M2 prepara a un campista
+[2022-05-05T19:24:46]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:24:46]  El campista N7 se tira por la tirolina!
+[2022-05-05T19:24:47]  El campista N3 sale de la zona común
+[2022-05-05T19:24:47]  El campista N3 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:24:47]  El campista N3 elige competir en la soga
+[2022-05-05T19:24:47]  El campista N3 espera para competir en la soga
+[2022-05-05T19:24:49]  El monitor M1 ha preparado la merienda Bandeja7
+[2022-05-05T19:24:49]  El monitor M1 empieza a preparar la merienda Bandeja9
+[2022-05-05T19:24:49]  El campista N5 sale de la zona común
+[2022-05-05T19:24:49]  El campista N5 elige tirarse por la tirolina
+[2022-05-05T19:24:49]  El campista N5 se ha puesto a la cola de la tirolina
+[2022-05-05T19:24:50]  El campista N7 se baja de la tirolina
+[2022-05-05T19:24:50]  El campista N7 descansa en la zona común
+[2022-05-05T19:24:50]  El monitor M2 prepara a un campista
+[2022-05-05T19:24:50]  El campista N8 ha llegado al campamento
+[2022-05-05T19:24:50]  El campista N8 se sitúa en la entrada B
+[2022-05-05T19:24:50]  El campista N8 ha entrado (B) dentro del campamento
+[2022-05-05T19:24:50]  El campista N8 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:24:50]  El campista N8 elige competir en la soga
+[2022-05-05T19:24:50]  El campista N8 espera para competir en la soga
+[2022-05-05T19:24:51]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:24:51]  El campista N5 se tira por la tirolina!
+[2022-05-05T19:24:51]  El monitor M4 ha preparado la merienda Bandeja8
+[2022-05-05T19:24:51]  El monitor M4 empieza a preparar la merienda Bandeja10
+[2022-05-05T19:24:54]  El campista N9 ha llegado al campamento
+[2022-05-05T19:24:54]  El campista N9 se sitúa en la entrada B
+[2022-05-05T19:24:54]  El campista N9 ha entrado (B) dentro del campamento
+[2022-05-05T19:24:54]  El campista N9 elige competir en la soga
+[2022-05-05T19:24:54]  El campista N9 espera para competir en la soga
+[2022-05-05T19:24:54]  El campista N5 se baja de la tirolina
+[2022-05-05T19:24:54]  El campista N5 descansa en la zona común
+[2022-05-05T19:24:55]  El campista N7 sale de la zona común
+[2022-05-05T19:24:55]  El campista N7 elige competir en la soga
+[2022-05-05T19:24:55]  El campista N7 espera para competir en la soga
+[2022-05-05T19:24:55]  El monitor M1 ha preparado la merienda Bandeja9
+[2022-05-05T19:24:55]  El monitor M1 empieza a preparar la merienda Bandeja11
+[2022-05-05T19:24:58]  El monitor M4 ha preparado la merienda Bandeja10
+[2022-05-05T19:24:58]  El monitor M4 empieza a preparar la merienda Bandeja12
+[2022-05-05T19:25]  El campista N10 ha llegado al campamento
+[2022-05-05T19:25]  El campista N10 se sitúa en la entrada B
+[2022-05-05T19:25]  El campista N10 ha entrado (B) dentro del campamento
+[2022-05-05T19:25]  El campista N10 elige tirarse por la tirolina
+[2022-05-05T19:25]  El campista N10 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25]  El monitor M2 prepara a un campista
+[2022-05-05T19:25]  El campista N5 sale de la zona común
+[2022-05-05T19:25]  El campista N5 se dispone a merendar
+[2022-05-05T19:25]  El campista N5 coge la merienda Bandeja1
+[2022-05-05T19:25:01]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:25:01]  El campista N10 se tira por la tirolina!
+[2022-05-05T19:25:02]  El monitor M1 ha preparado la merienda Bandeja11
+[2022-05-05T19:25:02]  El monitor M1 empieza a preparar la merienda Bandeja13
+[2022-05-05T19:25:04]  El campista N11 ha llegado al campamento
+[2022-05-05T19:25:04]  El campista N11 se sitúa en la entrada B
+[2022-05-05T19:25:04]  El campista N11 ha entrado (B) dentro del campamento
+[2022-05-05T19:25:04]  El campista N11 elige competir en la soga
+[2022-05-05T19:25:04]  El campista N11 espera para competir en la soga
+[2022-05-05T19:25:05]  El campista N10 se baja de la tirolina
+[2022-05-05T19:25:05]  El campista N10 descansa en la zona común
+[2022-05-05T19:25:05]  El monitor M4 ha preparado la merienda Bandeja12
+[2022-05-05T19:25:05]  El monitor M4 empieza a preparar la merienda Bandeja14
+[2022-05-05T19:25:07]  El campista N5 deja la bandeja Bandeja1
+[2022-05-05T19:25:07]  El campista N5 descansa en la zona común
+[2022-05-05T19:25:08]  El campista N12 ha llegado al campamento
+[2022-05-05T19:25:08]  El campista N12 se sitúa en la entrada A
+[2022-05-05T19:25:08]  El campista N12 ha entrado (A) dentro del campamento 
+[2022-05-05T19:25:08]  El campista N12 elige competir en la soga
+[2022-05-05T19:25:08]  El campista N12 espera para competir en la soga
+[2022-05-05T19:25:08]  	------EQUIPOS SOGA------	
+EQUIPO A: N7, N12, N2, N8, N6
+EQUIPO B: N11, N3, N4, N9, N1
+	------------------------	
+
+[2022-05-05T19:25:08]  El campista N4 tira de la soga!
+[2022-05-05T19:25:08]  El campista N9 tira de la soga!
+[2022-05-05T19:25:08]  El campista N1 tira de la soga!
+[2022-05-05T19:25:08]  El campista N3 tira de la soga!
+[2022-05-05T19:25:08]  El campista N8 tira de la soga!
+[2022-05-05T19:25:08]  El campista N11 tira de la soga!
+[2022-05-05T19:25:08]  El campista N2 tira de la soga!
+[2022-05-05T19:25:08]  El campista N6 tira de la soga!
+[2022-05-05T19:25:08]  El campista N12 tira de la soga!
+[2022-05-05T19:25:08]  El campista N7 tira de la soga!
+[2022-05-05T19:25:08]  El monitor M1 ha preparado la merienda Bandeja13
+[2022-05-05T19:25:08]  El monitor M1 empieza a preparar la merienda Bandeja15
+[2022-05-05T19:25:09]  El campista N10 sale de la zona común
+[2022-05-05T19:25:09]  El campista N10 elige competir en la soga
+[2022-05-05T19:25:09]  El campista N10 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:09]  El campista N10 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:09]  El campista N10 elige competir en la soga
+[2022-05-05T19:25:09]  El campista N10 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:09]  El campista N10 elige tirarse por la tirolina
+[2022-05-05T19:25:09]  El campista N10 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:09]  El monitor M2 prepara a un campista
+[2022-05-05T19:25:10]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:25:10]  El campista N10 se tira por la tirolina!
+[2022-05-05T19:25:12]  El monitor M4 ha preparado la merienda Bandeja14
+[2022-05-05T19:25:12]  El monitor M4 empieza a preparar la merienda Bandeja16
+[2022-05-05T19:25:12]  El campista N5 sale de la zona común
+[2022-05-05T19:25:12]  El campista N5 elige competir en la soga
+[2022-05-05T19:25:12]  El campista N5 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:12]  El campista N5 se dispone a merendar
+[2022-05-05T19:25:12]  El campista N5 coge la merienda Bandeja2
+[2022-05-05T19:25:13]  El campista N13 ha llegado al campamento
+[2022-05-05T19:25:13]  El campista N13 se sitúa en la entrada B
+[2022-05-05T19:25:13]  El campista N13 ha entrado (B) dentro del campamento
+[2022-05-05T19:25:13]  El campista N13 elige competir en la soga
+[2022-05-05T19:25:13]  El campista N13 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:13]  El campista N13 elige competir en la soga
+[2022-05-05T19:25:13]  El campista N13 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:13]  El campista N13 elige tirarse por la tirolina
+[2022-05-05T19:25:13]  El campista N13 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:14]  El campista N10 se baja de la tirolina
+[2022-05-05T19:25:14]  El campista N10 descansa en la zona común
+[2022-05-05T19:25:14]  El monitor M2 prepara a un campista
+[2022-05-05T19:25:15]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:25:15]  El campista N13 se tira por la tirolina!
+[2022-05-05T19:25:15]  VICTORIA del equipo B: N11, N3, N4, N9, N1
+[2022-05-05T19:25:15]  El campista N12 abandona la actividad de soga
+[2022-05-05T19:25:15]  El campista N12 descansa en la zona común
+[2022-05-05T19:25:15]  El campista N4 abandona la actividad de soga
+[2022-05-05T19:25:15]  El campista N4 descansa en la zona común
+[2022-05-05T19:25:15]  El campista N2 abandona la actividad de soga
+[2022-05-05T19:25:15]  El campista N2 descansa en la zona común
+[2022-05-05T19:25:15]  El campista N3 abandona la actividad de soga
+[2022-05-05T19:25:15]  El campista N3 descansa en la zona común
+[2022-05-05T19:25:15]  El campista N6 abandona la actividad de soga
+[2022-05-05T19:25:15]  El campista N6 descansa en la zona común
+[2022-05-05T19:25:15]  El campista N9 abandona la actividad de soga
+[2022-05-05T19:25:15]  El campista N9 descansa en la zona común
+[2022-05-05T19:25:15]  El campista N1 abandona la actividad de soga
+[2022-05-05T19:25:15]  El campista N1 descansa en la zona común
+[2022-05-05T19:25:15]  El campista N8 abandona la actividad de soga
+[2022-05-05T19:25:15]  El campista N8 descansa en la zona común
+[2022-05-05T19:25:15]  El campista N7 abandona la actividad de soga
+[2022-05-05T19:25:15]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:25:15]  El campista N7 descansa en la zona común
+[2022-05-05T19:25:15]  El campista N11 abandona la actividad de soga
+[2022-05-05T19:25:15]  El campista N11 descansa en la zona común
+[2022-05-05T19:25:15]  El monitor M1 ha preparado la merienda Bandeja15
+[2022-05-05T19:25:15]  El monitor M1 empieza a preparar la merienda Bandeja17
+[2022-05-05T19:25:17]  El monitor M4 ha preparado la merienda Bandeja16
+[2022-05-05T19:25:17]  El monitor M4 empieza a preparar la merienda Bandeja18
+[2022-05-05T19:25:17]  El campista N14 ha llegado al campamento
+[2022-05-05T19:25:17]  El campista N14 se sitúa en la entrada B
+[2022-05-05T19:25:17]  El campista N14 ha entrado (B) dentro del campamento
+[2022-05-05T19:25:17]  El campista N14 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:17]  El campista N14 elige competir en la soga
+[2022-05-05T19:25:17]  El campista N14 espera para competir en la soga
+[2022-05-05T19:25:18]  El campista N13 se baja de la tirolina
+[2022-05-05T19:25:18]  El campista N13 descansa en la zona común
+[2022-05-05T19:25:19]  El campista N5 deja la bandeja Bandeja2
+[2022-05-05T19:25:19]  El campista N5 descansa en la zona común
+[2022-05-05T19:25:19]  El campista N7 sale de la zona común
+[2022-05-05T19:25:19]  El campista N7 elige competir en la soga
+[2022-05-05T19:25:19]  El campista N7 espera para competir en la soga
+[2022-05-05T19:25:20]  El campista N9 sale de la zona común
+[2022-05-05T19:25:20]  El campista N9 elige competir en la soga
+[2022-05-05T19:25:20]  El campista N9 espera para competir en la soga
+[2022-05-05T19:25:20]  El campista N3 sale de la zona común
+[2022-05-05T19:25:20]  El campista N3 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:20]  El campista N3 elige competir en la soga
+[2022-05-05T19:25:20]  El campista N3 espera para competir en la soga
+[2022-05-05T19:25:20]  El campista N12 sale de la zona común
+[2022-05-05T19:25:20]  El campista N12 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:20]  El campista N12 elige competir en la soga
+[2022-05-05T19:25:20]  El campista N12 espera para competir en la soga
+[2022-05-05T19:25:20]  El campista N10 sale de la zona común
+[2022-05-05T19:25:20]  El campista N10 se dispone a merendar
+[2022-05-05T19:25:20]  El campista N10 coge la merienda Bandeja3
+[2022-05-05T19:25:20]  El campista N4 sale de la zona común
+[2022-05-05T19:25:20]  El campista N4 elige tirarse por la tirolina
+[2022-05-05T19:25:20]  El campista N4 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:20]  El monitor M2 prepara a un campista
+[2022-05-05T19:25:20]  El campista N6 sale de la zona común
+[2022-05-05T19:25:20]  El campista N6 elige tirarse por la tirolina
+[2022-05-05T19:25:20]  El campista N6 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:21]  El campista N15 ha llegado al campamento
+[2022-05-05T19:25:21]  El campista N15 se sitúa en la entrada B
+[2022-05-05T19:25:21]  El campista N15 ha entrado (B) dentro del campamento
+[2022-05-05T19:25:21]  El campista N15 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:21]  El campista N15 elige competir en la soga
+[2022-05-05T19:25:21]  El campista N15 espera para competir en la soga
+[2022-05-05T19:25:21]  El campista N1 sale de la zona común
+[2022-05-05T19:25:21]  El campista N1 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:21]  El campista N1 elige competir en la soga
+[2022-05-05T19:25:21]  El campista N1 espera para competir en la soga
+[2022-05-05T19:25:21]  El campista N8 sale de la zona común
+[2022-05-05T19:25:21]  El campista N8 elige tirarse por la tirolina
+[2022-05-05T19:25:21]  El campista N8 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:21]  El monitor M1 ha preparado la merienda Bandeja17
+[2022-05-05T19:25:21]  El monitor M1 empieza a preparar la merienda Bandeja19
+[2022-05-05T19:25:21]  El campista N11 sale de la zona común
+[2022-05-05T19:25:21]  El campista N11 elige competir en la soga
+[2022-05-05T19:25:21]  El campista N11 espera para competir en la soga
+[2022-05-05T19:25:21]  El campista N2 sale de la zona común
+[2022-05-05T19:25:21]  El campista N2 elige tirarse por la tirolina
+[2022-05-05T19:25:21]  El campista N2 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:21]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:25:21]  El campista N4 se tira por la tirolina!
+[2022-05-05T19:25:21]  El monitor M2 ha lanzado a 10 campistas y se marcha de la tirolina
+[2022-05-05T19:25:21]  El monitor M2 descansa en la zona común
+[2022-05-05T19:25:22]  El campista N16 ha llegado al campamento
+[2022-05-05T19:25:22]  El campista N16 se sitúa en la entrada B
+[2022-05-05T19:25:22]  El campista N16 ha entrado (B) dentro del campamento
+[2022-05-05T19:25:22]  El campista N16 elige tirarse por la tirolina
+[2022-05-05T19:25:22]  El campista N16 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:22]  El monitor M4 ha preparado la merienda Bandeja18
+[2022-05-05T19:25:22]  El monitor M4 empieza a preparar la merienda Bandeja20
+[2022-05-05T19:25:27]  El campista N17 ha llegado al campamento
+[2022-05-05T19:25:27]  El campista N17 se sitúa en la entrada A
+[2022-05-05T19:25:30]  El campista N18 ha llegado al campamento
+[2022-05-05T19:25:30]  El campista N18 se sitúa en la entrada A
+[2022-05-05T19:25:33]  El campista N19 ha llegado al campamento
+[2022-05-05T19:25:33]  El campista N19 se sitúa en la entrada B
+[2022-05-05T19:25:36]  El campista N10 deja la bandeja Bandeja3
+[2022-05-05T19:25:36]  El monitor M4 ha preparado la merienda Bandeja20
+[2022-05-05T19:25:36]  El monitor M1 ha preparado la merienda Bandeja19
+[2022-05-05T19:25:36]  El campista N10 descansa en la zona común
+[2022-05-05T19:25:36]  El campista N17 ha entrado (A) dentro del campamento 
+[2022-05-05T19:25:36]  El campista N17 elige tirarse por la tirolina
+[2022-05-05T19:25:36]  El campista N17 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:36]  El campista N18 ha entrado (A) dentro del campamento 
+[2022-05-05T19:25:36]  El campista N18 elige tirarse por la tirolina
+[2022-05-05T19:25:36]  El campista N18 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:36]  El campista N13 sale de la zona común
+[2022-05-05T19:25:36]  El campista N13 elige tirarse por la tirolina
+[2022-05-05T19:25:36]  El campista N13 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:36]  El campista N4 se baja de la tirolina
+[2022-05-05T19:25:36]  El campista N4 descansa en la zona común
+[2022-05-05T19:25:36]  El monitor M2 sale de la zona común
+[2022-05-05T19:25:36]  El monitor M2 llega a la tirolina
+[2022-05-05T19:25:36]  El campista N19 ha entrado (B) dentro del campamento
+[2022-05-05T19:25:36]  El campista N19 elige competir en la soga
+[2022-05-05T19:25:36]  El campista N5 sale de la zona común
+[2022-05-05T19:25:36]  El campista N5 elige tirarse por la tirolina
+[2022-05-05T19:25:36]  El campista N5 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:36]  El campista N19 espera para competir en la soga
+[2022-05-05T19:25:36]  El monitor M4 se va del merendero
+[2022-05-05T19:25:36]  El monitor M4 descansa en la zona común
+[2022-05-05T19:25:36]  El monitor M2 prepara a un campista
+[2022-05-05T19:25:36]  El monitor M1 se va del merendero
+[2022-05-05T19:25:36]  El monitor M1 descansa en la zona común
+[2022-05-05T19:25:37]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:25:37]  El campista N6 se tira por la tirolina!
+[2022-05-05T19:25:37]  El campista N20 ha llegado al campamento
+[2022-05-05T19:25:37]  El campista N20 se sitúa en la entrada B
+[2022-05-05T19:25:37]  El campista N20 ha entrado (B) dentro del campamento
+[2022-05-05T19:25:37]  El campista N20 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:37]  El campista N20 elige competir en la soga
+[2022-05-05T19:25:37]  El campista N20 espera para competir en la soga
+[2022-05-05T19:25:37]  	------EQUIPOS SOGA------	
+EQUIPO A: N15, N20, N1, N11, N14
+EQUIPO B: N12, N3, N19, N9, N7
+	------------------------	
+
+[2022-05-05T19:25:37]  El campista N19 tira de la soga!
+[2022-05-05T19:25:37]  El campista N14 tira de la soga!
+[2022-05-05T19:25:37]  El campista N7 tira de la soga!
+[2022-05-05T19:25:37]  El campista N9 tira de la soga!
+[2022-05-05T19:25:37]  El campista N12 tira de la soga!
+[2022-05-05T19:25:37]  El campista N20 tira de la soga!
+[2022-05-05T19:25:37]  El campista N11 tira de la soga!
+[2022-05-05T19:25:37]  El campista N1 tira de la soga!
+[2022-05-05T19:25:37]  El campista N15 tira de la soga!
+[2022-05-05T19:25:37]  El campista N3 tira de la soga!
+[2022-05-05T19:25:38]  El monitor M4 sale de la zona común
+[2022-05-05T19:25:38]  El monitor M4 va a preparar meriendas
+[2022-05-05T19:25:38]  El monitor M4 empieza a preparar la merienda Bandeja21
+[2022-05-05T19:25:38]  El monitor M1 sale de la zona común
+[2022-05-05T19:25:38]  El monitor M1 va a preparar meriendas
+[2022-05-05T19:25:38]  El monitor M1 empieza a preparar la merienda Bandeja22
+[2022-05-05T19:25:40]  El campista N10 sale de la zona común
+[2022-05-05T19:25:40]  El campista N10 elige competir en la soga
+[2022-05-05T19:25:40]  El campista N10 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:40]  El campista N10 elige competir en la soga
+[2022-05-05T19:25:40]  El campista N10 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:40]  El campista N10 se dispone a merendar
+[2022-05-05T19:25:40]  El campista N10 coge la merienda Bandeja4
+[2022-05-05T19:25:40]  El campista N6 se baja de la tirolina
+[2022-05-05T19:25:40]  El campista N6 descansa en la zona común
+[2022-05-05T19:25:40]  El monitor M2 prepara a un campista
+[2022-05-05T19:25:41]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:25:41]  El campista N8 se tira por la tirolina!
+[2022-05-05T19:25:41]  El campista N21 ha llegado al campamento
+[2022-05-05T19:25:41]  El campista N21 se sitúa en la entrada A
+[2022-05-05T19:25:41]  El campista N21 ha entrado (A) dentro del campamento 
+[2022-05-05T19:25:41]  El campista N21 elige competir en la soga
+[2022-05-05T19:25:41]  El campista N21 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:41]  El campista N21 elige tirarse por la tirolina
+[2022-05-05T19:25:41]  El campista N21 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:42]  El campista N4 sale de la zona común
+[2022-05-05T19:25:42]  El campista N4 elige competir en la soga
+[2022-05-05T19:25:42]  El campista N4 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:42]  El campista N4 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:42]  El campista N4 elige competir en la soga
+[2022-05-05T19:25:42]  El campista N4 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:42]  El campista N4 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:42]  El campista N4 elige competir en la soga
+[2022-05-05T19:25:42]  El campista N4 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:42]  El campista N4 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:42]  El campista N4 elige competir en la soga
+[2022-05-05T19:25:42]  El campista N4 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:42]  El campista N4 elige competir en la soga
+[2022-05-05T19:25:42]  El campista N4 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:25:42]  El campista N4 elige tirarse por la tirolina
+[2022-05-05T19:25:42]  El campista N4 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:44]  El monitor M4 ha preparado la merienda Bandeja21
+[2022-05-05T19:25:44]  El monitor M4 empieza a preparar la merienda Bandeja23
+[2022-05-05T19:25:44]  El monitor M1 ha preparado la merienda Bandeja22
+[2022-05-05T19:25:44]  El monitor M1 empieza a preparar la merienda Bandeja24
+[2022-05-05T19:25:44]  VICTORIA del equipo A: N15, N20, N1, N11, N14
+[2022-05-05T19:25:44]  El campista N15 abandona la actividad de soga
+[2022-05-05T19:25:44]  El campista N15 descansa en la zona común
+[2022-05-05T19:25:44]  El campista N9 abandona la actividad de soga
+[2022-05-05T19:25:44]  El campista N12 abandona la actividad de soga
+[2022-05-05T19:25:44]  El campista N9 descansa en la zona común
+[2022-05-05T19:25:44]  El campista N12 descansa en la zona común
+[2022-05-05T19:25:44]  El campista N19 abandona la actividad de soga
+[2022-05-05T19:25:44]  El campista N19 descansa en la zona común
+[2022-05-05T19:25:44]  El campista N14 abandona la actividad de soga
+[2022-05-05T19:25:44]  El campista N14 descansa en la zona común
+[2022-05-05T19:25:44]  El campista N7 abandona la actividad de soga
+[2022-05-05T19:25:44]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:25:44]  El campista N1 abandona la actividad de soga
+[2022-05-05T19:25:44]  El campista N7 descansa en la zona común
+[2022-05-05T19:25:44]  El campista N1 descansa en la zona común
+[2022-05-05T19:25:44]  El campista N11 abandona la actividad de soga
+[2022-05-05T19:25:44]  El campista N11 descansa en la zona común
+[2022-05-05T19:25:44]  El campista N3 abandona la actividad de soga
+[2022-05-05T19:25:44]  El campista N3 descansa en la zona común
+[2022-05-05T19:25:44]  El campista N20 abandona la actividad de soga
+[2022-05-05T19:25:44]  El campista N20 descansa en la zona común
+[2022-05-05T19:25:45]  El campista N8 se baja de la tirolina
+[2022-05-05T19:25:45]  El campista N8 descansa en la zona común
+[2022-05-05T19:25:45]  El monitor M2 prepara a un campista
+[2022-05-05T19:25:46]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:25:46]  El campista N2 se tira por la tirolina!
+[2022-05-05T19:25:46]  El campista N6 sale de la zona común
+[2022-05-05T19:25:46]  El campista N6 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:46]  El campista N6 elige competir en la soga
+[2022-05-05T19:25:46]  El campista N6 espera para competir en la soga
+[2022-05-05T19:25:46]  El campista N22 ha llegado al campamento
+[2022-05-05T19:25:46]  El campista N22 se sitúa en la entrada A
+[2022-05-05T19:25:46]  El campista N22 ha entrado (A) dentro del campamento 
+[2022-05-05T19:25:46]  El campista N22 elige tirarse por la tirolina
+[2022-05-05T19:25:46]  El campista N22 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:47]  El campista N10 deja la bandeja Bandeja4
+[2022-05-05T19:25:47]  El campista N10 descansa en la zona común
+[2022-05-05T19:25:49]  El campista N3 sale de la zona común
+[2022-05-05T19:25:49]  El campista N3 elige tirarse por la tirolina
+[2022-05-05T19:25:49]  El campista N3 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:49]  El campista N2 se baja de la tirolina
+[2022-05-05T19:25:49]  El campista N2 descansa en la zona común
+[2022-05-05T19:25:49]  El monitor M2 prepara a un campista
+[2022-05-05T19:25:49]  El campista N15 sale de la zona común
+[2022-05-05T19:25:49]  El campista N15 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:49]  El campista N15 elige competir en la soga
+[2022-05-05T19:25:49]  El campista N15 espera para competir en la soga
+[2022-05-05T19:25:50]  El campista N20 sale de la zona común
+[2022-05-05T19:25:50]  El campista N20 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:50]  El campista N20 elige competir en la soga
+[2022-05-05T19:25:50]  El campista N20 espera para competir en la soga
+[2022-05-05T19:25:50]  El campista N1 sale de la zona común
+[2022-05-05T19:25:50]  El campista N1 elige competir en la soga
+[2022-05-05T19:25:50]  El campista N1 espera para competir en la soga
+[2022-05-05T19:25:50]  El campista N23 ha llegado al campamento
+[2022-05-05T19:25:50]  El campista N23 se sitúa en la entrada A
+[2022-05-05T19:25:50]  El campista N23 ha entrado (A) dentro del campamento 
+[2022-05-05T19:25:50]  El campista N23 elige tirarse por la tirolina
+[2022-05-05T19:25:50]  El campista N23 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:50]  El campista N9 sale de la zona común
+[2022-05-05T19:25:50]  El campista N9 elige competir en la soga
+[2022-05-05T19:25:50]  El campista N9 espera para competir en la soga
+[2022-05-05T19:25:50]  El monitor M4 ha preparado la merienda Bandeja23
+[2022-05-05T19:25:50]  El monitor M4 empieza a preparar la merienda Bandeja25
+[2022-05-05T19:25:50]  El campista N12 sale de la zona común
+[2022-05-05T19:25:50]  El campista N12 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:50]  El campista N12 elige competir en la soga
+[2022-05-05T19:25:50]  El campista N12 espera para competir en la soga
+[2022-05-05T19:25:50]  El campista N7 sale de la zona común
+[2022-05-05T19:25:50]  El campista N7 elige tirarse por la tirolina
+[2022-05-05T19:25:50]  El campista N7 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:50]  El campista N19 sale de la zona común
+[2022-05-05T19:25:50]  El campista N19 elige tirarse por la tirolina
+[2022-05-05T19:25:50]  El campista N19 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:50]  El campista N8 sale de la zona común
+[2022-05-05T19:25:50]  El campista N8 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:25:50]  El campista N8 elige competir en la soga
+[2022-05-05T19:25:50]  El campista N8 espera para competir en la soga
+[2022-05-05T19:25:50]  El monitor M1 ha preparado la merienda Bandeja24
+[2022-05-05T19:25:50]  El monitor M1 empieza a preparar la merienda Bandeja1
+[2022-05-05T19:25:50]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:25:50]  El campista N16 se tira por la tirolina!
+[2022-05-05T19:25:50]  El campista N14 sale de la zona común
+[2022-05-05T19:25:50]  El campista N14 elige tirarse por la tirolina
+[2022-05-05T19:25:50]  El campista N14 se ha puesto a la cola de la tirolina
+[2022-05-05T19:25:50]  El campista N11 sale de la zona común
+[2022-05-05T19:25:50]  El campista N11 elige competir en la soga
+[2022-05-05T19:25:50]  El campista N11 espera para competir en la soga
+[2022-05-05T19:25:51]  El campista N10 sale de la zona común
+[2022-05-05T19:25:51]  El campista N10 elige competir en la soga
+[2022-05-05T19:25:51]  El campista N10 espera para competir en la soga
+[2022-05-05T19:25:54]  El campista N24 ha llegado al campamento
+[2022-05-05T19:25:54]  El campista N24 se sitúa en la entrada A
+[2022-05-05T19:25:58]  El campista N25 ha llegado al campamento
+[2022-05-05T19:25:58]  El campista N25 se sitúa en la entrada A
+[2022-05-05T19:26:01]  El campista N26 ha llegado al campamento
+[2022-05-05T19:26:01]  El campista N26 se sitúa en la entrada B
+[2022-05-05T19:26:03]  El monitor M4 ha preparado la merienda Bandeja25
+[2022-05-05T19:26:03]  El monitor M1 ha preparado la merienda Bandeja1
+[2022-05-05T19:26:03]  El campista N24 ha entrado (A) dentro del campamento 
+[2022-05-05T19:26:03]  El campista N24 elige tirarse por la tirolina
+[2022-05-05T19:26:03]  El campista N24 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:03]  El monitor M1 empieza a preparar la merienda Bandeja2
+[2022-05-05T19:26:03]  El campista N26 ha entrado (B) dentro del campamento
+[2022-05-05T19:26:03]  El campista N26 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:03]  El campista N26 elige competir en la soga
+[2022-05-05T19:26:03]  El monitor M4 empieza a preparar la merienda Bandeja3
+[2022-05-05T19:26:03]  El campista N2 sale de la zona común
+[2022-05-05T19:26:03]  El campista N2 elige tirarse por la tirolina
+[2022-05-05T19:26:03]  El campista N2 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:03]  El campista N16 se baja de la tirolina
+[2022-05-05T19:26:03]  El campista N16 descansa en la zona común
+[2022-05-05T19:26:03]  El campista N26 espera para competir en la soga
+[2022-05-05T19:26:03]  El campista N25 ha entrado (A) dentro del campamento 
+[2022-05-05T19:26:03]  El campista N25 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:03]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:03]  El campista N25 elige competir en la soga
+[2022-05-05T19:26:03]  El campista N25 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:26:03]  El campista N25 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:03]  El campista N25 elige competir en la soga
+[2022-05-05T19:26:03]  El campista N25 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:26:03]  El campista N25 elige tirarse por la tirolina
+[2022-05-05T19:26:03]  El campista N25 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:03]  	------EQUIPOS SOGA------	
+EQUIPO A: N11, N20, N1, N10, N26
+EQUIPO B: N8, N9, N6, N15, N12
+	------------------------	
+
+[2022-05-05T19:26:03]  El campista N26 tira de la soga!
+[2022-05-05T19:26:03]  El campista N6 tira de la soga!
+[2022-05-05T19:26:03]  El campista N1 tira de la soga!
+[2022-05-05T19:26:03]  El campista N12 tira de la soga!
+[2022-05-05T19:26:03]  El campista N8 tira de la soga!
+[2022-05-05T19:26:03]  El campista N20 tira de la soga!
+[2022-05-05T19:26:03]  El campista N10 tira de la soga!
+[2022-05-05T19:26:03]  El campista N15 tira de la soga!
+[2022-05-05T19:26:03]  El campista N9 tira de la soga!
+[2022-05-05T19:26:03]  El campista N11 tira de la soga!
+[2022-05-05T19:26:04]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:04]  El campista N17 se tira por la tirolina!
+[2022-05-05T19:26:06]  El campista N27 ha llegado al campamento
+[2022-05-05T19:26:06]  El campista N27 se sitúa en la entrada B
+[2022-05-05T19:26:06]  El campista N27 ha entrado (B) dentro del campamento
+[2022-05-05T19:26:06]  El campista N27 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:06]  El campista N27 elige competir en la soga
+[2022-05-05T19:26:06]  El campista N27 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:26:06]  El campista N27 elige tirarse por la tirolina
+[2022-05-05T19:26:06]  El campista N27 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:07]  El campista N16 sale de la zona común
+[2022-05-05T19:26:07]  El campista N16 elige tirarse por la tirolina
+[2022-05-05T19:26:07]  El campista N16 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:07]  El campista N17 se baja de la tirolina
+[2022-05-05T19:26:07]  El campista N17 descansa en la zona común
+[2022-05-05T19:26:07]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:08]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:08]  El campista N18 se tira por la tirolina!
+[2022-05-05T19:26:09]  El monitor M4 ha preparado la merienda Bandeja3
+[2022-05-05T19:26:09]  El monitor M4 empieza a preparar la merienda Bandeja4
+[2022-05-05T19:26:10]  El monitor M1 ha preparado la merienda Bandeja2
+[2022-05-05T19:26:10]  VICTORIA del equipo B: N8, N9, N6, N15, N12
+[2022-05-05T19:26:10]  El campista N15 abandona la actividad de soga
+[2022-05-05T19:26:10]  El campista N15 descansa en la zona común
+[2022-05-05T19:26:10]  El campista N9 abandona la actividad de soga
+[2022-05-05T19:26:10]  El campista N9 descansa en la zona común
+[2022-05-05T19:26:10]  El campista N26 abandona la actividad de soga
+[2022-05-05T19:26:10]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:26:10]  El campista N26 descansa en la zona común
+[2022-05-05T19:26:10]  El campista N11 abandona la actividad de soga
+[2022-05-05T19:26:10]  El campista N11 descansa en la zona común
+[2022-05-05T19:26:10]  El campista N1 abandona la actividad de soga
+[2022-05-05T19:26:10]  El campista N1 descansa en la zona común
+[2022-05-05T19:26:10]  El campista N20 abandona la actividad de soga
+[2022-05-05T19:26:10]  El campista N20 descansa en la zona común
+[2022-05-05T19:26:10]  El campista N6 abandona la actividad de soga
+[2022-05-05T19:26:10]  El campista N6 descansa en la zona común
+[2022-05-05T19:26:10]  El campista N8 abandona la actividad de soga
+[2022-05-05T19:26:10]  El campista N8 descansa en la zona común
+[2022-05-05T19:26:10]  El campista N12 abandona la actividad de soga
+[2022-05-05T19:26:10]  El campista N12 descansa en la zona común
+[2022-05-05T19:26:10]  El campista N10 abandona la actividad de soga
+[2022-05-05T19:26:10]  El campista N10 descansa en la zona común
+[2022-05-05T19:26:10]  El campista N28 ha llegado al campamento
+[2022-05-05T19:26:10]  El campista N28 se sitúa en la entrada B
+[2022-05-05T19:26:10]  El campista N28 ha entrado (B) dentro del campamento
+[2022-05-05T19:26:10]  El campista N28 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:10]  El campista N28 elige competir en la soga
+[2022-05-05T19:26:10]  El campista N28 espera para competir en la soga
+[2022-05-05T19:26:12]  El campista N18 se baja de la tirolina
+[2022-05-05T19:26:12]  El campista N18 descansa en la zona común
+[2022-05-05T19:26:12]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:12]  El campista N17 sale de la zona común
+[2022-05-05T19:26:12]  El campista N17 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:12]  El campista N17 elige competir en la soga
+[2022-05-05T19:26:12]  El campista N17 espera para competir en la soga
+[2022-05-05T19:26:13]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:13]  El campista N13 se tira por la tirolina!
+[2022-05-05T19:26:14]  El campista N1 sale de la zona común
+[2022-05-05T19:26:14]  El campista N1 elige tirarse por la tirolina
+[2022-05-05T19:26:14]  El campista N1 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:14]  El campista N10 sale de la zona común
+[2022-05-05T19:26:14]  El campista N10 se dispone a merendar
+[2022-05-05T19:26:14]  El campista N10 coge la merienda Bandeja5
+[2022-05-05T19:26:14]  El campista N11 sale de la zona común
+[2022-05-05T19:26:14]  El campista N11 se dispone a merendar
+[2022-05-05T19:26:14]  El campista N11 coge la merienda Bandeja6
+[2022-05-05T19:26:14]  El campista N15 sale de la zona común
+[2022-05-05T19:26:14]  El campista N15 se dispone a merendar
+[2022-05-05T19:26:14]  El campista N15 coge la merienda Bandeja7
+[2022-05-05T19:26:14]  El campista N20 sale de la zona común
+[2022-05-05T19:26:14]  El campista N20 elige competir en la soga
+[2022-05-05T19:26:14]  El campista N20 espera para competir en la soga
+[2022-05-05T19:26:15]  El campista N9 sale de la zona común
+[2022-05-05T19:26:15]  El campista N9 elige tirarse por la tirolina
+[2022-05-05T19:26:15]  El campista N9 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:15]  El campista N29 ha llegado al campamento
+[2022-05-05T19:26:15]  El campista N29 se sitúa en la entrada A
+[2022-05-05T19:26:15]  El campista N29 ha entrado (A) dentro del campamento 
+[2022-05-05T19:26:15]  El campista N29 elige competir en la soga
+[2022-05-05T19:26:15]  El campista N29 espera para competir en la soga
+[2022-05-05T19:26:15]  El campista N8 sale de la zona común
+[2022-05-05T19:26:15]  El campista N8 elige tirarse por la tirolina
+[2022-05-05T19:26:15]  El campista N8 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:15]  El campista N6 sale de la zona común
+[2022-05-05T19:26:15]  El campista N6 elige competir en la soga
+[2022-05-05T19:26:15]  El campista N6 espera para competir en la soga
+[2022-05-05T19:26:16]  El campista N12 sale de la zona común
+[2022-05-05T19:26:16]  El campista N12 elige competir en la soga
+[2022-05-05T19:26:16]  El campista N12 espera para competir en la soga
+[2022-05-05T19:26:16]  El campista N26 sale de la zona común
+[2022-05-05T19:26:16]  El campista N26 elige tirarse por la tirolina
+[2022-05-05T19:26:16]  El campista N26 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:16]  El monitor M4 ha preparado la merienda Bandeja4
+[2022-05-05T19:26:16]  El campista N13 se baja de la tirolina
+[2022-05-05T19:26:16]  El campista N13 descansa en la zona común
+[2022-05-05T19:26:16]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:17]  El campista N18 sale de la zona común
+[2022-05-05T19:26:17]  El campista N18 elige tirarse por la tirolina
+[2022-05-05T19:26:17]  El campista N18 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:17]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:17]  El campista N5 se tira por la tirolina!
+[2022-05-05T19:26:19]  El campista N30 ha llegado al campamento
+[2022-05-05T19:26:19]  El campista N30 se sitúa en la entrada B
+[2022-05-05T19:26:19]  El campista N30 ha entrado (B) dentro del campamento
+[2022-05-05T19:26:19]  El campista N30 elige tirarse por la tirolina
+[2022-05-05T19:26:19]  El campista N30 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:21]  El campista N5 se baja de la tirolina
+[2022-05-05T19:26:21]  El campista N5 descansa en la zona común
+[2022-05-05T19:26:21]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:21]  El campista N10 deja la bandeja Bandeja5
+[2022-05-05T19:26:21]  El monitor M1 empieza a preparar la merienda Bandeja5
+[2022-05-05T19:26:21]  El campista N10 descansa en la zona común
+[2022-05-05T19:26:21]  El campista N11 deja la bandeja Bandeja6
+[2022-05-05T19:26:21]  El monitor M4 empieza a preparar la merienda Bandeja6
+[2022-05-05T19:26:21]  El campista N11 descansa en la zona común
+[2022-05-05T19:26:21]  El campista N15 deja la bandeja Bandeja7
+[2022-05-05T19:26:21]  El campista N15 descansa en la zona común
+[2022-05-05T19:26:22]  El campista N13 sale de la zona común
+[2022-05-05T19:26:22]  El campista N13 elige competir en la soga
+[2022-05-05T19:26:22]  El campista N13 espera para competir en la soga
+[2022-05-05T19:26:22]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:22]  El campista N21 se tira por la tirolina!
+[2022-05-05T19:26:23]  El campista N31 ha llegado al campamento
+[2022-05-05T19:26:23]  El campista N31 se sitúa en la entrada B
+[2022-05-05T19:26:23]  El campista N31 ha entrado (B) dentro del campamento
+[2022-05-05T19:26:23]  El campista N31 elige tirarse por la tirolina
+[2022-05-05T19:26:23]  El campista N31 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:25]  El campista N10 sale de la zona común
+[2022-05-05T19:26:25]  El campista N10 elige competir en la soga
+[2022-05-05T19:26:25]  El campista N10 espera para competir en la soga
+[2022-05-05T19:26:25]  El campista N21 se baja de la tirolina
+[2022-05-05T19:26:25]  El campista N21 descansa en la zona común
+[2022-05-05T19:26:25]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:26]  El campista N5 sale de la zona común
+[2022-05-05T19:26:26]  El campista N5 elige tirarse por la tirolina
+[2022-05-05T19:26:26]  El campista N5 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:26]  El campista N11 sale de la zona común
+[2022-05-05T19:26:26]  El campista N11 elige tirarse por la tirolina
+[2022-05-05T19:26:26]  El campista N11 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:26]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:26]  El campista N4 se tira por la tirolina!
+[2022-05-05T19:26:26]  El monitor M2 ha lanzado a 10 campistas y se marcha de la tirolina
+[2022-05-05T19:26:26]  El monitor M2 descansa en la zona común
+[2022-05-05T19:26:27]  El campista N15 sale de la zona común
+[2022-05-05T19:26:27]  El campista N15 elige tirarse por la tirolina
+[2022-05-05T19:26:27]  El campista N15 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:27]  El monitor M1 ha preparado la merienda Bandeja5
+[2022-05-05T19:26:27]  El monitor M1 empieza a preparar la merienda Bandeja7
+[2022-05-05T19:26:27]  El monitor M4 ha preparado la merienda Bandeja6
+[2022-05-05T19:26:28]  El campista N32 ha llegado al campamento
+[2022-05-05T19:26:28]  El campista N32 se sitúa en la entrada B
+[2022-05-05T19:26:28]  El campista N32 ha entrado (B) dentro del campamento
+[2022-05-05T19:26:28]  El campista N32 elige tirarse por la tirolina
+[2022-05-05T19:26:28]  El campista N32 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:29]  El monitor M2 sale de la zona común
+[2022-05-05T19:26:29]  El monitor M2 llega a la tirolina
+[2022-05-05T19:26:30]  El campista N4 se baja de la tirolina
+[2022-05-05T19:26:30]  El campista N4 descansa en la zona común
+[2022-05-05T19:26:30]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:31]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:31]  El campista N22 se tira por la tirolina!
+[2022-05-05T19:26:31]  El campista N21 sale de la zona común
+[2022-05-05T19:26:31]  El campista N21 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:31]  El campista N21 elige competir en la soga
+[2022-05-05T19:26:31]  El campista N21 espera para competir en la soga
+[2022-05-05T19:26:32]  El campista N33 ha llegado al campamento
+[2022-05-05T19:26:32]  El campista N33 se sitúa en la entrada B
+[2022-05-05T19:26:32]  El campista N33 ha entrado (B) dentro del campamento
+[2022-05-05T19:26:32]  El campista N33 elige tirarse por la tirolina
+[2022-05-05T19:26:32]  El campista N33 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:32]  El monitor M1 ha preparado la merienda Bandeja7
+[2022-05-05T19:26:34]  El campista N4 sale de la zona común
+[2022-05-05T19:26:34]  El campista N4 elige competir en la soga
+[2022-05-05T19:26:34]  El campista N4 espera para competir en la soga
+[2022-05-05T19:26:34]  	------EQUIPOS SOGA------	
+EQUIPO A: N28, N12, N4, N29, N10
+EQUIPO B: N21, N20, N13, N17, N6
+	------------------------	
+
+[2022-05-05T19:26:34]  El campista N21 tira de la soga!
+[2022-05-05T19:26:34]  El campista N4 tira de la soga!
+[2022-05-05T19:26:34]  El campista N28 tira de la soga!
+[2022-05-05T19:26:34]  El campista N17 tira de la soga!
+[2022-05-05T19:26:34]  El campista N20 tira de la soga!
+[2022-05-05T19:26:34]  El campista N12 tira de la soga!
+[2022-05-05T19:26:34]  El campista N10 tira de la soga!
+[2022-05-05T19:26:34]  El campista N13 tira de la soga!
+[2022-05-05T19:26:34]  El campista N29 tira de la soga!
+[2022-05-05T19:26:34]  El campista N6 tira de la soga!
+[2022-05-05T19:26:34]  El campista N22 se baja de la tirolina
+[2022-05-05T19:26:34]  El campista N22 descansa en la zona común
+[2022-05-05T19:26:34]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:35]  El campista N34 ha llegado al campamento
+[2022-05-05T19:26:35]  El campista N34 se sitúa en la entrada A
+[2022-05-05T19:26:35]  El campista N34 ha entrado (A) dentro del campamento 
+[2022-05-05T19:26:35]  El campista N34 elige tirarse por la tirolina
+[2022-05-05T19:26:35]  El campista N34 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:35]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:35]  El campista N3 se tira por la tirolina!
+[2022-05-05T19:26:39]  El campista N35 ha llegado al campamento
+[2022-05-05T19:26:39]  El campista N35 se sitúa en la entrada A
+[2022-05-05T19:26:39]  El campista N35 ha entrado (A) dentro del campamento 
+[2022-05-05T19:26:39]  El campista N35 elige competir en la soga
+[2022-05-05T19:26:39]  El campista N35 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:26:39]  El campista N35 elige tirarse por la tirolina
+[2022-05-05T19:26:39]  El campista N35 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:39]  El campista N3 se baja de la tirolina
+[2022-05-05T19:26:39]  El campista N3 descansa en la zona común
+[2022-05-05T19:26:39]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:40]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:40]  El campista N23 se tira por la tirolina!
+[2022-05-05T19:26:40]  El campista N22 sale de la zona común
+[2022-05-05T19:26:40]  El campista N22 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:40]  El campista N22 elige competir en la soga
+[2022-05-05T19:26:40]  El campista N22 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:26:40]  El campista N22 elige tirarse por la tirolina
+[2022-05-05T19:26:40]  El campista N22 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:41]  VICTORIA del equipo B: N21, N20, N13, N17, N6
+[2022-05-05T19:26:41]  El campista N12 abandona la actividad de soga
+[2022-05-05T19:26:41]  El campista N12 descansa en la zona común
+[2022-05-05T19:26:41]  El campista N13 abandona la actividad de soga
+[2022-05-05T19:26:41]  El campista N13 descansa en la zona común
+[2022-05-05T19:26:41]  El campista N28 abandona la actividad de soga
+[2022-05-05T19:26:41]  El campista N4 abandona la actividad de soga
+[2022-05-05T19:26:41]  El campista N28 descansa en la zona común
+[2022-05-05T19:26:41]  El campista N6 abandona la actividad de soga
+[2022-05-05T19:26:41]  El campista N4 descansa en la zona común
+[2022-05-05T19:26:41]  El campista N6 descansa en la zona común
+[2022-05-05T19:26:41]  El campista N20 abandona la actividad de soga
+[2022-05-05T19:26:41]  El campista N20 descansa en la zona común
+[2022-05-05T19:26:41]  El campista N29 abandona la actividad de soga
+[2022-05-05T19:26:41]  El campista N29 descansa en la zona común
+[2022-05-05T19:26:41]  El campista N10 abandona la actividad de soga
+[2022-05-05T19:26:41]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:26:41]  El campista N21 abandona la actividad de soga
+[2022-05-05T19:26:41]  El campista N10 descansa en la zona común
+[2022-05-05T19:26:41]  El campista N21 descansa en la zona común
+[2022-05-05T19:26:41]  El campista N17 abandona la actividad de soga
+[2022-05-05T19:26:41]  El campista N17 descansa en la zona común
+[2022-05-05T19:26:42]  El campista N36 ha llegado al campamento
+[2022-05-05T19:26:42]  El campista N36 se sitúa en la entrada B
+[2022-05-05T19:26:42]  El campista N36 ha entrado (B) dentro del campamento
+[2022-05-05T19:26:42]  El campista N36 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:42]  El campista N36 elige competir en la soga
+[2022-05-05T19:26:42]  El campista N36 espera para competir en la soga
+[2022-05-05T19:26:43]  El campista N3 sale de la zona común
+[2022-05-05T19:26:43]  El campista N3 elige competir en la soga
+[2022-05-05T19:26:43]  El campista N3 espera para competir en la soga
+[2022-05-05T19:26:43]  El campista N23 se baja de la tirolina
+[2022-05-05T19:26:43]  El campista N23 descansa en la zona común
+[2022-05-05T19:26:43]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:44]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:44]  El campista N7 se tira por la tirolina!
+[2022-05-05T19:26:45]  El campista N10 sale de la zona común
+[2022-05-05T19:26:45]  El campista N10 elige competir en la soga
+[2022-05-05T19:26:45]  El campista N10 espera para competir en la soga
+[2022-05-05T19:26:45]  El campista N37 ha llegado al campamento
+[2022-05-05T19:26:45]  El campista N37 se sitúa en la entrada A
+[2022-05-05T19:26:45]  El campista N37 ha entrado (A) dentro del campamento 
+[2022-05-05T19:26:45]  El campista N37 elige tirarse por la tirolina
+[2022-05-05T19:26:45]  El campista N37 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:46]  El campista N17 sale de la zona común
+[2022-05-05T19:26:46]  El campista N17 elige competir en la soga
+[2022-05-05T19:26:46]  El campista N17 espera para competir en la soga
+[2022-05-05T19:26:46]  El campista N21 sale de la zona común
+[2022-05-05T19:26:46]  El campista N21 elige competir en la soga
+[2022-05-05T19:26:46]  El campista N21 espera para competir en la soga
+[2022-05-05T19:26:46]  El campista N13 sale de la zona común
+[2022-05-05T19:26:46]  El campista N13 se dispone a merendar
+[2022-05-05T19:26:46]  El campista N13 coge la merienda Bandeja8
+[2022-05-05T19:26:46]  El campista N20 sale de la zona común
+[2022-05-05T19:26:46]  El campista N20 se dispone a merendar
+[2022-05-05T19:26:46]  El campista N20 coge la merienda Bandeja9
+[2022-05-05T19:26:46]  El campista N6 sale de la zona común
+[2022-05-05T19:26:46]  El campista N6 elige competir en la soga
+[2022-05-05T19:26:46]  El campista N6 espera para competir en la soga
+[2022-05-05T19:26:47]  El campista N12 sale de la zona común
+[2022-05-05T19:26:47]  El campista N12 elige competir en la soga
+[2022-05-05T19:26:47]  El campista N12 espera para competir en la soga
+[2022-05-05T19:26:47]  El campista N28 sale de la zona común
+[2022-05-05T19:26:47]  El campista N28 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:47]  El campista N28 elige competir en la soga
+[2022-05-05T19:26:47]  El campista N28 espera para competir en la soga
+[2022-05-05T19:26:47]  El campista N4 sale de la zona común
+[2022-05-05T19:26:47]  El campista N4 se dispone a merendar
+[2022-05-05T19:26:47]  El campista N4 coge la merienda Bandeja10
+[2022-05-05T19:26:47]  El campista N29 sale de la zona común
+[2022-05-05T19:26:47]  El campista N29 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:47]  El campista N29 elige competir en la soga
+[2022-05-05T19:26:47]  El campista N29 espera para competir en la soga
+[2022-05-05T19:26:48]  El campista N7 se baja de la tirolina
+[2022-05-05T19:26:48]  El campista N7 descansa en la zona común
+[2022-05-05T19:26:48]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:48]  El campista N23 sale de la zona común
+[2022-05-05T19:26:48]  El campista N23 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:48]  El campista N23 elige competir en la soga
+[2022-05-05T19:26:48]  El campista N23 espera para competir en la soga
+[2022-05-05T19:26:48]  	------EQUIPOS SOGA------	
+EQUIPO A: N10, N17, N36, N23, N28
+EQUIPO B: N6, N21, N12, N3, N29
+	------------------------	
+
+[2022-05-05T19:26:48]  El campista N29 tira de la soga!
+[2022-05-05T19:26:48]  El campista N23 tira de la soga!
+[2022-05-05T19:26:48]  El campista N36 tira de la soga!
+[2022-05-05T19:26:48]  El campista N3 tira de la soga!
+[2022-05-05T19:26:48]  El campista N10 tira de la soga!
+[2022-05-05T19:26:48]  El campista N17 tira de la soga!
+[2022-05-05T19:26:48]  El campista N21 tira de la soga!
+[2022-05-05T19:26:48]  El campista N6 tira de la soga!
+[2022-05-05T19:26:48]  El campista N28 tira de la soga!
+[2022-05-05T19:26:48]  El campista N12 tira de la soga!
+[2022-05-05T19:26:49]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:49]  El campista N19 se tira por la tirolina!
+[2022-05-05T19:26:51]  El campista N38 ha llegado al campamento
+[2022-05-05T19:26:51]  El campista N38 se sitúa en la entrada B
+[2022-05-05T19:26:51]  El campista N38 ha entrado (B) dentro del campamento
+[2022-05-05T19:26:51]  El campista N38 elige competir en la soga
+[2022-05-05T19:26:51]  El campista N38 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:26:51]  El campista N38 elige competir en la soga
+[2022-05-05T19:26:51]  El campista N38 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:26:51]  El campista N38 elige tirarse por la tirolina
+[2022-05-05T19:26:51]  El campista N38 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:52]  El campista N19 se baja de la tirolina
+[2022-05-05T19:26:52]  El campista N19 descansa en la zona común
+[2022-05-05T19:26:52]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:52]  El campista N7 sale de la zona común
+[2022-05-05T19:26:52]  El campista N7 elige tirarse por la tirolina
+[2022-05-05T19:26:52]  El campista N7 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:53]  El campista N13 deja la bandeja Bandeja8
+[2022-05-05T19:26:53]  El campista N13 descansa en la zona común
+[2022-05-05T19:26:53]  El monitor M4 empieza a preparar la merienda Bandeja8
+[2022-05-05T19:26:53]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:53]  El campista N14 se tira por la tirolina!
+[2022-05-05T19:26:53]  El campista N20 deja la bandeja Bandeja9
+[2022-05-05T19:26:53]  El monitor M1 empieza a preparar la merienda Bandeja9
+[2022-05-05T19:26:53]  El campista N20 descansa en la zona común
+[2022-05-05T19:26:54]  El campista N4 deja la bandeja Bandeja10
+[2022-05-05T19:26:54]  El campista N4 descansa en la zona común
+[2022-05-05T19:26:55]  VICTORIA del equipo A: N10, N17, N36, N23, N28
+[2022-05-05T19:26:55]  El campista N17 abandona la actividad de soga
+[2022-05-05T19:26:55]  El campista N17 descansa en la zona común
+[2022-05-05T19:26:55]  El campista N10 abandona la actividad de soga
+[2022-05-05T19:26:55]  El campista N10 descansa en la zona común
+[2022-05-05T19:26:55]  El campista N3 abandona la actividad de soga
+[2022-05-05T19:26:55]  El campista N3 descansa en la zona común
+[2022-05-05T19:26:55]  El campista N6 abandona la actividad de soga
+[2022-05-05T19:26:55]  El campista N6 descansa en la zona común
+[2022-05-05T19:26:55]  El campista N21 abandona la actividad de soga
+[2022-05-05T19:26:55]  El campista N21 descansa en la zona común
+[2022-05-05T19:26:55]  El campista N12 abandona la actividad de soga
+[2022-05-05T19:26:55]  El campista N12 descansa en la zona común
+[2022-05-05T19:26:55]  El campista N28 abandona la actividad de soga
+[2022-05-05T19:26:55]  El campista N28 descansa en la zona común
+[2022-05-05T19:26:55]  El campista N23 abandona la actividad de soga
+[2022-05-05T19:26:55]  El campista N23 descansa en la zona común
+[2022-05-05T19:26:55]  El campista N36 abandona la actividad de soga
+[2022-05-05T19:26:55]  El campista N36 descansa en la zona común
+[2022-05-05T19:26:55]  El campista N29 abandona la actividad de soga
+[2022-05-05T19:26:55]  El campista N29 descansa en la zona común
+[2022-05-05T19:26:55]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:26:56]  El campista N39 ha llegado al campamento
+[2022-05-05T19:26:56]  El campista N39 se sitúa en la entrada A
+[2022-05-05T19:26:56]  El campista N39 ha entrado (A) dentro del campamento 
+[2022-05-05T19:26:56]  El campista N39 elige tirarse por la tirolina
+[2022-05-05T19:26:56]  El campista N39 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:57]  El campista N14 se baja de la tirolina
+[2022-05-05T19:26:57]  El campista N14 descansa en la zona común
+[2022-05-05T19:26:57]  El monitor M2 prepara a un campista
+[2022-05-05T19:26:57]  El campista N19 sale de la zona común
+[2022-05-05T19:26:57]  El campista N19 elige tirarse por la tirolina
+[2022-05-05T19:26:57]  El campista N19 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:57]  El campista N13 sale de la zona común
+[2022-05-05T19:26:57]  El campista N13 se dispone a merendar
+[2022-05-05T19:26:57]  El campista N13 coge la merienda Bandeja11
+[2022-05-05T19:26:58]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:26:58]  El campista N24 se tira por la tirolina!
+[2022-05-05T19:26:58]  El campista N20 sale de la zona común
+[2022-05-05T19:26:58]  El campista N20 elige tirarse por la tirolina
+[2022-05-05T19:26:58]  El campista N20 se ha puesto a la cola de la tirolina
+[2022-05-05T19:26:58]  El campista N4 sale de la zona común
+[2022-05-05T19:26:58]  El campista N4 elige competir en la soga
+[2022-05-05T19:26:58]  El campista N4 espera para competir en la soga
+[2022-05-05T19:26:58]  El monitor M1 ha preparado la merienda Bandeja9
+[2022-05-05T19:26:58]  El monitor M1 empieza a preparar la merienda Bandeja10
+[2022-05-05T19:26:59]  El campista N40 ha llegado al campamento
+[2022-05-05T19:26:59]  El campista N40 se sitúa en la entrada A
+[2022-05-05T19:26:59]  El campista N40 ha entrado (A) dentro del campamento 
+[2022-05-05T19:26:59]  El campista N40 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:59]  El campista N40 elige competir en la soga
+[2022-05-05T19:26:59]  El campista N40 espera para competir en la soga
+[2022-05-05T19:26:59]  El monitor M4 ha preparado la merienda Bandeja8
+[2022-05-05T19:26:59]  El campista N29 sale de la zona común
+[2022-05-05T19:26:59]  El campista N29 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:26:59]  El campista N29 elige competir en la soga
+[2022-05-05T19:26:59]  El campista N29 espera para competir en la soga
+[2022-05-05T19:27]  El campista N36 sale de la zona común
+[2022-05-05T19:27]  El campista N36 elige tirarse por la tirolina
+[2022-05-05T19:27]  El campista N36 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27]  El campista N28 sale de la zona común
+[2022-05-05T19:27]  El campista N28 elige tirarse por la tirolina
+[2022-05-05T19:27]  El campista N28 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27]  El campista N23 sale de la zona común
+[2022-05-05T19:27]  El campista N23 elige competir en la soga
+[2022-05-05T19:27]  El campista N23 espera para competir en la soga
+[2022-05-05T19:27]  El campista N21 sale de la zona común
+[2022-05-05T19:27]  El campista N21 elige competir en la soga
+[2022-05-05T19:27]  El campista N21 espera para competir en la soga
+[2022-05-05T19:27]  El campista N6 sale de la zona común
+[2022-05-05T19:27]  El campista N6 elige tirarse por la tirolina
+[2022-05-05T19:27]  El campista N6 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:01]  El campista N12 sale de la zona común
+[2022-05-05T19:27:01]  El campista N12 elige tirarse por la tirolina
+[2022-05-05T19:27:01]  El campista N12 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:01]  El campista N10 sale de la zona común
+[2022-05-05T19:27:01]  El campista N10 elige tirarse por la tirolina
+[2022-05-05T19:27:01]  El campista N10 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:01]  El campista N3 sale de la zona común
+[2022-05-05T19:27:01]  El campista N3 elige competir en la soga
+[2022-05-05T19:27:01]  El campista N3 espera para competir en la soga
+[2022-05-05T19:27:01]  El campista N17 sale de la zona común
+[2022-05-05T19:27:01]  El campista N17 se dispone a merendar
+[2022-05-05T19:27:01]  El campista N17 coge la merienda Bandeja12
+[2022-05-05T19:27:01]  El campista N24 se baja de la tirolina
+[2022-05-05T19:27:01]  El campista N24 descansa en la zona común
+[2022-05-05T19:27:01]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:02]  El campista N41 ha llegado al campamento
+[2022-05-05T19:27:02]  El campista N41 se sitúa en la entrada B
+[2022-05-05T19:27:02]  El campista N41 ha entrado (B) dentro del campamento
+[2022-05-05T19:27:02]  El campista N41 elige competir en la soga
+[2022-05-05T19:27:02]  El campista N41 espera para competir en la soga
+[2022-05-05T19:27:02]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:02]  El campista N2 se tira por la tirolina!
+[2022-05-05T19:27:02]  El campista N14 sale de la zona común
+[2022-05-05T19:27:02]  El campista N14 elige tirarse por la tirolina
+[2022-05-05T19:27:02]  El campista N14 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:03]  El monitor M1 ha preparado la merienda Bandeja10
+[2022-05-05T19:27:04]  El campista N13 deja la bandeja Bandeja11
+[2022-05-05T19:27:04]  El monitor M4 empieza a preparar la merienda Bandeja11
+[2022-05-05T19:27:04]  El campista N13 descansa en la zona común
+[2022-05-05T19:27:06]  El campista N2 se baja de la tirolina
+[2022-05-05T19:27:06]  El campista N2 descansa en la zona común
+[2022-05-05T19:27:06]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:06]  El campista N24 sale de la zona común
+[2022-05-05T19:27:06]  El campista N24 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:27:06]  El campista N24 elige competir en la soga
+[2022-05-05T19:27:06]  El campista N24 espera para competir en la soga
+[2022-05-05T19:27:06]  El campista N42 ha llegado al campamento
+[2022-05-05T19:27:06]  El campista N42 se sitúa en la entrada B
+[2022-05-05T19:27:06]  El campista N42 ha entrado (B) dentro del campamento
+[2022-05-05T19:27:06]  El campista N42 elige competir en la soga
+[2022-05-05T19:27:06]  El campista N42 espera para competir en la soga
+[2022-05-05T19:27:07]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:07]  El campista N25 se tira por la tirolina!
+[2022-05-05T19:27:08]  El campista N43 ha llegado al campamento
+[2022-05-05T19:27:08]  El campista N43 se sitúa en la entrada A
+[2022-05-05T19:27:08]  El campista N43 ha entrado (A) dentro del campamento 
+[2022-05-05T19:27:08]  El campista N43 elige competir en la soga
+[2022-05-05T19:27:08]  El campista N43 espera para competir en la soga
+[2022-05-05T19:27:08]  	------EQUIPOS SOGA------	
+EQUIPO A: N4, N3, N43, N23, N29
+EQUIPO B: N41, N21, N40, N24, N42
+	------------------------	
+
+[2022-05-05T19:27:08]  El campista N42 tira de la soga!
+[2022-05-05T19:27:08]  El campista N43 tira de la soga!
+[2022-05-05T19:27:08]  El campista N4 tira de la soga!
+[2022-05-05T19:27:08]  El campista N40 tira de la soga!
+[2022-05-05T19:27:08]  El campista N23 tira de la soga!
+[2022-05-05T19:27:08]  El campista N21 tira de la soga!
+[2022-05-05T19:27:08]  El campista N3 tira de la soga!
+[2022-05-05T19:27:08]  El campista N41 tira de la soga!
+[2022-05-05T19:27:08]  El campista N29 tira de la soga!
+[2022-05-05T19:27:08]  El campista N24 tira de la soga!
+[2022-05-05T19:27:08]  El campista N17 deja la bandeja Bandeja12
+[2022-05-05T19:27:08]  El monitor M1 empieza a preparar la merienda Bandeja12
+[2022-05-05T19:27:08]  El campista N17 descansa en la zona común
+[2022-05-05T19:27:10]  El monitor M4 ha preparado la merienda Bandeja11
+[2022-05-05T19:27:10]  El campista N13 sale de la zona común
+[2022-05-05T19:27:10]  El campista N13 elige tirarse por la tirolina
+[2022-05-05T19:27:10]  El campista N13 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:10]  El campista N25 se baja de la tirolina
+[2022-05-05T19:27:10]  El campista N25 descansa en la zona común
+[2022-05-05T19:27:10]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:11]  El campista N44 ha llegado al campamento
+[2022-05-05T19:27:11]  El campista N44 se sitúa en la entrada B
+[2022-05-05T19:27:11]  El campista N44 ha entrado (B) dentro del campamento
+[2022-05-05T19:27:11]  El campista N44 elige competir en la soga
+[2022-05-05T19:27:11]  El campista N44 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:27:11]  El campista N44 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:27:11]  El campista N44 elige competir en la soga
+[2022-05-05T19:27:11]  El campista N44 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:27:11]  El campista N44 elige tirarse por la tirolina
+[2022-05-05T19:27:11]  El campista N44 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:11]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:11]  El campista N27 se tira por la tirolina!
+[2022-05-05T19:27:11]  El monitor M2 ha lanzado a 10 campistas y se marcha de la tirolina
+[2022-05-05T19:27:11]  El monitor M2 descansa en la zona común
+[2022-05-05T19:27:12]  El campista N2 sale de la zona común
+[2022-05-05T19:27:12]  El campista N2 se dispone a merendar
+[2022-05-05T19:27:12]  El campista N2 coge la merienda Bandeja13
+[2022-05-05T19:27:13]  El monitor M2 sale de la zona común
+[2022-05-05T19:27:13]  El monitor M2 llega a la tirolina
+[2022-05-05T19:27:14]  El campista N17 sale de la zona común
+[2022-05-05T19:27:14]  El campista N17 se dispone a merendar
+[2022-05-05T19:27:14]  El campista N17 coge la merienda Bandeja14
+[2022-05-05T19:27:14]  El monitor M1 ha preparado la merienda Bandeja12
+[2022-05-05T19:27:14]  El campista N25 sale de la zona común
+[2022-05-05T19:27:14]  El campista N25 elige tirarse por la tirolina
+[2022-05-05T19:27:14]  El campista N25 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:15]  VICTORIA del equipo B: N41, N21, N40, N24, N42
+[2022-05-05T19:27:15]  El campista N3 abandona la actividad de soga
+[2022-05-05T19:27:15]  El campista N3 descansa en la zona común
+[2022-05-05T19:27:15]  El campista N29 abandona la actividad de soga
+[2022-05-05T19:27:15]  El campista N29 descansa en la zona común
+[2022-05-05T19:27:15]  El campista N42 abandona la actividad de soga
+[2022-05-05T19:27:15]  El campista N42 descansa en la zona común
+[2022-05-05T19:27:15]  El campista N41 abandona la actividad de soga
+[2022-05-05T19:27:15]  El campista N41 descansa en la zona común
+[2022-05-05T19:27:15]  El campista N23 abandona la actividad de soga
+[2022-05-05T19:27:15]  El campista N23 descansa en la zona común
+[2022-05-05T19:27:15]  El campista N43 abandona la actividad de soga
+[2022-05-05T19:27:15]  El campista N43 descansa en la zona común
+[2022-05-05T19:27:15]  El campista N40 abandona la actividad de soga
+[2022-05-05T19:27:15]  El campista N40 descansa en la zona común
+[2022-05-05T19:27:15]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:27:15]  El campista N4 abandona la actividad de soga
+[2022-05-05T19:27:15]  El campista N4 descansa en la zona común
+[2022-05-05T19:27:15]  El campista N21 abandona la actividad de soga
+[2022-05-05T19:27:15]  El campista N21 descansa en la zona común
+[2022-05-05T19:27:15]  El campista N24 abandona la actividad de soga
+[2022-05-05T19:27:15]  El campista N24 descansa en la zona común
+[2022-05-05T19:27:15]  El campista N27 se baja de la tirolina
+[2022-05-05T19:27:15]  El campista N27 descansa en la zona común
+[2022-05-05T19:27:15]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:16]  El campista N45 ha llegado al campamento
+[2022-05-05T19:27:16]  El campista N45 se sitúa en la entrada A
+[2022-05-05T19:27:16]  El campista N45 ha entrado (A) dentro del campamento 
+[2022-05-05T19:27:16]  El campista N45 elige competir en la soga
+[2022-05-05T19:27:16]  El campista N45 espera para competir en la soga
+[2022-05-05T19:27:16]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:16]  El campista N16 se tira por la tirolina!
+[2022-05-05T19:27:19]  El campista N2 deja la bandeja Bandeja13
+[2022-05-05T19:27:19]  El campista N2 descansa en la zona común
+[2022-05-05T19:27:19]  El monitor M4 empieza a preparar la merienda Bandeja13
+[2022-05-05T19:27:19]  El campista N42 sale de la zona común
+[2022-05-05T19:27:19]  El campista N42 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:27:19]  El campista N42 elige competir en la soga
+[2022-05-05T19:27:19]  El campista N42 espera para competir en la soga
+[2022-05-05T19:27:19]  El campista N41 sale de la zona común
+[2022-05-05T19:27:19]  El campista N41 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:27:19]  El campista N41 elige competir en la soga
+[2022-05-05T19:27:19]  El campista N41 espera para competir en la soga
+[2022-05-05T19:27:19]  El campista N16 se baja de la tirolina
+[2022-05-05T19:27:19]  El campista N16 descansa en la zona común
+[2022-05-05T19:27:19]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:20]  El campista N27 sale de la zona común
+[2022-05-05T19:27:20]  El campista N27 elige tirarse por la tirolina
+[2022-05-05T19:27:20]  El campista N27 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:20]  El campista N29 sale de la zona común
+[2022-05-05T19:27:20]  El campista N29 elige competir en la soga
+[2022-05-05T19:27:20]  El campista N29 espera para competir en la soga
+[2022-05-05T19:27:20]  El campista N3 sale de la zona común
+[2022-05-05T19:27:20]  El campista N3 se dispone a merendar
+[2022-05-05T19:27:20]  El campista N3 coge la merienda Bandeja15
+[2022-05-05T19:27:20]  El campista N43 sale de la zona común
+[2022-05-05T19:27:20]  El campista N43 elige competir en la soga
+[2022-05-05T19:27:20]  El campista N43 espera para competir en la soga
+[2022-05-05T19:27:20]  El campista N40 sale de la zona común
+[2022-05-05T19:27:20]  El campista N40 elige competir en la soga
+[2022-05-05T19:27:20]  El campista N40 espera para competir en la soga
+[2022-05-05T19:27:20]  El campista N23 sale de la zona común
+[2022-05-05T19:27:20]  El campista N23 se dispone a merendar
+[2022-05-05T19:27:20]  El campista N23 coge la merienda Bandeja16
+[2022-05-05T19:27:20]  El campista N4 sale de la zona común
+[2022-05-05T19:27:20]  El campista N4 elige tirarse por la tirolina
+[2022-05-05T19:27:20]  El campista N4 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:20]  El campista N21 sale de la zona común
+[2022-05-05T19:27:20]  El campista N21 elige competir en la soga
+[2022-05-05T19:27:20]  El campista N21 espera para competir en la soga
+[2022-05-05T19:27:20]  El campista N24 sale de la zona común
+[2022-05-05T19:27:20]  El campista N24 elige tirarse por la tirolina
+[2022-05-05T19:27:20]  El campista N24 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:20]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:20]  El campista N1 se tira por la tirolina!
+[2022-05-05T19:27:21]  El campista N17 deja la bandeja Bandeja14
+[2022-05-05T19:27:21]  El campista N17 descansa en la zona común
+[2022-05-05T19:27:21]  El monitor M1 empieza a preparar la merienda Bandeja14
+[2022-05-05T19:27:21]  El campista N46 ha llegado al campamento
+[2022-05-05T19:27:21]  El campista N46 se sitúa en la entrada A
+[2022-05-05T19:27:21]  El campista N46 ha entrado (A) dentro del campamento 
+[2022-05-05T19:27:21]  El campista N46 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:27:21]  El campista N46 elige competir en la soga
+[2022-05-05T19:27:21]  El campista N46 espera para competir en la soga
+[2022-05-05T19:27:23]  El campista N2 sale de la zona común
+[2022-05-05T19:27:23]  El campista N2 elige competir en la soga
+[2022-05-05T19:27:23]  El campista N2 espera para competir en la soga
+[2022-05-05T19:27:24]  El campista N1 se baja de la tirolina
+[2022-05-05T19:27:24]  El campista N1 descansa en la zona común
+[2022-05-05T19:27:24]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:25]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:25]  El campista N9 se tira por la tirolina!
+[2022-05-05T19:27:25]  El campista N16 sale de la zona común
+[2022-05-05T19:27:25]  El campista N16 elige competir en la soga
+[2022-05-05T19:27:25]  El campista N16 espera para competir en la soga
+[2022-05-05T19:27:25]  	------EQUIPOS SOGA------	
+EQUIPO A: N46, N2, N43, N16, N40
+EQUIPO B: N42, N41, N45, N21, N29
+	------------------------	
+
+[2022-05-05T19:27:25]  El campista N2 tira de la soga!
+[2022-05-05T19:27:25]  El campista N16 tira de la soga!
+[2022-05-05T19:27:25]  El campista N45 tira de la soga!
+[2022-05-05T19:27:25]  El campista N42 tira de la soga!
+[2022-05-05T19:27:25]  El campista N41 tira de la soga!
+[2022-05-05T19:27:25]  El campista N29 tira de la soga!
+[2022-05-05T19:27:25]  El campista N43 tira de la soga!
+[2022-05-05T19:27:25]  El campista N40 tira de la soga!
+[2022-05-05T19:27:25]  El campista N21 tira de la soga!
+[2022-05-05T19:27:25]  El campista N46 tira de la soga!
+[2022-05-05T19:27:25]  El monitor M4 ha preparado la merienda Bandeja13
+[2022-05-05T19:27:26]  El campista N47 ha llegado al campamento
+[2022-05-05T19:27:26]  El campista N47 se sitúa en la entrada A
+[2022-05-05T19:27:26]  El campista N47 ha entrado (A) dentro del campamento 
+[2022-05-05T19:27:26]  El campista N47 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:27:26]  El campista N47 elige competir en la soga
+[2022-05-05T19:27:26]  El campista N47 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:27:26]  El campista N47 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:27:26]  El campista N47 elige competir en la soga
+[2022-05-05T19:27:26]  El campista N47 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:27:26]  El campista N47 elige tirarse por la tirolina
+[2022-05-05T19:27:26]  El campista N47 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:26]  El monitor M1 ha preparado la merienda Bandeja14
+[2022-05-05T19:27:26]  El monitor M1 se va del merendero
+[2022-05-05T19:27:26]  El monitor M1 descansa en la zona común
+[2022-05-05T19:27:27]  El campista N17 sale de la zona común
+[2022-05-05T19:27:27]  El campista N17 se dispone a merendar
+[2022-05-05T19:27:27]  El campista N17 coge la merienda Bandeja17
+[2022-05-05T19:27:27]  El campista N3 deja la bandeja Bandeja15
+[2022-05-05T19:27:27]  El monitor M4 empieza a preparar la merienda Bandeja15
+[2022-05-05T19:27:27]  El campista N3 descansa en la zona común
+[2022-05-05T19:27:27]  El campista N23 deja la bandeja Bandeja16
+[2022-05-05T19:27:27]  El campista N23 descansa en la zona común
+[2022-05-05T19:27:28]  El campista N9 se baja de la tirolina
+[2022-05-05T19:27:28]  El campista N9 descansa en la zona común
+[2022-05-05T19:27:28]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:29]  El monitor M1 sale de la zona común
+[2022-05-05T19:27:29]  El monitor M1 va a preparar meriendas
+[2022-05-05T19:27:29]  El monitor M1 empieza a preparar la merienda Bandeja16
+[2022-05-05T19:27:29]  El campista N1 sale de la zona común
+[2022-05-05T19:27:29]  El campista N1 elige competir en la soga
+[2022-05-05T19:27:29]  El campista N1 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:27:29]  El campista N1 elige competir en la soga
+[2022-05-05T19:27:29]  El campista N1 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:27:29]  El campista N1 elige tirarse por la tirolina
+[2022-05-05T19:27:29]  El campista N1 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:29]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:29]  El campista N8 se tira por la tirolina!
+[2022-05-05T19:27:30]  El campista N48 ha llegado al campamento
+[2022-05-05T19:27:30]  El campista N48 se sitúa en la entrada A
+[2022-05-05T19:27:30]  El campista N48 ha entrado (A) dentro del campamento 
+[2022-05-05T19:27:30]  El campista N48 elige tirarse por la tirolina
+[2022-05-05T19:27:30]  El campista N48 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:31]  El campista N23 sale de la zona común
+[2022-05-05T19:27:31]  El campista N23 se dispone a merendar
+[2022-05-05T19:27:31]  El campista N23 coge la merienda Bandeja18
+[2022-05-05T19:27:32]  El campista N3 sale de la zona común
+[2022-05-05T19:27:32]  El campista N3 se dispone a merendar
+[2022-05-05T19:27:32]  El campista N3 coge la merienda Bandeja20
+[2022-05-05T19:27:32]  VICTORIA del equipo B: N42, N41, N45, N21, N29
+[2022-05-05T19:27:32]  El campista N21 abandona la actividad de soga
+[2022-05-05T19:27:32]  El campista N21 descansa en la zona común
+[2022-05-05T19:27:32]  El campista N40 abandona la actividad de soga
+[2022-05-05T19:27:32]  El campista N46 abandona la actividad de soga
+[2022-05-05T19:27:32]  El campista N40 descansa en la zona común
+[2022-05-05T19:27:32]  El campista N46 descansa en la zona común
+[2022-05-05T19:27:32]  El campista N41 abandona la actividad de soga
+[2022-05-05T19:27:32]  El campista N41 descansa en la zona común
+[2022-05-05T19:27:32]  El campista N43 abandona la actividad de soga
+[2022-05-05T19:27:32]  El campista N43 descansa en la zona común
+[2022-05-05T19:27:32]  El campista N29 abandona la actividad de soga
+[2022-05-05T19:27:32]  El campista N29 descansa en la zona común
+[2022-05-05T19:27:32]  El campista N45 abandona la actividad de soga
+[2022-05-05T19:27:32]  El campista N45 descansa en la zona común
+[2022-05-05T19:27:32]  El campista N42 abandona la actividad de soga
+[2022-05-05T19:27:32]  El campista N42 descansa en la zona común
+[2022-05-05T19:27:32]  El campista N16 abandona la actividad de soga
+[2022-05-05T19:27:32]  El campista N16 descansa en la zona común
+[2022-05-05T19:27:32]  El campista N2 abandona la actividad de soga
+[2022-05-05T19:27:32]  El campista N2 descansa en la zona común
+[2022-05-05T19:27:32]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:27:32]  El monitor M4 ha preparado la merienda Bandeja15
+[2022-05-05T19:27:32]  El monitor M4 se va del merendero
+[2022-05-05T19:27:32]  El monitor M4 descansa en la zona común
+[2022-05-05T19:27:33]  El campista N9 sale de la zona común
+[2022-05-05T19:27:33]  El campista N9 se dispone a merendar
+[2022-05-05T19:27:33]  El campista N9 coge la merienda Bandeja19
+[2022-05-05T19:27:33]  El campista N8 se baja de la tirolina
+[2022-05-05T19:27:33]  El campista N8 descansa en la zona común
+[2022-05-05T19:27:33]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:34]  El campista N17 deja la bandeja Bandeja17
+[2022-05-05T19:27:34]  El campista N17 descansa en la zona común
+[2022-05-05T19:27:34]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:34]  El campista N26 se tira por la tirolina!
+[2022-05-05T19:27:35]  El monitor M4 sale de la zona común
+[2022-05-05T19:27:35]  El monitor M4 va a preparar meriendas
+[2022-05-05T19:27:35]  El monitor M4 empieza a preparar la merienda Bandeja17
+[2022-05-05T19:27:35]  El campista N49 ha llegado al campamento
+[2022-05-05T19:27:35]  El campista N49 se sitúa en la entrada B
+[2022-05-05T19:27:35]  El campista N49 ha entrado (B) dentro del campamento
+[2022-05-05T19:27:35]  El campista N49 elige tirarse por la tirolina
+[2022-05-05T19:27:35]  El campista N49 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:35]  El monitor M1 ha preparado la merienda Bandeja16
+[2022-05-05T19:27:36]  El campista N16 sale de la zona común
+[2022-05-05T19:27:36]  El campista N16 elige tirarse por la tirolina
+[2022-05-05T19:27:36]  El campista N16 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:36]  El campista N46 sale de la zona común
+[2022-05-05T19:27:36]  El campista N46 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:27:36]  El campista N46 elige competir en la soga
+[2022-05-05T19:27:36]  El campista N46 espera para competir en la soga
+[2022-05-05T19:27:36]  El campista N42 sale de la zona común
+[2022-05-05T19:27:36]  El campista N42 elige tirarse por la tirolina
+[2022-05-05T19:27:36]  El campista N42 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:36]  El campista N29 sale de la zona común
+[2022-05-05T19:27:36]  El campista N29 elige competir en la soga
+[2022-05-05T19:27:36]  El campista N29 espera para competir en la soga
+[2022-05-05T19:27:37]  El campista N21 sale de la zona común
+[2022-05-05T19:27:37]  El campista N21 elige competir en la soga
+[2022-05-05T19:27:37]  El campista N21 espera para competir en la soga
+[2022-05-05T19:27:37]  El campista N41 sale de la zona común
+[2022-05-05T19:27:37]  El campista N41 se dispone a merendar
+[2022-05-05T19:27:37]  El campista N41 coge la merienda Bandeja21
+[2022-05-05T19:27:37]  El campista N2 sale de la zona común
+[2022-05-05T19:27:37]  El campista N2 elige competir en la soga
+[2022-05-05T19:27:37]  El campista N2 espera para competir en la soga
+[2022-05-05T19:27:37]  El campista N26 se baja de la tirolina
+[2022-05-05T19:27:37]  El campista N26 descansa en la zona común
+[2022-05-05T19:27:37]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:37]  El campista N45 sale de la zona común
+[2022-05-05T19:27:37]  El campista N45 elige tirarse por la tirolina
+[2022-05-05T19:27:37]  El campista N45 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:37]  El campista N43 sale de la zona común
+[2022-05-05T19:27:37]  El campista N43 elige tirarse por la tirolina
+[2022-05-05T19:27:37]  El campista N43 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:38]  El campista N40 sale de la zona común
+[2022-05-05T19:27:38]  El campista N40 elige tirarse por la tirolina
+[2022-05-05T19:27:38]  El campista N40 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:38]  El campista N8 sale de la zona común
+[2022-05-05T19:27:38]  El campista N8 elige competir en la soga
+[2022-05-05T19:27:38]  El campista N8 espera para competir en la soga
+[2022-05-05T19:27:38]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:38]  El campista N18 se tira por la tirolina!
+[2022-05-05T19:27:38]  El campista N23 deja la bandeja Bandeja18
+[2022-05-05T19:27:38]  El campista N23 descansa en la zona común
+[2022-05-05T19:27:38]  El monitor M1 empieza a preparar la merienda Bandeja18
+[2022-05-05T19:27:39]  El campista N50 ha llegado al campamento
+[2022-05-05T19:27:39]  El campista N50 se sitúa en la entrada A
+[2022-05-05T19:27:39]  El campista N50 ha entrado (A) dentro del campamento 
+[2022-05-05T19:27:39]  El campista N50 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:27:39]  El campista N50 elige competir en la soga
+[2022-05-05T19:27:39]  El campista N50 espera para competir en la soga
+[2022-05-05T19:27:39]  El campista N3 deja la bandeja Bandeja20
+[2022-05-05T19:27:39]  El campista N3 descansa en la zona común
+[2022-05-05T19:27:39]  El campista N17 sale de la zona común
+[2022-05-05T19:27:39]  El campista N17 se dispone a merendar
+[2022-05-05T19:27:39]  El campista N17 coge la merienda Bandeja22
+[2022-05-05T19:27:40]  El campista N9 deja la bandeja Bandeja19
+[2022-05-05T19:27:40]  El campista N9 descansa en la zona común
+[2022-05-05T19:27:41]  El monitor M4 ha preparado la merienda Bandeja17
+[2022-05-05T19:27:41]  El monitor M4 empieza a preparar la merienda Bandeja20
+[2022-05-05T19:27:42]  El campista N18 se baja de la tirolina
+[2022-05-05T19:27:42]  El campista N18 descansa en la zona común
+[2022-05-05T19:27:42]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:42]  El campista N26 sale de la zona común
+[2022-05-05T19:27:42]  El campista N26 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:27:42]  El campista N26 elige competir en la soga
+[2022-05-05T19:27:42]  El campista N26 espera para competir en la soga
+[2022-05-05T19:27:43]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:43]  El campista N30 se tira por la tirolina!
+[2022-05-05T19:27:44]  El campista N23 sale de la zona común
+[2022-05-05T19:27:44]  El campista N23 elige tirarse por la tirolina
+[2022-05-05T19:27:44]  El campista N23 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:44]  El campista N51 ha llegado al campamento
+[2022-05-05T19:27:44]  El campista N51 se sitúa en la entrada A
+[2022-05-05T19:27:44]  El campista N41 deja la bandeja Bandeja21
+[2022-05-05T19:27:44]  El campista N41 descansa en la zona común
+[2022-05-05T19:27:44]  El campista N9 sale de la zona común
+[2022-05-05T19:27:44]  El campista N9 elige competir en la soga
+[2022-05-05T19:27:44]  El campista N9 espera para competir en la soga
+[2022-05-05T19:27:44]  El campista N3 sale de la zona común
+[2022-05-05T19:27:44]  El campista N3 elige tirarse por la tirolina
+[2022-05-05T19:27:44]  El campista N3 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:45]  El monitor M1 ha preparado la merienda Bandeja18
+[2022-05-05T19:27:45]  El monitor M1 empieza a preparar la merienda Bandeja19
+[2022-05-05T19:27:46]  El campista N17 deja la bandeja Bandeja22
+[2022-05-05T19:27:46]  El campista N17 descansa en la zona común
+[2022-05-05T19:27:46]  El campista N30 se baja de la tirolina
+[2022-05-05T19:27:46]  El campista N30 descansa en la zona común
+[2022-05-05T19:27:46]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:47]  El monitor M4 ha preparado la merienda Bandeja20
+[2022-05-05T19:27:47]  El monitor M4 empieza a preparar la merienda Bandeja21
+[2022-05-05T19:27:47]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:47]  El campista N31 se tira por la tirolina!
+[2022-05-05T19:27:47]  El campista N18 sale de la zona común
+[2022-05-05T19:27:47]  El campista N18 se dispone a merendar
+[2022-05-05T19:27:47]  El campista N18 coge la merienda Bandeja23
+[2022-05-05T19:27:49]  El campista N52 ha llegado al campamento
+[2022-05-05T19:27:49]  El campista N52 se sitúa en la entrada B
+[2022-05-05T19:27:49]  El campista N41 sale de la zona común
+[2022-05-05T19:27:49]  El campista N41 elige tirarse por la tirolina
+[2022-05-05T19:27:49]  El campista N41 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:50]  El campista N17 sale de la zona común
+[2022-05-05T19:27:50]  El campista N17 elige competir en la soga
+[2022-05-05T19:27:50]  El campista N17 espera para competir en la soga
+[2022-05-05T19:27:51]  El campista N30 sale de la zona común
+[2022-05-05T19:27:51]  El campista N30 elige tirarse por la tirolina
+[2022-05-05T19:27:51]  El campista N30 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:51]  El campista N31 se baja de la tirolina
+[2022-05-05T19:27:51]  El campista N31 descansa en la zona común
+[2022-05-05T19:27:51]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:52]  El monitor M1 ha preparado la merienda Bandeja19
+[2022-05-05T19:27:52]  El monitor M1 empieza a preparar la merienda Bandeja22
+[2022-05-05T19:27:52]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:52]  El campista N5 se tira por la tirolina!
+[2022-05-05T19:27:52]  El monitor M4 ha preparado la merienda Bandeja21
+[2022-05-05T19:27:53]  El campista N53 ha llegado al campamento
+[2022-05-05T19:27:53]  El campista N53 se sitúa en la entrada A
+[2022-05-05T19:27:54]  El campista N18 deja la bandeja Bandeja23
+[2022-05-05T19:27:54]  El campista N18 descansa en la zona común
+[2022-05-05T19:27:54]  El monitor M4 empieza a preparar la merienda Bandeja23
+[2022-05-05T19:27:55]  El campista N31 sale de la zona común
+[2022-05-05T19:27:55]  El campista N31 elige tirarse por la tirolina
+[2022-05-05T19:27:55]  El campista N31 se ha puesto a la cola de la tirolina
+[2022-05-05T19:27:55]  El campista N5 se baja de la tirolina
+[2022-05-05T19:27:55]  El campista N5 descansa en la zona común
+[2022-05-05T19:27:55]  El monitor M2 prepara a un campista
+[2022-05-05T19:27:56]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:27:56]  El campista N11 se tira por la tirolina!
+[2022-05-05T19:27:56]  El monitor M2 ha lanzado a 10 campistas y se marcha de la tirolina
+[2022-05-05T19:27:56]  El monitor M2 descansa en la zona común
+[2022-05-05T19:27:57]  El campista N54 ha llegado al campamento
+[2022-05-05T19:27:57]  El campista N54 se sitúa en la entrada B
+[2022-05-05T19:27:58]  El monitor M1 ha preparado la merienda Bandeja22
+[2022-05-05T19:27:59]  El campista N55 ha llegado al campamento
+[2022-05-05T19:27:59]  El campista N55 se sitúa en la entrada A
+[2022-05-05T19:27:59]  El campista N18 sale de la zona común
+[2022-05-05T19:27:59]  El campista N18 se dispone a merendar
+[2022-05-05T19:27:59]  El campista N18 coge la merienda Bandeja24
+[2022-05-05T19:27:59]  El monitor M2 sale de la zona común
+[2022-05-05T19:27:59]  El monitor M2 llega a la tirolina
+[2022-05-05T19:28]  El campista N5 sale de la zona común
+[2022-05-05T19:28]  El campista N5 elige competir en la soga
+[2022-05-05T19:28]  El campista N5 espera para competir en la soga
+[2022-05-05T19:28]  	------EQUIPOS SOGA------	
+EQUIPO A: N26, N9, N8, N17, N50
+EQUIPO B: N21, N2, N29, N46, N5
+	------------------------	
+
+[2022-05-05T19:28]  El campista N17 tira de la soga!
+[2022-05-05T19:28]  El campista N5 tira de la soga!
+[2022-05-05T19:28]  El campista N46 tira de la soga!
+[2022-05-05T19:28]  El campista N29 tira de la soga!
+[2022-05-05T19:28]  El campista N21 tira de la soga!
+[2022-05-05T19:28]  El campista N2 tira de la soga!
+[2022-05-05T19:28]  El campista N8 tira de la soga!
+[2022-05-05T19:28]  El campista N50 tira de la soga!
+[2022-05-05T19:28]  El campista N26 tira de la soga!
+[2022-05-05T19:28]  El campista N9 tira de la soga!
+[2022-05-05T19:28]  El campista N11 se baja de la tirolina
+[2022-05-05T19:28]  El campista N11 descansa en la zona común
+[2022-05-05T19:28]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:01]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:01]  El campista N15 se tira por la tirolina!
+[2022-05-05T19:28:01]  El monitor M4 ha preparado la merienda Bandeja23
+[2022-05-05T19:28:02]  El campista N56 ha llegado al campamento
+[2022-05-05T19:28:02]  El campista N56 se sitúa en la entrada B
+[2022-05-05T19:28:04]  El campista N11 sale de la zona común
+[2022-05-05T19:28:04]  El campista N11 se dispone a merendar
+[2022-05-05T19:28:04]  El campista N11 coge la merienda Bandeja25
+[2022-05-05T19:28:04]  El campista N15 se baja de la tirolina
+[2022-05-05T19:28:04]  El campista N15 descansa en la zona común
+[2022-05-05T19:28:04]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:05]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:05]  El campista N32 se tira por la tirolina!
+[2022-05-05T19:28:06]  El campista N18 deja la bandeja Bandeja24
+[2022-05-05T19:28:06]  El campista N18 descansa en la zona común
+[2022-05-05T19:28:06]  El monitor M1 empieza a preparar la merienda Bandeja24
+[2022-05-05T19:28:07]  VICTORIA del equipo B: N21, N2, N29, N46, N5
+[2022-05-05T19:28:07]  El campista N8 abandona la actividad de soga
+[2022-05-05T19:28:07]  El campista N8 descansa en la zona común
+[2022-05-05T19:28:07]  El campista N29 abandona la actividad de soga
+[2022-05-05T19:28:07]  El campista N29 descansa en la zona común
+[2022-05-05T19:28:07]  El campista N26 abandona la actividad de soga
+[2022-05-05T19:28:07]  El campista N26 descansa en la zona común
+[2022-05-05T19:28:07]  El campista N46 abandona la actividad de soga
+[2022-05-05T19:28:07]  El campista N46 descansa en la zona común
+[2022-05-05T19:28:07]  El campista N2 abandona la actividad de soga
+[2022-05-05T19:28:07]  El campista N2 descansa en la zona común
+[2022-05-05T19:28:07]  El campista N21 abandona la actividad de soga
+[2022-05-05T19:28:07]  El campista N21 descansa en la zona común
+[2022-05-05T19:28:07]  El campista N50 abandona la actividad de soga
+[2022-05-05T19:28:07]  El campista N50 descansa en la zona común
+[2022-05-05T19:28:07]  El campista N17 abandona la actividad de soga
+[2022-05-05T19:28:07]  El campista N17 descansa en la zona común
+[2022-05-05T19:28:07]  El campista N5 abandona la actividad de soga
+[2022-05-05T19:28:07]  El campista N5 descansa en la zona común
+[2022-05-05T19:28:07]  El campista N9 abandona la actividad de soga
+[2022-05-05T19:28:07]  El campista N9 descansa en la zona común
+[2022-05-05T19:28:07]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:28:09]  El campista N32 se baja de la tirolina
+[2022-05-05T19:28:09]  El campista N32 descansa en la zona común
+[2022-05-05T19:28:09]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:09]  El campista N57 ha llegado al campamento
+[2022-05-05T19:28:09]  El campista N57 se sitúa en la entrada A
+[2022-05-05T19:28:10]  El campista N15 sale de la zona común
+[2022-05-05T19:28:10]  El campista N15 se dispone a merendar
+[2022-05-05T19:28:10]  El campista N15 coge la merienda Bandeja1
+[2022-05-05T19:28:10]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:10]  El campista N33 se tira por la tirolina!
+[2022-05-05T19:28:11]  El campista N18 sale de la zona común
+[2022-05-05T19:28:11]  El campista N18 elige competir en la soga
+[2022-05-05T19:28:11]  El campista N18 espera para competir en la soga
+[2022-05-05T19:28:11]  El campista N11 deja la bandeja Bandeja25
+[2022-05-05T19:28:11]  El campista N11 descansa en la zona común
+[2022-05-05T19:28:11]  El monitor M4 empieza a preparar la merienda Bandeja25
+[2022-05-05T19:28:11]  El campista N46 sale de la zona común
+[2022-05-05T19:28:11]  El campista N46 elige competir en la soga
+[2022-05-05T19:28:11]  El campista N46 espera para competir en la soga
+[2022-05-05T19:28:11]  El campista N17 sale de la zona común
+[2022-05-05T19:28:11]  El campista N17 se dispone a merendar
+[2022-05-05T19:28:11]  El campista N17 coge la merienda Bandeja3
+[2022-05-05T19:28:11]  El campista N5 sale de la zona común
+[2022-05-05T19:28:11]  El campista N5 se dispone a merendar
+[2022-05-05T19:28:11]  El campista N5 coge la merienda Bandeja2
+[2022-05-05T19:28:11]  El campista N29 sale de la zona común
+[2022-05-05T19:28:11]  El campista N29 elige tirarse por la tirolina
+[2022-05-05T19:28:11]  El campista N29 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:12]  El campista N9 sale de la zona común
+[2022-05-05T19:28:12]  El campista N9 se dispone a merendar
+[2022-05-05T19:28:12]  El campista N9 coge la merienda Bandeja4
+[2022-05-05T19:28:12]  El campista N21 sale de la zona común
+[2022-05-05T19:28:12]  El campista N21 elige tirarse por la tirolina
+[2022-05-05T19:28:12]  El campista N21 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:12]  El campista N58 ha llegado al campamento
+[2022-05-05T19:28:12]  El campista N58 se sitúa en la entrada B
+[2022-05-05T19:28:12]  El campista N50 sale de la zona común
+[2022-05-05T19:28:12]  El campista N50 elige tirarse por la tirolina
+[2022-05-05T19:28:12]  El campista N50 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:12]  El campista N26 sale de la zona común
+[2022-05-05T19:28:12]  El campista N26 elige competir en la soga
+[2022-05-05T19:28:12]  El campista N26 espera para competir en la soga
+[2022-05-05T19:28:12]  El campista N8 sale de la zona común
+[2022-05-05T19:28:12]  El campista N8 se dispone a merendar
+[2022-05-05T19:28:12]  El campista N8 coge la merienda Bandeja5
+[2022-05-05T19:28:12]  El campista N2 sale de la zona común
+[2022-05-05T19:28:12]  El campista N2 elige competir en la soga
+[2022-05-05T19:28:12]  El campista N2 espera para competir en la soga
+[2022-05-05T19:28:13]  El monitor M1 ha preparado la merienda Bandeja24
+[2022-05-05T19:28:13]  El campista N33 se baja de la tirolina
+[2022-05-05T19:28:13]  El campista N33 descansa en la zona común
+[2022-05-05T19:28:13]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:14]  El campista N32 sale de la zona común
+[2022-05-05T19:28:14]  El campista N32 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:28:14]  El campista N32 elige competir en la soga
+[2022-05-05T19:28:14]  El campista N32 espera para competir en la soga
+[2022-05-05T19:28:14]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:14]  El campista N34 se tira por la tirolina!
+[2022-05-05T19:28:16]  El campista N59 ha llegado al campamento
+[2022-05-05T19:28:16]  El campista N59 se sitúa en la entrada A
+[2022-05-05T19:28:17]  El campista N11 sale de la zona común
+[2022-05-05T19:28:17]  El campista N11 se dispone a merendar
+[2022-05-05T19:28:17]  El campista N11 coge la merienda Bandeja6
+[2022-05-05T19:28:17]  El campista N15 deja la bandeja Bandeja1
+[2022-05-05T19:28:17]  El monitor M1 empieza a preparar la merienda Bandeja1
+[2022-05-05T19:28:17]  El campista N15 descansa en la zona común
+[2022-05-05T19:28:18]  El monitor M4 ha preparado la merienda Bandeja25
+[2022-05-05T19:28:18]  El campista N34 se baja de la tirolina
+[2022-05-05T19:28:18]  El campista N34 descansa en la zona común
+[2022-05-05T19:28:18]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:18]  El campista N17 deja la bandeja Bandeja3
+[2022-05-05T19:28:18]  El monitor M4 empieza a preparar la merienda Bandeja3
+[2022-05-05T19:28:18]  El campista N17 descansa en la zona común
+[2022-05-05T19:28:18]  El campista N5 deja la bandeja Bandeja2
+[2022-05-05T19:28:18]  El campista N5 descansa en la zona común
+[2022-05-05T19:28:19]  El campista N9 deja la bandeja Bandeja4
+[2022-05-05T19:28:19]  El campista N9 descansa en la zona común
+[2022-05-05T19:28:19]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:19]  El campista N35 se tira por la tirolina!
+[2022-05-05T19:28:19]  El campista N33 sale de la zona común
+[2022-05-05T19:28:19]  El campista N33 elige competir en la soga
+[2022-05-05T19:28:19]  El campista N33 espera para competir en la soga
+[2022-05-05T19:28:19]  El campista N8 deja la bandeja Bandeja5
+[2022-05-05T19:28:19]  El campista N8 descansa en la zona común
+[2022-05-05T19:28:20]  El campista N60 ha llegado al campamento
+[2022-05-05T19:28:20]  El campista N60 se sitúa en la entrada B
+[2022-05-05T19:28:21]  El campista N15 sale de la zona común
+[2022-05-05T19:28:21]  El campista N15 elige competir en la soga
+[2022-05-05T19:28:21]  El campista N15 espera para competir en la soga
+[2022-05-05T19:28:22]  El campista N35 se baja de la tirolina
+[2022-05-05T19:28:22]  El campista N35 descansa en la zona común
+[2022-05-05T19:28:22]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:22]  El campista N34 sale de la zona común
+[2022-05-05T19:28:22]  El campista N34 elige competir en la soga
+[2022-05-05T19:28:22]  El campista N34 espera para competir en la soga
+[2022-05-05T19:28:23]  El monitor M1 ha preparado la merienda Bandeja1
+[2022-05-05T19:28:23]  El monitor M1 empieza a preparar la merienda Bandeja2
+[2022-05-05T19:28:23]  El campista N61 ha llegado al campamento
+[2022-05-05T19:28:23]  El campista N61 se sitúa en la entrada A
+[2022-05-05T19:28:23]  El campista N17 sale de la zona común
+[2022-05-05T19:28:23]  El campista N17 elige tirarse por la tirolina
+[2022-05-05T19:28:23]  El campista N17 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:23]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:23]  El campista N22 se tira por la tirolina!
+[2022-05-05T19:28:24]  El campista N8 sale de la zona común
+[2022-05-05T19:28:24]  El campista N8 elige tirarse por la tirolina
+[2022-05-05T19:28:24]  El campista N8 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:24]  El campista N9 sale de la zona común
+[2022-05-05T19:28:24]  El campista N9 se dispone a merendar
+[2022-05-05T19:28:24]  El campista N9 coge la merienda Bandeja7
+[2022-05-05T19:28:24]  El campista N11 deja la bandeja Bandeja6
+[2022-05-05T19:28:24]  El campista N11 descansa en la zona común
+[2022-05-05T19:28:24]  El monitor M4 ha preparado la merienda Bandeja3
+[2022-05-05T19:28:24]  El monitor M4 empieza a preparar la merienda Bandeja4
+[2022-05-05T19:28:24]  El campista N5 sale de la zona común
+[2022-05-05T19:28:24]  El campista N5 elige competir en la soga
+[2022-05-05T19:28:24]  El campista N5 espera para competir en la soga
+[2022-05-05T19:28:26]  El campista N62 ha llegado al campamento
+[2022-05-05T19:28:26]  El campista N62 se sitúa en la entrada B
+[2022-05-05T19:28:27]  El campista N22 se baja de la tirolina
+[2022-05-05T19:28:27]  El campista N22 descansa en la zona común
+[2022-05-05T19:28:27]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:28]  El campista N35 sale de la zona común
+[2022-05-05T19:28:28]  El campista N35 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:28:28]  El campista N35 elige competir en la soga
+[2022-05-05T19:28:28]  El campista N35 espera para competir en la soga
+[2022-05-05T19:28:28]  	------EQUIPOS SOGA------	
+EQUIPO A: N35, N5, N26, N18, N46
+EQUIPO B: N33, N2, N34, N32, N15
+	------------------------	
+
+[2022-05-05T19:28:28]  El campista N5 tira de la soga!
+[2022-05-05T19:28:28]  El campista N35 tira de la soga!
+[2022-05-05T19:28:28]  El campista N18 tira de la soga!
+[2022-05-05T19:28:28]  El campista N46 tira de la soga!
+[2022-05-05T19:28:28]  El campista N26 tira de la soga!
+[2022-05-05T19:28:28]  El campista N2 tira de la soga!
+[2022-05-05T19:28:28]  El campista N32 tira de la soga!
+[2022-05-05T19:28:28]  El campista N33 tira de la soga!
+[2022-05-05T19:28:28]  El campista N15 tira de la soga!
+[2022-05-05T19:28:28]  El campista N34 tira de la soga!
+[2022-05-05T19:28:28]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:28]  El campista N37 se tira por la tirolina!
+[2022-05-05T19:28:28]  El campista N11 sale de la zona común
+[2022-05-05T19:28:28]  El campista N11 se dispone a merendar
+[2022-05-05T19:28:28]  El campista N11 coge la merienda Bandeja9
+[2022-05-05T19:28:28]  El monitor M1 ha preparado la merienda Bandeja2
+[2022-05-05T19:28:28]  El monitor M1 empieza a preparar la merienda Bandeja5
+[2022-05-05T19:28:31]  El campista N9 deja la bandeja Bandeja7
+[2022-05-05T19:28:31]  El campista N9 descansa en la zona común
+[2022-05-05T19:28:31]  El monitor M4 ha preparado la merienda Bandeja4
+[2022-05-05T19:28:31]  El monitor M4 empieza a preparar la merienda Bandeja6
+[2022-05-05T19:28:31]  El campista N63 ha llegado al campamento
+[2022-05-05T19:28:31]  El campista N63 se sitúa en la entrada A
+[2022-05-05T19:28:31]  El campista N37 se baja de la tirolina
+[2022-05-05T19:28:31]  El campista N37 descansa en la zona común
+[2022-05-05T19:28:31]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:32]  El campista N22 sale de la zona común
+[2022-05-05T19:28:32]  El campista N22 elige tirarse por la tirolina
+[2022-05-05T19:28:32]  El campista N22 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:32]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:32]  El campista N38 se tira por la tirolina!
+[2022-05-05T19:28:34]  El monitor M1 ha preparado la merienda Bandeja5
+[2022-05-05T19:28:34]  El monitor M1 empieza a preparar la merienda Bandeja7
+[2022-05-05T19:28:35]  El campista N64 ha llegado al campamento
+[2022-05-05T19:28:35]  El campista N64 se sitúa en la entrada B
+[2022-05-05T19:28:35]  VICTORIA del equipo A: N35, N5, N26, N18, N46
+[2022-05-05T19:28:35]  El campista N26 abandona la actividad de soga
+[2022-05-05T19:28:35]  El campista N26 descansa en la zona común
+[2022-05-05T19:28:35]  El campista N18 abandona la actividad de soga
+[2022-05-05T19:28:35]  El campista N18 descansa en la zona común
+[2022-05-05T19:28:35]  El campista N2 abandona la actividad de soga
+[2022-05-05T19:28:35]  El campista N2 descansa en la zona común
+[2022-05-05T19:28:35]  El campista N35 abandona la actividad de soga
+[2022-05-05T19:28:35]  El campista N35 descansa en la zona común
+[2022-05-05T19:28:35]  El campista N32 abandona la actividad de soga
+[2022-05-05T19:28:35]  El campista N32 descansa en la zona común
+[2022-05-05T19:28:35]  El campista N15 abandona la actividad de soga
+[2022-05-05T19:28:35]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:28:35]  El campista N15 descansa en la zona común
+[2022-05-05T19:28:35]  El campista N33 abandona la actividad de soga
+[2022-05-05T19:28:35]  El campista N33 descansa en la zona común
+[2022-05-05T19:28:35]  El campista N34 abandona la actividad de soga
+[2022-05-05T19:28:35]  El campista N34 descansa en la zona común
+[2022-05-05T19:28:35]  El campista N5 abandona la actividad de soga
+[2022-05-05T19:28:35]  El campista N5 descansa en la zona común
+[2022-05-05T19:28:35]  El campista N46 abandona la actividad de soga
+[2022-05-05T19:28:35]  El campista N46 descansa en la zona común
+[2022-05-05T19:28:35]  El campista N11 deja la bandeja Bandeja9
+[2022-05-05T19:28:35]  El campista N11 descansa en la zona común
+[2022-05-05T19:28:35]  El campista N9 sale de la zona común
+[2022-05-05T19:28:35]  El campista N9 elige tirarse por la tirolina
+[2022-05-05T19:28:35]  El campista N9 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:36]  El campista N38 se baja de la tirolina
+[2022-05-05T19:28:36]  El campista N38 descansa en la zona común
+[2022-05-05T19:28:36]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:36]  El campista N37 sale de la zona común
+[2022-05-05T19:28:36]  El campista N37 elige competir en la soga
+[2022-05-05T19:28:36]  El campista N37 espera para competir en la soga
+[2022-05-05T19:28:37]  El campista N65 ha llegado al campamento
+[2022-05-05T19:28:37]  El campista N65 se sitúa en la entrada A
+[2022-05-05T19:28:37]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:37]  El campista N7 se tira por la tirolina!
+[2022-05-05T19:28:37]  El monitor M4 ha preparado la merienda Bandeja6
+[2022-05-05T19:28:37]  El monitor M4 empieza a preparar la merienda Bandeja9
+[2022-05-05T19:28:39]  El campista N34 sale de la zona común
+[2022-05-05T19:28:39]  El campista N34 elige tirarse por la tirolina
+[2022-05-05T19:28:39]  El campista N34 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:39]  El campista N46 sale de la zona común
+[2022-05-05T19:28:39]  El campista N46 elige competir en la soga
+[2022-05-05T19:28:39]  El campista N46 espera para competir en la soga
+[2022-05-05T19:28:39]  El campista N2 sale de la zona común
+[2022-05-05T19:28:39]  El campista N2 elige competir en la soga
+[2022-05-05T19:28:39]  El campista N2 espera para competir en la soga
+[2022-05-05T19:28:40]  El campista N18 sale de la zona común
+[2022-05-05T19:28:40]  El campista N18 se dispone a merendar
+[2022-05-05T19:28:40]  El campista N18 coge la merienda Bandeja8
+[2022-05-05T19:28:40]  El campista N5 sale de la zona común
+[2022-05-05T19:28:40]  El campista N5 abandona el campamento
+[2022-05-05T19:28:40]  El campista N51 ha entrado (A) dentro del campamento 
+[2022-05-05T19:28:40]  El campista N51 elige tirarse por la tirolina
+[2022-05-05T19:28:40]  El campista N51 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:40]  El campista N35 sale de la zona común
+[2022-05-05T19:28:40]  El campista N35 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:28:40]  El campista N35 elige competir en la soga
+[2022-05-05T19:28:40]  El campista N35 espera para competir en la soga
+[2022-05-05T19:28:40]  El campista N26 sale de la zona común
+[2022-05-05T19:28:40]  El campista N26 elige tirarse por la tirolina
+[2022-05-05T19:28:40]  El campista N26 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:40]  El campista N33 sale de la zona común
+[2022-05-05T19:28:40]  El campista N33 elige tirarse por la tirolina
+[2022-05-05T19:28:40]  El campista N33 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:40]  El campista N11 sale de la zona común
+[2022-05-05T19:28:40]  El campista N11 se dispone a merendar
+[2022-05-05T19:28:40]  El campista N11 coge la merienda Bandeja10
+[2022-05-05T19:28:40]  El campista N7 se baja de la tirolina
+[2022-05-05T19:28:40]  El campista N7 descansa en la zona común
+[2022-05-05T19:28:40]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:40]  El campista N15 sale de la zona común
+[2022-05-05T19:28:40]  El campista N15 elige competir en la soga
+[2022-05-05T19:28:40]  El campista N15 espera para competir en la soga
+[2022-05-05T19:28:41]  El campista N32 sale de la zona común
+[2022-05-05T19:28:41]  El campista N32 elige competir en la soga
+[2022-05-05T19:28:41]  El campista N32 espera para competir en la soga
+[2022-05-05T19:28:41]  El campista N38 sale de la zona común
+[2022-05-05T19:28:41]  El campista N38 elige competir en la soga
+[2022-05-05T19:28:41]  El campista N38 espera para competir en la soga
+[2022-05-05T19:28:41]  El monitor M1 ha preparado la merienda Bandeja7
+[2022-05-05T19:28:41]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:41]  El campista N39 se tira por la tirolina!
+[2022-05-05T19:28:41]  El monitor M2 ha lanzado a 10 campistas y se marcha de la tirolina
+[2022-05-05T19:28:41]  El monitor M2 descansa en la zona común
+[2022-05-05T19:28:42]  El campista N66 ha llegado al campamento
+[2022-05-05T19:28:42]  El campista N66 se sitúa en la entrada B
+[2022-05-05T19:28:44]  El monitor M2 sale de la zona común
+[2022-05-05T19:28:44]  El monitor M2 llega a la tirolina
+[2022-05-05T19:28:44]  El monitor M4 ha preparado la merienda Bandeja9
+[2022-05-05T19:28:44]  El campista N67 ha llegado al campamento
+[2022-05-05T19:28:44]  El campista N67 se sitúa en la entrada A
+[2022-05-05T19:28:44]  El campista N7 sale de la zona común
+[2022-05-05T19:28:44]  El campista N7 elige tirarse por la tirolina
+[2022-05-05T19:28:44]  El campista N7 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:45]  El campista N39 se baja de la tirolina
+[2022-05-05T19:28:45]  El campista N39 descansa en la zona común
+[2022-05-05T19:28:45]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:46]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:46]  El campista N19 se tira por la tirolina!
+[2022-05-05T19:28:47]  El campista N18 deja la bandeja Bandeja8
+[2022-05-05T19:28:47]  El campista N18 descansa en la zona común
+[2022-05-05T19:28:47]  El monitor M1 empieza a preparar la merienda Bandeja8
+[2022-05-05T19:28:47]  El campista N11 deja la bandeja Bandeja10
+[2022-05-05T19:28:47]  El monitor M4 empieza a preparar la merienda Bandeja10
+[2022-05-05T19:28:47]  El campista N11 descansa en la zona común
+[2022-05-05T19:28:49]  El campista N19 se baja de la tirolina
+[2022-05-05T19:28:49]  El campista N19 descansa en la zona común
+[2022-05-05T19:28:49]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:49]  El campista N39 sale de la zona común
+[2022-05-05T19:28:49]  El campista N39 elige competir en la soga
+[2022-05-05T19:28:49]  El campista N39 espera para competir en la soga
+[2022-05-05T19:28:50]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:50]  El campista N20 se tira por la tirolina!
+[2022-05-05T19:28:50]  El campista N68 ha llegado al campamento
+[2022-05-05T19:28:50]  El campista N68 se sitúa en la entrada B
+[2022-05-05T19:28:51]  El campista N18 sale de la zona común
+[2022-05-05T19:28:51]  El campista N18 se dispone a merendar
+[2022-05-05T19:28:51]  El campista N18 coge la merienda Bandeja11
+[2022-05-05T19:28:52]  El campista N11 sale de la zona común
+[2022-05-05T19:28:52]  El campista N11 elige tirarse por la tirolina
+[2022-05-05T19:28:52]  El campista N11 se ha puesto a la cola de la tirolina
+[2022-05-05T19:28:53]  El campista N69 ha llegado al campamento
+[2022-05-05T19:28:53]  El campista N69 se sitúa en la entrada A
+[2022-05-05T19:28:53]  El monitor M1 ha preparado la merienda Bandeja8
+[2022-05-05T19:28:53]  El monitor M1 se va del merendero
+[2022-05-05T19:28:53]  El monitor M1 descansa en la zona común
+[2022-05-05T19:28:54]  El monitor M4 ha preparado la merienda Bandeja10
+[2022-05-05T19:28:54]  El monitor M4 se va del merendero
+[2022-05-05T19:28:54]  El monitor M4 descansa en la zona común
+[2022-05-05T19:28:54]  El campista N20 se baja de la tirolina
+[2022-05-05T19:28:54]  El campista N20 descansa en la zona común
+[2022-05-05T19:28:54]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:54]  El campista N19 sale de la zona común
+[2022-05-05T19:28:54]  El campista N19 elige competir en la soga
+[2022-05-05T19:28:54]  El campista N19 espera para competir en la soga
+[2022-05-05T19:28:55]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:55]  El campista N36 se tira por la tirolina!
+[2022-05-05T19:28:56]  El monitor M1 sale de la zona común
+[2022-05-05T19:28:56]  El monitor M1 va a preparar meriendas
+[2022-05-05T19:28:56]  El campista N70 ha llegado al campamento
+[2022-05-05T19:28:56]  El campista N70 se sitúa en la entrada B
+[2022-05-05T19:28:56]  El monitor M4 sale de la zona común
+[2022-05-05T19:28:56]  El monitor M4 va a preparar meriendas
+[2022-05-05T19:28:58]  El campista N20 sale de la zona común
+[2022-05-05T19:28:58]  El campista N20 se dispone a merendar
+[2022-05-05T19:28:58]  El campista N20 coge la merienda Bandeja12
+[2022-05-05T19:28:58]  El campista N18 deja la bandeja Bandeja11
+[2022-05-05T19:28:58]  El monitor M1 empieza a preparar la merienda Bandeja11
+[2022-05-05T19:28:58]  El campista N18 descansa en la zona común
+[2022-05-05T19:28:58]  El campista N36 se baja de la tirolina
+[2022-05-05T19:28:58]  El campista N36 descansa en la zona común
+[2022-05-05T19:28:58]  El monitor M2 prepara a un campista
+[2022-05-05T19:28:59]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:28:59]  El campista N28 se tira por la tirolina!
+[2022-05-05T19:29]  El campista N71 ha llegado al campamento
+[2022-05-05T19:29]  El campista N71 se sitúa en la entrada A
+[2022-05-05T19:29:03]  El campista N36 sale de la zona común
+[2022-05-05T19:29:03]  El campista N36 elige competir en la soga
+[2022-05-05T19:29:03]  El campista N36 espera para competir en la soga
+[2022-05-05T19:29:03]  	------EQUIPOS SOGA------	
+EQUIPO A: N36, N39, N35, N2, N32
+EQUIPO B: N15, N46, N19, N38, N37
+	------------------------	
+
+[2022-05-05T19:29:03]  El campista N19 tira de la soga!
+[2022-05-05T19:29:03]  El campista N36 tira de la soga!
+[2022-05-05T19:29:03]  El campista N37 tira de la soga!
+[2022-05-05T19:29:03]  El campista N46 tira de la soga!
+[2022-05-05T19:29:03]  El campista N2 tira de la soga!
+[2022-05-05T19:29:03]  El campista N35 tira de la soga!
+[2022-05-05T19:29:03]  El campista N15 tira de la soga!
+[2022-05-05T19:29:03]  El campista N32 tira de la soga!
+[2022-05-05T19:29:03]  El campista N39 tira de la soga!
+[2022-05-05T19:29:03]  El campista N38 tira de la soga!
+[2022-05-05T19:29:03]  El campista N28 se baja de la tirolina
+[2022-05-05T19:29:03]  El campista N28 descansa en la zona común
+[2022-05-05T19:29:03]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:04]  El campista N18 sale de la zona común
+[2022-05-05T19:29:04]  El campista N18 se dispone a merendar
+[2022-05-05T19:29:04]  El campista N18 coge la merienda Bandeja13
+[2022-05-05T19:29:04]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:04]  El campista N6 se tira por la tirolina!
+[2022-05-05T19:29:05]  El campista N72 ha llegado al campamento
+[2022-05-05T19:29:05]  El campista N72 se sitúa en la entrada B
+[2022-05-05T19:29:05]  El monitor M1 ha preparado la merienda Bandeja11
+[2022-05-05T19:29:05]  El campista N20 deja la bandeja Bandeja12
+[2022-05-05T19:29:05]  El campista N20 descansa en la zona común
+[2022-05-05T19:29:05]  El monitor M4 empieza a preparar la merienda Bandeja12
+[2022-05-05T19:29:07]  El campista N28 sale de la zona común
+[2022-05-05T19:29:07]  El campista N28 elige tirarse por la tirolina
+[2022-05-05T19:29:07]  El campista N28 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:07]  El campista N6 se baja de la tirolina
+[2022-05-05T19:29:07]  El campista N6 descansa en la zona común
+[2022-05-05T19:29:07]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:08]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:08]  El campista N12 se tira por la tirolina!
+[2022-05-05T19:29:09]  El campista N73 ha llegado al campamento
+[2022-05-05T19:29:09]  El campista N73 se sitúa en la entrada A
+[2022-05-05T19:29:10]  VICTORIA del equipo A: N36, N39, N35, N2, N32
+[2022-05-05T19:29:10]  El campista N38 abandona la actividad de soga
+[2022-05-05T19:29:10]  El campista N38 descansa en la zona común
+[2022-05-05T19:29:10]  El campista N37 abandona la actividad de soga
+[2022-05-05T19:29:10]  El campista N37 descansa en la zona común
+[2022-05-05T19:29:10]  El campista N46 abandona la actividad de soga
+[2022-05-05T19:29:10]  El campista N46 descansa en la zona común
+[2022-05-05T19:29:10]  El campista N35 abandona la actividad de soga
+[2022-05-05T19:29:10]  El campista N35 descansa en la zona común
+[2022-05-05T19:29:10]  El campista N19 abandona la actividad de soga
+[2022-05-05T19:29:10]  El campista N19 descansa en la zona común
+[2022-05-05T19:29:10]  El campista N2 abandona la actividad de soga
+[2022-05-05T19:29:10]  El campista N2 descansa en la zona común
+[2022-05-05T19:29:10]  El campista N15 abandona la actividad de soga
+[2022-05-05T19:29:10]  El campista N15 descansa en la zona común
+[2022-05-05T19:29:10]  El campista N36 abandona la actividad de soga
+[2022-05-05T19:29:10]  El campista N36 descansa en la zona común
+[2022-05-05T19:29:10]  El campista N39 abandona la actividad de soga
+[2022-05-05T19:29:10]  El campista N39 descansa en la zona común
+[2022-05-05T19:29:10]  El campista N32 abandona la actividad de soga
+[2022-05-05T19:29:10]  El campista N32 descansa en la zona común
+[2022-05-05T19:29:10]  El monitor M3 abandona la soga
+[2022-05-05T19:29:10]  El monitor M3 descansa en la zona común
+[2022-05-05T19:29:11]  El campista N20 sale de la zona común
+[2022-05-05T19:29:11]  El campista N20 elige tirarse por la tirolina
+[2022-05-05T19:29:11]  El campista N20 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:11]  El campista N18 deja la bandeja Bandeja13
+[2022-05-05T19:29:11]  El campista N18 descansa en la zona común
+[2022-05-05T19:29:11]  El monitor M1 empieza a preparar la merienda Bandeja13
+[2022-05-05T19:29:11]  El monitor M4 ha preparado la merienda Bandeja12
+[2022-05-05T19:29:12]  El campista N6 sale de la zona común
+[2022-05-05T19:29:12]  El campista N6 elige tirarse por la tirolina
+[2022-05-05T19:29:12]  El campista N6 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:12]  El campista N12 se baja de la tirolina
+[2022-05-05T19:29:12]  El campista N12 descansa en la zona común
+[2022-05-05T19:29:12]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:12]  El monitor M3 sale de la zona común
+[2022-05-05T19:29:12]  El monitor M3 llega a la actividad de soga
+[2022-05-05T19:29:12]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:29:13]  El campista N74 ha llegado al campamento
+[2022-05-05T19:29:13]  El campista N74 se sitúa en la entrada B
+[2022-05-05T19:29:13]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:13]  El campista N10 se tira por la tirolina!
+[2022-05-05T19:29:14]  El campista N35 sale de la zona común
+[2022-05-05T19:29:14]  El campista N35 se dispone a merendar
+[2022-05-05T19:29:14]  El campista N35 coge la merienda Bandeja14
+[2022-05-05T19:29:14]  El campista N32 sale de la zona común
+[2022-05-05T19:29:14]  El campista N32 elige competir en la soga
+[2022-05-05T19:29:14]  El campista N32 espera para competir en la soga
+[2022-05-05T19:29:15]  El campista N2 sale de la zona común
+[2022-05-05T19:29:15]  El campista N2 elige competir en la soga
+[2022-05-05T19:29:15]  El campista N2 espera para competir en la soga
+[2022-05-05T19:29:15]  El campista N37 sale de la zona común
+[2022-05-05T19:29:15]  El campista N37 elige competir en la soga
+[2022-05-05T19:29:15]  El campista N37 espera para competir en la soga
+[2022-05-05T19:29:15]  El campista N38 sale de la zona común
+[2022-05-05T19:29:15]  El campista N38 elige competir en la soga
+[2022-05-05T19:29:15]  El campista N38 espera para competir en la soga
+[2022-05-05T19:29:15]  El campista N19 sale de la zona común
+[2022-05-05T19:29:15]  El campista N19 elige competir en la soga
+[2022-05-05T19:29:15]  El campista N19 espera para competir en la soga
+[2022-05-05T19:29:15]  El campista N36 sale de la zona común
+[2022-05-05T19:29:15]  El campista N36 elige tirarse por la tirolina
+[2022-05-05T19:29:15]  El campista N36 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:15]  El campista N39 sale de la zona común
+[2022-05-05T19:29:15]  El campista N39 elige competir en la soga
+[2022-05-05T19:29:15]  El campista N39 espera para competir en la soga
+[2022-05-05T19:29:15]  El campista N46 sale de la zona común
+[2022-05-05T19:29:15]  El campista N46 se dispone a merendar
+[2022-05-05T19:29:15]  El campista N46 coge la merienda Bandeja15
+[2022-05-05T19:29:15]  El campista N15 sale de la zona común
+[2022-05-05T19:29:15]  El campista N15 elige competir en la soga
+[2022-05-05T19:29:15]  El campista N15 espera para competir en la soga
+[2022-05-05T19:29:16]  El campista N75 ha llegado al campamento
+[2022-05-05T19:29:16]  El campista N75 se sitúa en la entrada A
+[2022-05-05T19:29:16]  El campista N18 sale de la zona común
+[2022-05-05T19:29:16]  El campista N18 elige tirarse por la tirolina
+[2022-05-05T19:29:16]  El campista N18 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:16]  El campista N10 se baja de la tirolina
+[2022-05-05T19:29:16]  El campista N10 descansa en la zona común
+[2022-05-05T19:29:16]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:17]  El campista N12 sale de la zona común
+[2022-05-05T19:29:17]  El campista N12 elige competir en la soga
+[2022-05-05T19:29:17]  El campista N12 espera para competir en la soga
+[2022-05-05T19:29:17]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:17]  El campista N14 se tira por la tirolina!
+[2022-05-05T19:29:18]  El monitor M1 ha preparado la merienda Bandeja13
+[2022-05-05T19:29:20]  El campista N76 ha llegado al campamento
+[2022-05-05T19:29:20]  El campista N76 se sitúa en la entrada B
+[2022-05-05T19:29:21]  El campista N35 deja la bandeja Bandeja14
+[2022-05-05T19:29:21]  El monitor M4 empieza a preparar la merienda Bandeja14
+[2022-05-05T19:29:21]  El campista N35 descansa en la zona común
+[2022-05-05T19:29:21]  El campista N14 se baja de la tirolina
+[2022-05-05T19:29:21]  El campista N14 descansa en la zona común
+[2022-05-05T19:29:21]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:21]  El campista N10 sale de la zona común
+[2022-05-05T19:29:21]  El campista N10 elige competir en la soga
+[2022-05-05T19:29:21]  El campista N10 espera para competir en la soga
+[2022-05-05T19:29:22]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:22]  El campista N13 se tira por la tirolina!
+[2022-05-05T19:29:22]  El campista N46 deja la bandeja Bandeja15
+[2022-05-05T19:29:22]  El campista N46 descansa en la zona común
+[2022-05-05T19:29:22]  El monitor M1 empieza a preparar la merienda Bandeja15
+[2022-05-05T19:29:24]  El campista N77 ha llegado al campamento
+[2022-05-05T19:29:24]  El campista N77 se sitúa en la entrada A
+[2022-05-05T19:29:25]  El campista N13 se baja de la tirolina
+[2022-05-05T19:29:25]  El campista N13 descansa en la zona común
+[2022-05-05T19:29:25]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:26]  El campista N14 sale de la zona común
+[2022-05-05T19:29:26]  El campista N14 elige competir en la soga
+[2022-05-05T19:29:26]  El campista N14 espera para competir en la soga
+[2022-05-05T19:29:26]  	------EQUIPOS SOGA------	
+EQUIPO A: N38, N2, N12, N15, N32
+EQUIPO B: N10, N37, N19, N39, N14
+	------------------------	
+
+[2022-05-05T19:29:26]  El campista N10 tira de la soga!
+[2022-05-05T19:29:26]  El campista N14 tira de la soga!
+[2022-05-05T19:29:26]  El campista N32 tira de la soga!
+[2022-05-05T19:29:26]  El campista N37 tira de la soga!
+[2022-05-05T19:29:26]  El campista N38 tira de la soga!
+[2022-05-05T19:29:26]  El campista N2 tira de la soga!
+[2022-05-05T19:29:26]  El campista N19 tira de la soga!
+[2022-05-05T19:29:26]  El campista N39 tira de la soga!
+[2022-05-05T19:29:26]  El campista N15 tira de la soga!
+[2022-05-05T19:29:26]  El campista N12 tira de la soga!
+[2022-05-05T19:29:26]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:26]  El monitor M2 ha lanzado a 10 campistas y se marcha de la tirolina
+[2022-05-05T19:29:26]  El campista N44 se tira por la tirolina!
+[2022-05-05T19:29:26]  El monitor M2 descansa en la zona común
+[2022-05-05T19:29:26]  El campista N35 sale de la zona común
+[2022-05-05T19:29:26]  El campista N35 elige tirarse por la tirolina
+[2022-05-05T19:29:26]  El campista N35 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:27]  El monitor M4 ha preparado la merienda Bandeja14
+[2022-05-05T19:29:28]  El campista N46 sale de la zona común
+[2022-05-05T19:29:28]  El campista N46 elige tirarse por la tirolina
+[2022-05-05T19:29:28]  El campista N46 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:29]  El campista N78 ha llegado al campamento
+[2022-05-05T19:29:29]  El campista N78 se sitúa en la entrada B
+[2022-05-05T19:29:29]  El monitor M1 ha preparado la merienda Bandeja15
+[2022-05-05T19:29:29]  El monitor M2 sale de la zona común
+[2022-05-05T19:29:29]  El monitor M2 llega a la tirolina
+[2022-05-05T19:29:29]  El campista N13 sale de la zona común
+[2022-05-05T19:29:29]  El campista N13 elige competir en la soga
+[2022-05-05T19:29:29]  El campista N13 no ha podido competir en la soga porque no hay hueco
+[2022-05-05T19:29:29]  El campista N13 elige tirarse por la tirolina
+[2022-05-05T19:29:29]  El campista N13 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:30]  El campista N44 se baja de la tirolina
+[2022-05-05T19:29:30]  El campista N44 descansa en la zona común
+[2022-05-05T19:29:30]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:31]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:31]  El campista N25 se tira por la tirolina!
+[2022-05-05T19:29:32]  El campista N79 ha llegado al campamento
+[2022-05-05T19:29:32]  El campista N79 se sitúa en la entrada A
+[2022-05-05T19:29:33]  VICTORIA del equipo A: N38, N2, N12, N15, N32
+[2022-05-05T19:29:33]  El campista N39 abandona la actividad de soga
+[2022-05-05T19:29:33]  El campista N39 descansa en la zona común
+[2022-05-05T19:29:33]  El campista N19 abandona la actividad de soga
+[2022-05-05T19:29:33]  El campista N19 descansa en la zona común
+[2022-05-05T19:29:33]  El campista N37 abandona la actividad de soga
+[2022-05-05T19:29:33]  El campista N37 descansa en la zona común
+[2022-05-05T19:29:33]  El campista N32 abandona la actividad de soga
+[2022-05-05T19:29:33]  El campista N32 descansa en la zona común
+[2022-05-05T19:29:33]  El campista N10 abandona la actividad de soga
+[2022-05-05T19:29:33]  El campista N10 descansa en la zona común
+[2022-05-05T19:29:33]  El campista N38 abandona la actividad de soga
+[2022-05-05T19:29:33]  El campista N38 descansa en la zona común
+[2022-05-05T19:29:33]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:29:33]  El campista N14 abandona la actividad de soga
+[2022-05-05T19:29:33]  El campista N14 descansa en la zona común
+[2022-05-05T19:29:33]  El campista N12 abandona la actividad de soga
+[2022-05-05T19:29:33]  El campista N2 abandona la actividad de soga
+[2022-05-05T19:29:33]  El campista N2 descansa en la zona común
+[2022-05-05T19:29:33]  El campista N15 abandona la actividad de soga
+[2022-05-05T19:29:33]  El campista N15 descansa en la zona común
+[2022-05-05T19:29:33]  El campista N12 descansa en la zona común
+[2022-05-05T19:29:34]  El campista N25 se baja de la tirolina
+[2022-05-05T19:29:34]  El campista N25 descansa en la zona común
+[2022-05-05T19:29:34]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:35]  El campista N44 sale de la zona común
+[2022-05-05T19:29:35]  El campista N44 elige competir en la soga
+[2022-05-05T19:29:35]  El campista N44 espera para competir en la soga
+[2022-05-05T19:29:35]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:35]  El campista N27 se tira por la tirolina!
+[2022-05-05T19:29:37]  El campista N80 ha llegado al campamento
+[2022-05-05T19:29:37]  El campista N80 se sitúa en la entrada B
+[2022-05-05T19:29:37]  El campista N19 sale de la zona común
+[2022-05-05T19:29:37]  El campista N19 se dispone a merendar
+[2022-05-05T19:29:37]  El campista N19 coge la merienda Bandeja16
+[2022-05-05T19:29:38]  El campista N15 sale de la zona común
+[2022-05-05T19:29:38]  El campista N15 elige competir en la soga
+[2022-05-05T19:29:38]  El campista N15 espera para competir en la soga
+[2022-05-05T19:29:38]  El campista N2 sale de la zona común
+[2022-05-05T19:29:38]  El campista N2 abandona el campamento
+[2022-05-05T19:29:38]  El campista N52 ha entrado (B) dentro del campamento
+[2022-05-05T19:29:38]  El campista N52 elige competir en la soga
+[2022-05-05T19:29:38]  El campista N52 espera para competir en la soga
+[2022-05-05T19:29:38]  El campista N12 sale de la zona común
+[2022-05-05T19:29:38]  El campista N12 se dispone a merendar
+[2022-05-05T19:29:38]  El campista N12 coge la merienda Bandeja17
+[2022-05-05T19:29:39]  El campista N39 sale de la zona común
+[2022-05-05T19:29:39]  El campista N39 elige tirarse por la tirolina
+[2022-05-05T19:29:39]  El campista N39 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:39]  El campista N14 sale de la zona común
+[2022-05-05T19:29:39]  El campista N14 se dispone a merendar
+[2022-05-05T19:29:39]  El campista N14 coge la merienda Bandeja18
+[2022-05-05T19:29:39]  El campista N38 sale de la zona común
+[2022-05-05T19:29:39]  El campista N38 se dispone a merendar
+[2022-05-05T19:29:39]  El campista N38 coge la merienda Bandeja20
+[2022-05-05T19:29:39]  El campista N32 sale de la zona común
+[2022-05-05T19:29:39]  El campista N32 elige tirarse por la tirolina
+[2022-05-05T19:29:39]  El campista N32 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:39]  El campista N10 sale de la zona común
+[2022-05-05T19:29:39]  El campista N10 se dispone a merendar
+[2022-05-05T19:29:39]  El campista N10 coge la merienda Bandeja19
+[2022-05-05T19:29:39]  El campista N27 se baja de la tirolina
+[2022-05-05T19:29:39]  El campista N27 descansa en la zona común
+[2022-05-05T19:29:39]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:39]  El campista N25 sale de la zona común
+[2022-05-05T19:29:39]  El campista N25 elige competir en la soga
+[2022-05-05T19:29:39]  El campista N25 espera para competir en la soga
+[2022-05-05T19:29:39]  El campista N37 sale de la zona común
+[2022-05-05T19:29:39]  El campista N37 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:29:39]  El campista N37 elige competir en la soga
+[2022-05-05T19:29:39]  El campista N37 espera para competir en la soga
+[2022-05-05T19:29:40]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:40]  El campista N4 se tira por la tirolina!
+[2022-05-05T19:29:42]  El campista N81 ha llegado al campamento
+[2022-05-05T19:29:42]  El campista N81 se sitúa en la entrada A
+[2022-05-05T19:29:43]  El campista N27 sale de la zona común
+[2022-05-05T19:29:43]  El campista N27 se dispone a merendar
+[2022-05-05T19:29:43]  El campista N27 coge la merienda Bandeja21
+[2022-05-05T19:29:43]  El campista N82 ha llegado al campamento
+[2022-05-05T19:29:43]  El campista N82 se sitúa en la entrada B
+[2022-05-05T19:29:43]  El campista N4 se baja de la tirolina
+[2022-05-05T19:29:43]  El campista N4 descansa en la zona común
+[2022-05-05T19:29:43]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:44]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:44]  El campista N24 se tira por la tirolina!
+[2022-05-05T19:29:44]  El campista N19 deja la bandeja Bandeja16
+[2022-05-05T19:29:44]  El monitor M4 empieza a preparar la merienda Bandeja16
+[2022-05-05T19:29:44]  El campista N19 descansa en la zona común
+[2022-05-05T19:29:45]  El campista N12 deja la bandeja Bandeja17
+[2022-05-05T19:29:45]  El monitor M1 empieza a preparar la merienda Bandeja17
+[2022-05-05T19:29:45]  El campista N12 descansa en la zona común
+[2022-05-05T19:29:46]  El campista N14 deja la bandeja Bandeja18
+[2022-05-05T19:29:46]  El campista N14 descansa en la zona común
+[2022-05-05T19:29:46]  El campista N38 deja la bandeja Bandeja20
+[2022-05-05T19:29:46]  El campista N38 descansa en la zona común
+[2022-05-05T19:29:46]  El campista N10 deja la bandeja Bandeja19
+[2022-05-05T19:29:46]  El campista N10 descansa en la zona común
+[2022-05-05T19:29:48]  El campista N24 se baja de la tirolina
+[2022-05-05T19:29:48]  El campista N24 descansa en la zona común
+[2022-05-05T19:29:48]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:48]  El campista N4 sale de la zona común
+[2022-05-05T19:29:48]  El campista N4 elige tirarse por la tirolina
+[2022-05-05T19:29:48]  El campista N4 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:49]  El campista N19 sale de la zona común
+[2022-05-05T19:29:49]  El campista N19 se dispone a merendar
+[2022-05-05T19:29:49]  El campista N19 coge la merienda Bandeja22
+[2022-05-05T19:29:49]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:49]  El campista N47 se tira por la tirolina!
+[2022-05-05T19:29:50]  El campista N83 ha llegado al campamento
+[2022-05-05T19:29:50]  El campista N83 se sitúa en la entrada A
+[2022-05-05T19:29:50]  El campista N27 deja la bandeja Bandeja21
+[2022-05-05T19:29:50]  El campista N27 descansa en la zona común
+[2022-05-05T19:29:50]  El campista N12 sale de la zona común
+[2022-05-05T19:29:50]  El campista N12 elige competir en la soga
+[2022-05-05T19:29:50]  El campista N12 espera para competir en la soga
+[2022-05-05T19:29:50]  El campista N14 sale de la zona común
+[2022-05-05T19:29:50]  El campista N14 elige competir en la soga
+[2022-05-05T19:29:50]  El campista N14 espera para competir en la soga
+[2022-05-05T19:29:51]  El monitor M4 ha preparado la merienda Bandeja16
+[2022-05-05T19:29:51]  El monitor M4 empieza a preparar la merienda Bandeja18
+[2022-05-05T19:29:52]  El campista N10 sale de la zona común
+[2022-05-05T19:29:52]  El campista N10 abandona el campamento
+[2022-05-05T19:29:52]  El campista N53 ha entrado (A) dentro del campamento 
+[2022-05-05T19:29:52]  El campista N53 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:29:52]  El campista N53 elige competir en la soga
+[2022-05-05T19:29:52]  El campista N53 espera para competir en la soga
+[2022-05-05T19:29:52]  El campista N38 sale de la zona común
+[2022-05-05T19:29:52]  El campista N38 elige tirarse por la tirolina
+[2022-05-05T19:29:52]  El campista N38 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:52]  El monitor M1 ha preparado la merienda Bandeja17
+[2022-05-05T19:29:52]  El monitor M1 empieza a preparar la merienda Bandeja20
+[2022-05-05T19:29:52]  El campista N47 se baja de la tirolina
+[2022-05-05T19:29:52]  El campista N47 descansa en la zona común
+[2022-05-05T19:29:52]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:53]  El campista N84 ha llegado al campamento
+[2022-05-05T19:29:53]  El campista N84 se sitúa en la entrada B
+[2022-05-05T19:29:53]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:53]  El campista N1 se tira por la tirolina!
+[2022-05-05T19:29:54]  El campista N24 sale de la zona común
+[2022-05-05T19:29:54]  El campista N24 elige tirarse por la tirolina
+[2022-05-05T19:29:54]  El campista N24 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:54]  El campista N27 sale de la zona común
+[2022-05-05T19:29:54]  El campista N27 se dispone a merendar
+[2022-05-05T19:29:54]  El campista N27 coge la merienda Bandeja23
+[2022-05-05T19:29:56]  El campista N19 deja la bandeja Bandeja22
+[2022-05-05T19:29:56]  El campista N19 descansa en la zona común
+[2022-05-05T19:29:56]  El campista N85 ha llegado al campamento
+[2022-05-05T19:29:56]  El campista N85 se sitúa en la entrada A
+[2022-05-05T19:29:56]  El campista N47 sale de la zona común
+[2022-05-05T19:29:56]  El campista N47 elige tirarse por la tirolina
+[2022-05-05T19:29:56]  El campista N47 se ha puesto a la cola de la tirolina
+[2022-05-05T19:29:57]  El campista N1 se baja de la tirolina
+[2022-05-05T19:29:57]  El campista N1 descansa en la zona común
+[2022-05-05T19:29:57]  El monitor M2 prepara a un campista
+[2022-05-05T19:29:57]  El monitor M4 ha preparado la merienda Bandeja18
+[2022-05-05T19:29:57]  El monitor M4 empieza a preparar la merienda Bandeja19
+[2022-05-05T19:29:58]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:29:58]  El campista N48 se tira por la tirolina!
+[2022-05-05T19:29:58]  El monitor M1 ha preparado la merienda Bandeja20
+[2022-05-05T19:29:58]  El monitor M1 empieza a preparar la merienda Bandeja21
+[2022-05-05T19:30]  El campista N86 ha llegado al campamento
+[2022-05-05T19:30]  El campista N86 se sitúa en la entrada B
+[2022-05-05T19:30:01]  El campista N27 deja la bandeja Bandeja23
+[2022-05-05T19:30:01]  El campista N27 descansa en la zona común
+[2022-05-05T19:30:01]  El campista N19 sale de la zona común
+[2022-05-05T19:30:01]  El campista N19 elige competir en la soga
+[2022-05-05T19:30:01]  El campista N19 espera para competir en la soga
+[2022-05-05T19:30:01]  El campista N48 se baja de la tirolina
+[2022-05-05T19:30:01]  El campista N48 descansa en la zona común
+[2022-05-05T19:30:01]  El monitor M2 prepara a un campista
+[2022-05-05T19:30:02]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:30:02]  El campista N49 se tira por la tirolina!
+[2022-05-05T19:30:03]  El campista N1 sale de la zona común
+[2022-05-05T19:30:03]  El campista N1 elige competir en la soga
+[2022-05-05T19:30:03]  El campista N1 espera para competir en la soga
+[2022-05-05T19:30:03]  	------EQUIPOS SOGA------	
+EQUIPO A: N53, N25, N44, N52, N15
+EQUIPO B: N12, N14, N19, N37, N1
+	------------------------	
+
+[2022-05-05T19:30:03]  El campista N19 tira de la soga!
+[2022-05-05T19:30:03]  El campista N1 tira de la soga!
+[2022-05-05T19:30:03]  El campista N44 tira de la soga!
+[2022-05-05T19:30:03]  El campista N15 tira de la soga!
+[2022-05-05T19:30:03]  El campista N52 tira de la soga!
+[2022-05-05T19:30:03]  El campista N25 tira de la soga!
+[2022-05-05T19:30:03]  El campista N37 tira de la soga!
+[2022-05-05T19:30:03]  El campista N12 tira de la soga!
+[2022-05-05T19:30:03]  El campista N14 tira de la soga!
+[2022-05-05T19:30:03]  El campista N53 tira de la soga!
+[2022-05-05T19:30:03]  El campista N87 ha llegado al campamento
+[2022-05-05T19:30:03]  El campista N87 se sitúa en la entrada A
+[2022-05-05T19:30:04]  El monitor M1 ha preparado la merienda Bandeja21
+[2022-05-05T19:30:04]  El monitor M1 empieza a preparar la merienda Bandeja22
+[2022-05-05T19:30:04]  El monitor M4 ha preparado la merienda Bandeja19
+[2022-05-05T19:30:04]  El monitor M4 empieza a preparar la merienda Bandeja23
+[2022-05-05T19:30:06]  El campista N48 sale de la zona común
+[2022-05-05T19:30:06]  El campista N48 elige tirarse por la tirolina
+[2022-05-05T19:30:06]  El campista N48 se ha puesto a la cola de la tirolina
+[2022-05-05T19:30:06]  El campista N49 se baja de la tirolina
+[2022-05-05T19:30:06]  El campista N49 descansa en la zona común
+[2022-05-05T19:30:06]  El monitor M2 prepara a un campista
+[2022-05-05T19:30:06]  El campista N27 sale de la zona común
+[2022-05-05T19:30:06]  El campista N27 se dispone a merendar
+[2022-05-05T19:30:06]  El campista N27 coge la merienda Bandeja24
+[2022-05-05T19:30:07]  El campista N88 ha llegado al campamento
+[2022-05-05T19:30:07]  El campista N88 se sitúa en la entrada B
+[2022-05-05T19:30:07]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:30:07]  El campista N16 se tira por la tirolina!
+[2022-05-05T19:30:10]  VICTORIA del equipo B: N12, N14, N19, N37, N1
+[2022-05-05T19:30:10]  El campista N53 abandona la actividad de soga
+[2022-05-05T19:30:10]  El campista N53 descansa en la zona común
+[2022-05-05T19:30:10]  El campista N14 abandona la actividad de soga
+[2022-05-05T19:30:10]  El campista N14 descansa en la zona común
+[2022-05-05T19:30:10]  El campista N37 abandona la actividad de soga
+[2022-05-05T19:30:10]  El campista N37 descansa en la zona común
+[2022-05-05T19:30:10]  El campista N1 abandona la actividad de soga
+[2022-05-05T19:30:10]  El campista N1 descansa en la zona común
+[2022-05-05T19:30:10]  El campista N25 abandona la actividad de soga
+[2022-05-05T19:30:10]  El campista N25 descansa en la zona común
+[2022-05-05T19:30:10]  El campista N52 abandona la actividad de soga
+[2022-05-05T19:30:10]  El campista N52 descansa en la zona común
+[2022-05-05T19:30:10]  El campista N15 abandona la actividad de soga
+[2022-05-05T19:30:10]  El campista N15 descansa en la zona común
+[2022-05-05T19:30:10]  El campista N19 abandona la actividad de soga
+[2022-05-05T19:30:10]  El campista N19 descansa en la zona común
+[2022-05-05T19:30:10]  El campista N12 abandona la actividad de soga
+[2022-05-05T19:30:10]  El campista N12 descansa en la zona común
+[2022-05-05T19:30:10]  El campista N44 abandona la actividad de soga
+[2022-05-05T19:30:10]  El campista N44 descansa en la zona común
+[2022-05-05T19:30:10]  El monitor M3 espera campistas en la soga
+[2022-05-05T19:30:10]  El monitor M1 ha preparado la merienda Bandeja22
+[2022-05-05T19:30:10]  El campista N16 se baja de la tirolina
+[2022-05-05T19:30:10]  El campista N16 descansa en la zona común
+[2022-05-05T19:30:10]  El monitor M2 prepara a un campista
+[2022-05-05T19:30:11]  El monitor M4 ha preparado la merienda Bandeja23
+[2022-05-05T19:30:11]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:30:11]  El campista N42 se tira por la tirolina!
+[2022-05-05T19:30:11]  El monitor M2 ha lanzado a 10 campistas y se marcha de la tirolina
+[2022-05-05T19:30:11]  El monitor M2 descansa en la zona común
+[2022-05-05T19:30:12]  El campista N49 sale de la zona común
+[2022-05-05T19:30:12]  El campista N49 elige competir en la soga
+[2022-05-05T19:30:12]  El campista N49 espera para competir en la soga
+[2022-05-05T19:30:12]  El campista N89 ha llegado al campamento
+[2022-05-05T19:30:12]  El campista N89 se sitúa en la entrada A
+[2022-05-05T19:30:13]  El campista N27 deja la bandeja Bandeja24
+[2022-05-05T19:30:13]  El campista N27 descansa en la zona común
+[2022-05-05T19:30:13]  El monitor M1 empieza a preparar la merienda Bandeja24
+[2022-05-05T19:30:14]  El monitor M2 sale de la zona común
+[2022-05-05T19:30:14]  El monitor M2 llega a la tirolina
+[2022-05-05T19:30:14]  El campista N25 sale de la zona común
+[2022-05-05T19:30:14]  El campista N25 elige tirarse por la tirolina
+[2022-05-05T19:30:14]  El campista N25 se ha puesto a la cola de la tirolina
+[2022-05-05T19:30:15]  El campista N15 sale de la zona común
+[2022-05-05T19:30:15]  El campista N15 se dispone a merendar
+[2022-05-05T19:30:15]  El campista N15 coge la merienda Bandeja25
+[2022-05-05T19:30:15]  El campista N1 sale de la zona común
+[2022-05-05T19:30:15]  El campista N1 elige competir en la soga
+[2022-05-05T19:30:15]  El campista N1 espera para competir en la soga
+[2022-05-05T19:30:15]  El campista N14 sale de la zona común
+[2022-05-05T19:30:15]  El campista N14 elige competir en la soga
+[2022-05-05T19:30:15]  El campista N12 sale de la zona común
+[2022-05-05T19:30:15]  El campista N12 elige tirarse por la tirolina
+[2022-05-05T19:30:15]  El campista N12 se ha puesto a la cola de la tirolina
+[2022-05-05T19:30:15]  El campista N14 espera para competir en la soga
+[2022-05-05T19:30:15]  El campista N53 sale de la zona común
+[2022-05-05T19:30:15]  El campista N53 elige competir en la soga
+[2022-05-05T19:30:15]  El campista N53 espera para competir en la soga
+[2022-05-05T19:30:15]  El campista N42 se baja de la tirolina
+[2022-05-05T19:30:15]  El campista N42 descansa en la zona común
+[2022-05-05T19:30:15]  El monitor M2 prepara a un campista
+[2022-05-05T19:30:15]  El campista N19 sale de la zona común
+[2022-05-05T19:30:15]  El campista N19 elige tirarse por la tirolina
+[2022-05-05T19:30:15]  El campista N19 se ha puesto a la cola de la tirolina
+[2022-05-05T19:30:16]  El campista N44 sale de la zona común
+[2022-05-05T19:30:16]  El campista N44 elige competir en la soga
+[2022-05-05T19:30:16]  El campista N44 espera para competir en la soga
+[2022-05-05T19:30:16]  El campista N37 sale de la zona común
+[2022-05-05T19:30:16]  El campista N37 elige tirarse por la tirolina
+[2022-05-05T19:30:16]  El campista N37 se ha puesto a la cola de la tirolina
+[2022-05-05T19:30:16]  El campista N52 sale de la zona común
+[2022-05-05T19:30:16]  El campista N52 elige competir en la soga
+[2022-05-05T19:30:16]  El campista N52 espera para competir en la soga
+[2022-05-05T19:30:16]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:30:16]  El campista N45 se tira por la tirolina!
+[2022-05-05T19:30:16]  El campista N16 sale de la zona común
+[2022-05-05T19:30:16]  El campista N16 elige tirarse por la tirolina
+[2022-05-05T19:30:16]  El campista N16 se ha puesto a la cola de la tirolina
+[2022-05-05T19:30:17]  El campista N90 ha llegado al campamento
+[2022-05-05T19:30:17]  El campista N90 se sitúa en la entrada B
+[2022-05-05T19:30:19]  El campista N27 sale de la zona común
+[2022-05-05T19:30:19]  El campista N27 elige tirarse por la tirolina
+[2022-05-05T19:30:19]  El campista N27 se ha puesto a la cola de la tirolina
+[2022-05-05T19:30:19]  El monitor M1 ha preparado la merienda Bandeja24
+[2022-05-05T19:30:19]  El campista N45 se baja de la tirolina
+[2022-05-05T19:30:19]  El campista N45 descansa en la zona común
+[2022-05-05T19:30:19]  El monitor M2 prepara a un campista
+[2022-05-05T19:30:20]  El monitor M2 va a lanzar a un campista
+[2022-05-05T19:30:20]  El campista N43 se tira por la tirolina!
+[2022-05-05T19:30:20]  El campista N42 sale de la zona común
+[2022-05-05T19:30:20]  El campista N42 elige competir en la soga
+[2022-05-05T19:30:20]  El campista N42 espera para competir en la soga
+[2022-05-05T19:30:21]  El campista N91 ha llegado al campamento
+[2022-05-05T19:30:21]  El campista N91 se sitúa en la entrada A
+[2022-05-05T19:30:22]  El campista N15 deja la bandeja Bandeja25
+[2022-05-05T19:30:22]  El campista N15 descansa en la zona común
+[2022-05-05T19:30:22]  El monitor M4 empieza a preparar la merienda Bandeja25
+[2022-05-05T19:30:23]  El campista N92 ha llegado al campamento
+[2022-05-05T19:30:23]  El campista N92 se sitúa en la entrada B
+[2022-05-05T19:30:24]  El campista N43 se baja de la tirolina
+[2022-05-05T19:30:24]  El campista N43 descansa en la zona común
+[2022-05-05T19:30:24]  El monitor M2 prepara a un campista
+[2022-05-05T19:30:24]  El campista N45 sale de la zona común
+[2022-05-05T19:30:24]  El campista N45 no puede merendar porque no ha realizado suficientes actividades, se dispone a jugar
+[2022-05-05T19:30:24]  El campista N45 elige competir en la soga
+[2022-05-05T19:30:24]  El campista N45 espera para competir en la soga

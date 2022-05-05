@@ -17,12 +17,6 @@ public class Monitor extends Thread{
         /* Simula la entrada del monitor al campamento. Un monitor llega a una puerta
         y en caso de estar cerrada la abre si no hay nadie abriendola, si esta cerrada y alguien 
         la esta abriendo le espera, y en caso contrario pasa. 
-        
-        SUPOSICION 1: los monitores con ID par entran por la puerta A, y los impares por la B. 
-        
-        SUPOSICION 2: en una misma puerta, los monitores pasan por un lado y los campistas por otro, 
-        porque si compartieran cola y llega un campista antes que un monitor se produciria deadlock
-        al estar un campista esperando que un monitor abra, y el monitor que un campista se quite. 
         */
         campamento.comprobarPausa();
         int entrada=Character.getNumericValue(identificador.charAt(1))%2; 

@@ -39,10 +39,7 @@ public class Campamento {
     }
     
     public void entrar(Campista campista){
-        /* Simula la entrada de los campistas al campamento
-        SUPOSICION: entran intercalados solo cuando esta lleno (si hay colas 
-        fuera porque las puertas estan cerradas, el camapamento esta vacio y
-        entraran de forma aleatoria respetando el orden de llegada) */
+        //Simula la entrada de los campistas al campamento
         
         int entrada=(int)Math.floor(Math.random()*2);
         if(aforo.hasQueuedThreads()){
